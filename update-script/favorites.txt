@@ -1,0 +1,31 @@
+# ============================================================
+# dhanytv Favorites Channel List
+# Semua channel digabung dalam 1 kategori tunggal [FAVORITES]
+# agar tidak perlu pindah-pindah kategori saat nonton.
+# ============================================================
+
+[FAVORITES]
+Indosiar
+MNCTV
+GTV
+RCTI
+SCTV
+RTV
+Trans TV
+Trans7
+tvOne
+Metro TV
+Kompas TV
+iNews
+Nusantara TV
+JTV
+Jawa Pos TV
+Jowo TV
+Hanacaraka TV
+Stara TV
+SPOTV
+SPOTV 2
+Sportstars
+Sportstars 2
+Sportstars 3
+Sportstars 4

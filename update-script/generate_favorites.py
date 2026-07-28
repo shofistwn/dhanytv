@@ -524,10 +524,6 @@ def calculate_entry_priority(entry: M3UEntry, regional_keywords: Set[str]) -> in
     else:
         score += 30
 
-    # ChannelFeed — third-party re-stream, less reliable
-    if "(channelfeed)" in name.lower():
-        score -= 100
-
     if entry.urls:
         score += 10
     return score

@@ -1,0 +1,69 @@
+name: Auto Update Favorites EPG
+
+on:
+  push:
+    paths:
+      - 'epg.xml'
+      - 'favorites.m3u'
+      - 'update-script/fix_epg.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-favorites-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate Favorites EPG
+        run: |
+          echo "=== Generate Favorites EPG (WIB +0700 & Filter) ==="
+          python3 update-script/fix_epg.py
+
+      - name: Check for Changes
+        id: check_changes
+        run: |
+          CHANGED_FILES=$(git status --porcelain -- favorites-epg.xml)
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "$CHANGED_FILES"
+            git diff --stat favorites-epg.xml || true
+          fi
+
+      - name: Commit and Push Changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add favorites-epg.xml
+          COMMIT_DATE=$(date -u '+%Y-%m-%d %H:%M UTC')
+          EPG_CHANNELS=$(grep -c '<channel ' favorites-epg.xml 2>/dev/null || echo "0")
+          EPG_PROGS=$(grep -c '<programme ' favorites-epg.xml 2>/dev/null || echo "0")
+          git commit -m "auto-update: Favorites EPG ($EPG_CHANNELS ch, $EPG_PROGS prog) - $COMMIT_DATE"
+          git push
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "============================================"
+          echo "  Auto-Update Favorites EPG"
+          echo "============================================"
+          echo "Tanggal   : $(date -u '+%Y-%m-%d %H:%M UTC')"
+          echo "EPG Ch    : $(grep -c '<channel ' favorites-epg.xml 2>/dev/null || echo 'N/A')"
+          echo "EPG Prog  : $(grep -c '<programme ' favorites-epg.xml 2>/dev/null || echo 'N/A')"
+          echo "EPG Size  : $(du -h favorites-epg.xml 2>/dev/null | cut -f1 || echo 'N/A')"
+          echo "Perubahan : ${{ steps.check_changes.outputs.has_changes }}"
+          echo "============================================"

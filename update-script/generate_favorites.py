@@ -20,7 +20,7 @@ import urllib.parse
 import urllib.request
 import urllib.error
 
-DEFAULT_HEADER = '#EXTM3U url-tvg="https://raw.githubusercontent.com/shofistwn/dhanytv/refs/heads/main/epg.xml"'
+DEFAULT_HEADER = '#EXTM3U url-tvg="https://raw.githubusercontent.com/shofistwn/dhanytv/refs/heads/main/favorites-epg.xml"'
 
 RESOLUTION_RE = re.compile(r'\b(?:1080p?|720p?|480p?|360p?|240p?|4k|8k|fhd|uhd|sd)\b', re.IGNORECASE)
 
@@ -295,7 +295,7 @@ _RES_SCORE = [
     (re.compile(r'(?:\b480p?\b|\bsd\b)', re.IGNORECASE), 0),
 ]
 
-def extract_stream_headers(url: str, props: List[str]) -> Tuple[str, dict]:
+def extract_stream_headers(url: str, props: List[str]) -> tuple[str, dict]:
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
@@ -626,7 +626,7 @@ def main():
         config=config
     )
 
-    out_content = [header, ""]
+    out_content = [DEFAULT_HEADER, ""]
     for entry in filtered:
         out_content.append(entry.to_m3u_block())
         out_content.append("")

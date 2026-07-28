@@ -109,6 +109,7 @@ class ChannelRule:
     keyword: str
     aliases: List[str] = field(default_factory=list)
     logo: Optional[str] = None
+    tvg_id: Optional[str] = None
     custom_group: Optional[str] = None
 
 @dataclass
@@ -147,8 +148,9 @@ def load_config(config_path: Path) -> AppConfig:
                         name = item.get("name", "").strip()
                         aliases = item.get("aliases", [name])
                         logo = item.get("logo")
+                        tvg_id = item.get("tvg_id")
                         if name:
-                            config.rules.append(ChannelRule(keyword=name, aliases=aliases, logo=logo, custom_group=config.group))
+                            config.rules.append(ChannelRule(keyword=name, aliases=aliases, logo=logo, tvg_id=tvg_id, custom_group=config.group))
                     elif isinstance(item, str) and item.strip():
                         name = item.strip()
                         config.rules.append(ChannelRule(keyword=name, aliases=[name], custom_group=config.group))
@@ -200,6 +202,28 @@ def update_logo_url(extinf: str, new_logo: str) -> str:
     if m:
         start_idx = m.start()
         return extinf[:start_idx] + f' tvg-logo="{new_logo}"' + extinf[start_idx:]
+    return extinf
+
+def update_tvg_id(extinf: str, new_tvg_id: str) -> str:
+    if 'tvg-id="' in extinf:
+        return re.sub(r'tvg-id="[^"]*"', f'tvg-id="{new_tvg_id}"', extinf)
+    elif "tvg-id='" in extinf:
+        return re.sub(r"tvg-id='[^']*'", f"tvg-id='{new_tvg_id}'", extinf)
+    m = re.search(r',(.+)$', extinf)
+    if m:
+        start_idx = m.start()
+        return extinf[:start_idx] + f' tvg-id="{new_tvg_id}"' + extinf[start_idx:]
+    return extinf
+
+def update_tvg_name(extinf: str, new_tvg_name: str) -> str:
+    if 'tvg-name="' in extinf:
+        return re.sub(r'tvg-name="[^"]*"', f'tvg-name="{new_tvg_name}"', extinf)
+    elif "tvg-name='" in extinf:
+        return re.sub(r"tvg-name='[^']*'", f"tvg-name='{new_tvg_name}'", extinf)
+    m = re.search(r',(.+)$', extinf)
+    if m:
+        start_idx = m.start()
+        return extinf[:start_idx] + f' tvg-name="{new_tvg_name}"' + extinf[start_idx:]
     return extinf
 
 def tokenize(text: str) -> List[str]:
@@ -567,9 +591,12 @@ def filter_entries(
             if rule.keyword:
                 clean_name = rule.keyword.strip()
                 best_entry.extinf = update_channel_name(best_entry.extinf, clean_name)
+                best_entry.extinf = update_tvg_name(best_entry.extinf, clean_name)
                 best_entry.name = clean_name
             if rule.logo:
                 best_entry.extinf = update_logo_url(best_entry.extinf, rule.logo)
+            if rule.tvg_id:
+                best_entry.extinf = update_tvg_id(best_entry.extinf, rule.tvg_id)
         deduped_entries.append(best_entry)
 
     return deduped_entries

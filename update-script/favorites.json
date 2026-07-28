@@ -31,7 +31,8 @@
       "aliases": [
         "rcti"
       ],
-      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/330px-RCTI_logo_2015.svg.png&w=320&h=180&fit=contain&bg=ffffff"
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/330px-RCTI_logo_2015.svg.png&w=320&h=180&fit=contain&bg=ffffff",
+      "tvg_id": "RCTI.id"
     },
     {
       "name": "SCTV",
@@ -102,14 +103,16 @@
         "nusantara tv",
         "nusantaratv"
       ],
-      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/31/Logo_nusantaratv.png&w=320&h=180&fit=contain&bg=ffffff"
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/31/Logo_nusantaratv.png&w=320&h=180&fit=contain&bg=ffffff",
+      "tvg_id": "NusantaraTV.id"
     },
     {
       "name": "JTV",
       "aliases": [
         "jtv"
       ],
-      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/JTV_%28Indonesian_TV_channel%29_2022.svg/330px-JTV_%28Indonesian_TV_channel%29_2022.svg.png&w=320&h=180&fit=contain&bg=ffffff"
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/JTV_%28Indonesian_TV_channel%29_2022.svg/330px-JTV_%28Indonesian_TV_channel%29_2022.svg.png&w=320&h=180&fit=contain&bg=ffffff",
+      "tvg_id": "JTV"
     },
     {
       "name": "Jawa Pos TV",

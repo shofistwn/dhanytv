@@ -67,6 +67,39 @@
       "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_Trans7.png/330px-Logo_Trans7.png&w=320&h=180&fit=contain&bg=ffffff"
     },
     {
+      "name": "Sportstars",
+      "aliases": [
+        "sportstar",
+        "sportstars",
+        "sportstars 1"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/3f/Sportstars.png&w=320&h=180&fit=contain&bg=ffffff"
+    },
+    {
+      "name": "Sportstars 2",
+      "aliases": [
+        "sportstar 2",
+        "sportstars 2"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/d/d7/Sportstars_2.png&w=320&h=180&fit=contain&bg=ffffff"
+    },
+    {
+      "name": "Sportstars 3",
+      "aliases": [
+        "sportstar 3",
+        "sportstars 3"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a3/Sportstars_3.png&w=320&h=180&fit=contain&bg=ffffff"
+    },
+    {
+      "name": "Sportstars 4",
+      "aliases": [
+        "sportstar 4",
+        "sportstars 4"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a4/Sportstars_4.png&w=320&h=180&fit=contain&bg=ffffff"
+    },
+    {
       "name": "tvOne",
       "aliases": [
         "tv one",
@@ -148,56 +181,6 @@
         "staratv"
       ],
       "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Stara_TV_Sumedang_fix.png/330px-Stara_TV_Sumedang_fix.png&w=320&h=180&fit=contain&bg=ffffff"
-    },
-    {
-      "name": "SPOTV",
-      "aliases": [
-        "spo tv",
-        "spotv"
-      ],
-      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/SPOTV_logo.svg/330px-SPOTV_logo.svg.png&w=320&h=180&fit=contain&bg=ffffff"
-    },
-    {
-      "name": "SPOTV 2",
-      "aliases": [
-        "spo tv 2",
-        "spotv 2",
-        "spotv2"
-      ],
-      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/SPOTV_logo.svg/330px-SPOTV_logo.svg.png&w=320&h=180&fit=contain&bg=ffffff"
-    },
-    {
-      "name": "Sportstars",
-      "aliases": [
-        "sportstar",
-        "sportstars",
-        "sportstars 1"
-      ],
-      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/3f/Sportstars.png&w=320&h=180&fit=contain&bg=ffffff"
-    },
-    {
-      "name": "Sportstars 2",
-      "aliases": [
-        "sportstar 2",
-        "sportstars 2"
-      ],
-      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/d/d7/Sportstars_2.png&w=320&h=180&fit=contain&bg=ffffff"
-    },
-    {
-      "name": "Sportstars 3",
-      "aliases": [
-        "sportstar 3",
-        "sportstars 3"
-      ],
-      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a3/Sportstars_3.png&w=320&h=180&fit=contain&bg=ffffff"
-    },
-    {
-      "name": "Sportstars 4",
-      "aliases": [
-        "sportstar 4",
-        "sportstars 4"
-      ],
-      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a4/Sportstars_4.png&w=320&h=180&fit=contain&bg=ffffff"
     }
   ],
   "noise_tokens": [

@@ -7,20 +7,6 @@
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/330px-INDOSIAR_Logo.png&w=180&h=180&fit=contain&bg=fff" group-title="FAVORITES",Indosiar
 https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd
 
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c3004565365a42d08e3bde39a516d64e:dbfdc0967cfbbed01dba730c99d9c14a
-#EXTINF:-1 tvg-id="MNCTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/MNCTV_logo.png/330px-MNCTV_logo.png&w=180&h=180&fit=contain&bg=fff" group-title="FAVORITES",MNCTV
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
-
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d386001215594043a8995db796ad9e9c:3404792cb4c804902acdc6ca65c1a298
-#EXTINF:-1 tvg-id="RCTI.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/330px-RCTI_logo_2015.svg.png&w=180&h=180&fit=contain&bg=fff" group-title="FAVORITES",RCTI
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
-
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:contentlookup=false
@@ -36,12 +22,12 @@ https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
 #EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo_Trans_TV.png/330px-Logo_Trans_TV.png&w=180&h=180&fit=contain&bg=fff" group-title="FAVORITES",Trans TV
 https://video.detik.com/transtv-sec/smil:transtv.smil/chunklist_w33874835_b744100_sleng_tkd293emF0b2tlbnN0YXJ0dGltZT0wJndvd3phdG9rZW5lbmR0aW1lPTE3ODQ3NzI5NDUwMjEmd293emF0b2tlbmhhc2g9MWNaM2FxdDc4eDBENnNaTGhOU2NKM1E1aW5aX3BmdUo1QU1zdl9kNU5sRT0=.m3u8
 
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=78477d2156944b7cb35762a47973aa9c:31805b3c0d03080f9ed33411258e5baf
-#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://wsrv.nl/?url=xxxxxxxxxhttps://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_Trans7.png/330px-Logo_Trans7.pngxxxxxxxxxxxxxxxxxxxxxxxxxxxx&w=180&h=180&fit=contain&bg=fff" group-title="FAVORITES",Trans7
-https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:contentlookup=false
+#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_Trans7.png/330px-Logo_Trans7.png&w=180&h=180&fit=contain&bg=fff" group-title="FAVORITES",Trans7
+https://video.detik.com/trans7-sec/smil:trans7.smil/chunklist_w219125479_b744100_sleng_tkd293emF0b2tlbnN0YXJ0dGltZT0wJndvd3phdG9rZW5lbmR0aW1lPTE3ODQ3NzI3ODcyNjcmd293emF0b2tlbmhhc2g9dHVIek1pRzhTNHVyeDg1RFVEb2tfVGFaRWU0ZTdWTjhrTFJfODdIQXNFdz0=.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
@@ -60,20 +46,6 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/in
 #KODIPROP:contentlookup=false
 #EXTINF:-1 tvg-id="MetroTV.id" group-title="FAVORITES" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/c/c1/LogoMetroTVsince2010.svg/330px-LogoMetroTVsince2010.svg.png&w=180&h=180&fit=contain&bg=fff",Metro TV
 https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
-
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c1e5a6713acc4774a622d01177224094:d88b67279524d26984f9c0041442b5c6
-#EXTINF:-1 tvg-id="KompasTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/4/4c/Kompas-TV.png&w=180&h=180&fit=contain&bg=fff" group-title="FAVORITES",Kompas TV
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/dafcaf8b26064ae7b27702088240b535/index.mpd
-
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8ee7df15ff584967a3eb7b885bafc71e:9a297bf2200eee7dee21b9ace9f57c77
-#EXTINF:-1 group-title="FAVORITES" tvg-id="iNews.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/INews.png/330px-INews.png&w=180&h=180&fit=contain&bg=fff",iNews
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/34d8dd29eb1d4eba931c7c5ab5f4be09/index.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -142,10 +114,3 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/in
 #KODIPROP:inputstream.adaptive.license_key=911e72adf36946afbdbb4f80782a8394:08aec548a851ba64b7172ae7f05cb91c
 #EXTINF:-1 tvg-id="Sportstars 2" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/d/d7/Sportstars_2.png&w=180&h=180&fit=contain&bg=fff" group-title="FAVORITES",Sportstars 2
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
-
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b576e5f5f1bc4cbaa866e5b0face5a30:3377be6c3b5f688ebed687312c9b9d95
-#EXTINF:-1 tvg-id="Sportstars4.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a4/Sportstars_4.png&w=180&h=180&fit=contain&bg=fff" group-title="FAVORITES",Sportstars 4
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd

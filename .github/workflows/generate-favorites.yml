@@ -29,7 +29,7 @@ jobs:
             echo "ERROR: Master playlist dhanytv.m3u tidak ditemukan!"
             exit 1
           fi
-          python3 update-script/generate_favorites.py --source dhanytv.m3u --output favorites.m3u --config update-script/favorites.txt
+          python3 update-script/generate_favorites.py --source dhanytv.m3u --output favorites.m3u --config update-script/favorites.json
 
           if [ ! -s "favorites.m3u" ]; then
             echo "ERROR: File favorites.m3u gagal dihasilkan atau kosong!"

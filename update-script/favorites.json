@@ -1,0 +1,299 @@
+{
+  "group": "FAVORITES",
+  "channels": [
+    {
+      "name": "Indosiar",
+      "aliases": [
+        "indosiar"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/330px-INDOSIAR_Logo.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "MNCTV",
+      "aliases": [
+        "mnc tv",
+        "mnctv",
+        "mnc"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/MNCTV_logo.png/330px-MNCTV_logo.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "GTV",
+      "aliases": [
+        "global tv",
+        "gtv",
+        "globaltv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GTV_logo_%282017%29.png/330px-GTV_logo_%282017%29.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "RCTI",
+      "aliases": [
+        "rcti"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/330px-RCTI_logo_2015.svg.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "SCTV",
+      "aliases": [
+        "sctv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/SCTV_Logo.svg/330px-SCTV_Logo.svg.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "RTV",
+      "aliases": [
+        "rajawali tv",
+        "rajawali",
+        "rtv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/5/5a/Rajawali_Televisi.svg/330px-Rajawali_Televisi.svg.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Trans TV",
+      "aliases": [
+        "trans tv",
+        "transtv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo_Trans_TV.png/330px-Logo_Trans_TV.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Trans7",
+      "aliases": [
+        "trans 7",
+        "trans7"
+      ],
+      "logo": "https://wsrv.nl/?url=xxxxxxxxxhttps://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_Trans7.png/330px-Logo_Trans7.pngxxxxxxxxxxxxxxxxxxxxxxxxxxxx&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "tvOne",
+      "aliases": [
+        "tv one",
+        "tvone"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/330px-TvOne_2023.svg.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Metro TV",
+      "aliases": [
+        "metro tv",
+        "metrotv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/c/c1/LogoMetroTVsince2010.svg/330px-LogoMetroTVsince2010.svg.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Kompas TV",
+      "aliases": [
+        "kompas tv",
+        "kompastv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/4/4c/Kompas-TV.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "iNews",
+      "aliases": [
+        "inews"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/INews.png/330px-INews.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Nusantara TV",
+      "aliases": [
+        "nusantara tv",
+        "nusantaratv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/31/Logo_nusantaratv.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "JTV",
+      "aliases": [
+        "jtv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/JTV_%28Indonesian_TV_channel%29_2022.svg/330px-JTV_%28Indonesian_TV_channel%29_2022.svg.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Jawa Pos TV",
+      "aliases": [
+        "jawa pos",
+        "jawapos",
+        "jawa pos tv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a1/Jawa_Pos_TV_2024.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Jowo TV",
+      "aliases": [
+        "jowo",
+        "channel jowo",
+        "jowo tv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/d/d7/Channel_Jowo.png/330px-Channel_Jowo.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Hanacaraka TV",
+      "aliases": [
+        "hanacaraka",
+        "hanacarakatv",
+        "hanacaraka tv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://www.mncvision.id/userfiles/image/channel/channel_90.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Stara TV",
+      "aliases": [
+        "stara tv",
+        "staratv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Stara_TV_Sumedang_fix.png/330px-Stara_TV_Sumedang_fix.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "SPOTV",
+      "aliases": [
+        "spo tv",
+        "spotv"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/SPOTV_logo.svg/330px-SPOTV_logo.svg.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "SPOTV 2",
+      "aliases": [
+        "spo tv 2",
+        "spotv 2",
+        "spotv2"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/SPOTV_logo.svg/330px-SPOTV_logo.svg.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Sportstars",
+      "aliases": [
+        "sportstar",
+        "sportstars",
+        "sportstars 1"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/3f/Sportstars.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Sportstars 2",
+      "aliases": [
+        "sportstar 2",
+        "sportstars 2"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/d/d7/Sportstars_2.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Sportstars 3",
+      "aliases": [
+        "sportstar 3",
+        "sportstars 3"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a3/Sportstars_3.png&w=180&h=180&fit=contain&bg=fff"
+    },
+    {
+      "name": "Sportstars 4",
+      "aliases": [
+        "sportstar 4",
+        "sportstars 4"
+      ],
+      "logo": "https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a4/Sportstars_4.png&w=180&h=180&fit=contain&bg=fff"
+    }
+  ],
+  "noise_tokens": [
+    "hd",
+    "fhd",
+    "uhd",
+    "sd",
+    "4k",
+    "8k",
+    "1080p",
+    "1080i",
+    "720p",
+    "576p",
+    "576i",
+    "540p",
+    "480p",
+    "406p",
+    "400p",
+    "396p",
+    "270p",
+    "hevc",
+    "v",
+    "v+",
+    "video",
+    "vd",
+    "dash",
+    "mpd",
+    "dashmpd",
+    "hls",
+    "cad",
+    "24",
+    "7",
+    "tanpa",
+    "drm",
+    "clearkey",
+    "channel",
+    "channelfeed",
+    "feed",
+    "denstv",
+    "server",
+    "toffee",
+    "alt",
+    "direct",
+    "raw",
+    "geo-blocked",
+    "not",
+    "ch",
+    "vs",
+    "iht",
+    "fx",
+    "osc",
+    "amg",
+    "oxy",
+    "wc",
+    "x1",
+    "live",
+    "backup",
+    "sec"
+  ],
+  "regional_keywords": [
+    "jawa timur",
+    "jatim",
+    "malang",
+    "surabaya",
+    "kediri",
+    "madiun",
+    "jember",
+    "banyuwangi",
+    "pasuruan",
+    "blitar",
+    "tuban",
+    "lamongan",
+    "gresik",
+    "sidoarjo",
+    "probolinggo",
+    "mojokerto",
+    "jombang",
+    "nganjuk",
+    "tulungagung",
+    "lumajang",
+    "situbondo",
+    "bondowoso",
+    "trenggalek",
+    "magetan",
+    "ponorogo",
+    "pacitan",
+    "sumenep",
+    "pamekasan",
+    "sampang",
+    "bangkalan",
+    "jakarta",
+    "semarang",
+    "jateng",
+    "jawa tengah",
+    "yogyakarta",
+    "jogja",
+    "bali",
+    "denpasar",
+    "medan",
+    "sumut"
+  ]
+}

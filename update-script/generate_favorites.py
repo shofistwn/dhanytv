@@ -2,55 +2,25 @@
 """generate_favorites.py
 
 Generates custom dhanytv-favorites.m3u playlist from master dhanytv.m3u
-using discrete token matching, alias expansion, Jawa Timur regional
-preference scoring, and health checks.
+using discrete token matching, JSON configuration, alias expansion,
+regional preference scoring, and deep health checks.
 """
 
 import argparse
+import json
 import re
+import shutil
+import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import List, Optional, Set
+import urllib.parse
 import urllib.request
 import urllib.error
 
 DEFAULT_HEADER = '#EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"'
-
-ALIAS_MAP = {
-    "mnctv": ["mnc tv", "mnctv", "mnc"],
-    "gtv": ["global tv", "gtv"],
-    "rtv": ["rajawali tv", "rajawali", "rtv"],
-    "transtv": ["trans tv", "transtv"],
-    "trans7": ["trans 7", "trans7"],
-    "tvone": ["tv one", "tvone"],
-    "metrotv": ["metro tv", "metrotv"],
-    "kompastv": ["kompas tv", "kompastv"],
-    "nusantaratv": ["nusantara tv", "nusantaratv"],
-    "jawapos": ["jawa pos", "jawapos", "jawa pos tv"],
-    "jawapostv": ["jawa pos", "jawapos", "jawa pos tv"],
-    "jowotv": ["jowo", "channel jowo", "jowo tv"],
-    "hanacarakatv": ["hanacaraka", "hanacarakatv", "hanacaraka tv"],
-    "staratv": ["stara tv", "staratv"],
-    "spotv": ["spo tv", "spotv"],
-    "spotv2": ["spo tv 2", "spotv 2", "spotv2"],
-    "sportstars": ["sportstar", "sportstars", "sportstars 1"],
-    "sportstars2": ["sportstar 2", "sportstars 2"],
-    "sportstars3": ["sportstar 3", "sportstars 3"],
-    "sportstars4": ["sportstar 4", "sportstars 4"],
-}
-
-NOISE_TOKENS = {
-    "hd", "fhd", "uhd", "sd", "4k", "1080p", "720p", "v", "v+", "video",
-    "dash", "mpd", "hls", "cad", "24", "7", "tanpa", "drm", "channel", "feed"
-}
-
-JATIM_KEYWORDS = {
-    "jawa timur", "jatim", "malang", "surabaya", "kediri", "madiun",
-    "jember", "banyuwangi", "pasuruan", "blitar", "tuban", "lamongan",
-    "gresik", "sidoarjo", "probolinggo", "mojokerto", "jombang", "nganjuk"
-}
 
 RESOLUTION_RE = re.compile(r'\b(?:1080p?|720p?|480p?|360p?|240p?|4k|8k|fhd|uhd|sd)\b', re.IGNORECASE)
 
@@ -137,23 +107,74 @@ def parse_m3u(file_path: Path) -> tuple[str, List[M3UEntry]]:
 @dataclass
 class ChannelRule:
     keyword: str
+    aliases: List[str] = field(default_factory=list)
+    logo: Optional[str] = None
     custom_group: Optional[str] = None
 
-def load_config_rules(config_path: Path) -> List[ChannelRule]:
-    rules = []
-    current_group = None
+@dataclass
+class AppConfig:
+    group: str = "FAVORITES"
+    noise_tokens: Set[str] = field(default_factory=set)
+    regional_keywords: Set[str] = field(default_factory=set)
+    rules: List[ChannelRule] = field(default_factory=list)
+
+def load_config(config_path: Path) -> AppConfig:
+    config = AppConfig()
     if not config_path.exists():
-        return rules
+        print(f"Warning: Config file '{config_path}' not found. Using defaults.", file=sys.stderr)
+        return config
+
+    if config_path.suffix.lower() == ".json":
+        try:
+            data = json.loads(config_path.read_text(encoding="utf-8"))
+            if "group" in data and data["group"]:
+                config.group = data["group"]
+            if "noise_tokens" in data and isinstance(data["noise_tokens"], list):
+                config.noise_tokens = set(t.lower() for t in data["noise_tokens"])
+            if "regional_keywords" in data:
+                if isinstance(data["regional_keywords"], list):
+                    config.regional_keywords = set(k.lower() for k in data["regional_keywords"])
+                elif isinstance(data["regional_keywords"], dict):
+                    kw_set = set()
+                    for v in data["regional_keywords"].values():
+                        if isinstance(v, list):
+                            kw_set.update(k.lower() for k in v)
+                    config.regional_keywords = kw_set
+
+            if "channels" in data and isinstance(data["channels"], list):
+                for item in data["channels"]:
+                    if isinstance(item, dict):
+                        name = item.get("name", "").strip()
+                        aliases = item.get("aliases", [name])
+                        logo = item.get("logo")
+                        if name:
+                            config.rules.append(ChannelRule(keyword=name, aliases=aliases, logo=logo, custom_group=config.group))
+                    elif isinstance(item, str) and item.strip():
+                        name = item.strip()
+                        config.rules.append(ChannelRule(keyword=name, aliases=[name], custom_group=config.group))
+            return config
+        except Exception as e:
+            print(f"Warning: Failed to parse JSON config '{config_path}': {e}. Falling back to TXT.", file=sys.stderr)
+
+    # Fallback TXT parser
+    current_group = "FAVORITES"
     for line in config_path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
-        if not line:
+        if not line or line.startswith("#"):
             continue
         if line.startswith("[") and line.endswith("]"):
             current_group = line[1:-1].strip()
             continue
-        if not line.startswith("#"):
-            rules.append(ChannelRule(keyword=line, custom_group=current_group))
-    return rules
+        if "=" in line:
+            name, alias_str = line.split("=", 1)
+            name = name.strip()
+            aliases = [a.strip() for a in alias_str.split(",") if a.strip()]
+        else:
+            name = line
+            aliases = [name]
+        config.rules.append(ChannelRule(keyword=name, aliases=aliases, custom_group=current_group))
+    config.group = current_group
+    return config
 
 def update_group_title(extinf: str, new_group: str) -> str:
     if 'group-title="' in extinf:
@@ -164,10 +185,27 @@ def update_group_title(extinf: str, new_group: str) -> str:
         return extinf[:start_idx] + f' group-title="{new_group}"' + extinf[start_idx:]
     return extinf
 
+def update_channel_name(extinf: str, new_name: str) -> str:
+    if ',' in extinf:
+        prefix = extinf.rsplit(',', 1)[0]
+        return f"{prefix},{new_name}"
+    return extinf
+
+def update_logo_url(extinf: str, new_logo: str) -> str:
+    if 'tvg-logo="' in extinf:
+        return re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{new_logo}"', extinf)
+    elif "tvg-logo='" in extinf:
+        return re.sub(r"tvg-logo='[^']*'", f"tvg-logo='{new_logo}'", extinf)
+    m = re.search(r',(.+)$', extinf)
+    if m:
+        start_idx = m.start()
+        return extinf[:start_idx] + f' tvg-logo="{new_logo}"' + extinf[start_idx:]
+    return extinf
+
 def tokenize(text: str) -> List[str]:
     return re.findall(r'[a-z0-9]+', text.lower())
 
-def match_channel_tokens(kw_str: str, entry: M3UEntry) -> bool:
+def match_channel_tokens(rule: ChannelRule, entry: M3UEntry, noise_tokens: Set[str]) -> bool:
     cand_name = entry.name
     tvg_name_match = re.search(r'tvg-name="([^"]*)"', entry.extinf)
     cand_tvg = tvg_name_match.group(1) if tvg_name_match else ""
@@ -176,13 +214,15 @@ def match_channel_tokens(kw_str: str, entry: M3UEntry) -> bool:
     if cand_tvg:
         names.append(cand_tvg)
 
+    kw_str = rule.keyword
     kw_tokens = tokenize(kw_str)
     kw_nums = extract_channel_numbers(kw_str)
 
-    norm_kw = "".join(kw_tokens)
     target_phrases = [" ".join(kw_tokens)]
-    if norm_kw in ALIAS_MAP:
-        target_phrases.extend(ALIAS_MAP[norm_kw])
+    for alias in rule.aliases:
+        alias_tokens = tokenize(alias)
+        if alias_tokens:
+            target_phrases.append(" ".join(alias_tokens))
 
     for name in names:
         cand_tokens = tokenize(name)
@@ -191,7 +231,7 @@ def match_channel_tokens(kw_str: str, entry: M3UEntry) -> bool:
         if kw_nums != cand_nums:
             continue
 
-        clean_cand_tokens = [t for t in cand_tokens if t not in NOISE_TOKENS]
+        clean_cand_tokens = [t for t in cand_tokens if t not in noise_tokens]
         clean_cand_str = " ".join(clean_cand_tokens)
 
         for phrase in target_phrases:
@@ -214,24 +254,15 @@ def match_channel_tokens(kw_str: str, entry: M3UEntry) -> bool:
 
     return False
 
-def match_rules_entry(entry: M3UEntry, rules: List[ChannelRule]) -> Optional[tuple[int, ChannelRule]]:
+def match_rules_entry(entry: M3UEntry, rules: List[ChannelRule], noise_tokens: Set[str]) -> Optional[tuple[int, ChannelRule]]:
     for idx, rule in enumerate(rules):
-        kw_str = rule.keyword.strip()
-        if not kw_str:
+        if not rule.keyword.strip():
             continue
 
-        if match_channel_tokens(kw_str, entry):
+        if match_channel_tokens(rule, entry, noise_tokens):
             return idx, rule
 
     return None
-
-def is_premium_source(entry: M3UEntry) -> bool:
-    """Check if entry is from a premium source (Vision+, Vidio)."""
-    name_lower = entry.name.lower()
-    if "(v+)" in name_lower or "(video)" in name_lower:
-        return True
-    combined_props = " ".join(entry.props).lower()
-    return "visionplus.id" in combined_props or "vidio.com" in combined_props
 
 # Matches HD labels: "HD", "FHD", superscript "ᴴᴰ", "(1080p)", "(720p)", etc.
 _RES_SCORE = [
@@ -240,7 +271,78 @@ _RES_SCORE = [
     (re.compile(r'(?:\b480p?\b|\bsd\b)', re.IGNORECASE), 0),
 ]
 
-def check_stream_health(url: str, props: List[str], timeout: float = 2.0) -> bool:
+def _check_hls_segment_health(url: str, headers: dict, timeout: float) -> bool:
+    """Verifies that HLS master/playlist contains at least one fetchable media segment."""
+    try:
+        req = urllib.request.Request(url, headers=headers, method="GET")
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            if resp.status not in (200, 206):
+                return False
+            content = resp.read(16384).decode("utf-8", errors="replace")
+
+        lines = [line.strip() for line in content.splitlines() if line.strip()]
+        sub_playlist = None
+        media_segment = None
+
+        for line in lines:
+            if line.startswith("#"):
+                continue
+            if line.endswith(".m3u8") or ".m3u8?" in line:
+                sub_playlist = urllib.parse.urljoin(url, line)
+                break
+            elif not line.startswith("#"):
+                media_segment = urllib.parse.urljoin(url, line)
+                break
+
+        if sub_playlist:
+            req_sub = urllib.request.Request(sub_playlist, headers=headers, method="GET")
+            with urllib.request.urlopen(req_sub, timeout=timeout) as resp_sub:
+                if resp_sub.status not in (200, 206):
+                    return False
+                sub_content = resp_sub.read(16384).decode("utf-8", errors="replace")
+            for sub_line in sub_content.splitlines():
+                sub_line = sub_line.strip()
+                if sub_line and not sub_line.startswith("#"):
+                    media_segment = urllib.parse.urljoin(sub_playlist, sub_line)
+                    break
+
+        if not media_segment:
+            return True
+
+        seg_headers = {**headers, "Range": "bytes=0-1024"}
+        req_seg = urllib.request.Request(media_segment, headers=seg_headers, method="GET")
+        with urllib.request.urlopen(req_seg, timeout=timeout) as resp_seg:
+            return resp_seg.status in (200, 206)
+    except Exception:
+        return False
+
+def _check_mpd_segment_health(url: str, headers: dict, timeout: float) -> bool:
+    """Verifies that DASH MPD manifest contains at least one fetchable init/media segment."""
+    try:
+        req = urllib.request.Request(url, headers=headers, method="GET")
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            if resp.status not in (200, 206):
+                return False
+            xml_content = resp.read(16384).decode("utf-8", errors="replace")
+
+        m = re.search(r'initialization=[\'"]([^\'"]+)[\'"]', xml_content)
+        if not m:
+            m = re.search(r'media=[\'"]([^\'"]+)[\'"]', xml_content)
+
+        if not m:
+            return True
+
+        seg_file = m.group(1).replace("$Number$", "1")
+        seg_url = urllib.parse.urljoin(url, seg_file)
+
+        seg_headers = {**headers, "Range": "bytes=0-1024"}
+        req_seg = urllib.request.Request(seg_url, headers=seg_headers, method="GET")
+        with urllib.request.urlopen(req_seg, timeout=timeout) as resp_seg:
+            return resp_seg.status in (200, 206)
+    except Exception:
+        return False
+
+def check_stream_health(url: str, props: List[str], timeout: float = 3.0) -> bool:
     if not url or not url.startswith("http"):
         return False
     headers = {
@@ -252,42 +354,47 @@ def check_stream_health(url: str, props: List[str], timeout: float = 2.0) -> boo
         elif prop.startswith("#EXTVLCOPT:http-user-agent="):
             headers["User-Agent"] = prop.split("=", 1)[1].strip()
 
-    # Try HEAD first (avoids downloading stream body), fall back to
-    # GET with Range header for servers that reject HEAD on streams.
+    is_mpd = ".mpd" in url.lower() or any("clearkey" in p.lower() for p in props)
+
+    if is_mpd:
+        return _check_mpd_segment_health(url, headers, timeout=timeout)
+
+    if ".m3u8" in url.lower():
+        return _check_hls_segment_health(url, headers, timeout=timeout)
+
     for method, extra in (("HEAD", {}), ("GET", {"Range": "bytes=0-0"})):
         try:
             req_headers = {**headers, **extra}
             req = urllib.request.Request(url, headers=req_headers, method=method)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return resp.status in (200, 206)
-        except urllib.error.HTTPError as e:
-            if method == "HEAD" and e.code == 405:
-                continue  # server doesn't support HEAD, try GET+Range
-            return False
         except Exception:
             return False
     return False
 
-def calculate_entry_priority(entry: M3UEntry) -> int:
+def calculate_entry_priority(entry: M3UEntry, regional_keywords: Set[str]) -> int:
     score = 0
     name = entry.name
     full_text = f"{name} {entry.extinf}".lower()
 
-    # Regional preference: Jawa Timur
-    for kw in JATIM_KEYWORDS:
-        if kw in full_text:
+    # Regional preference (word boundary match to avoid partial substring hits like 'medan' in 'sumedang')
+    for kw in regional_keywords:
+        pattern = r'\b' + re.escape(kw.lower()) + r'\b'
+        if re.search(pattern, full_text):
             score += 5000
             break
-
-    # Premium source (V+ / Video)
-    if is_premium_source(entry):
-        score += 1000
 
     # Resolution hierarchy (first match wins)
     for pattern, points in _RES_SCORE:
         if pattern.search(name):
             score += points
             break
+
+    # Compatibility vs DRM scoring: favor clean HLS streams over DASH ClearKey DRM
+    if entry.is_dash_drm():
+        score -= 50
+    else:
+        score += 30
 
     # ChannelFeed — third-party re-stream, less reliable
     if "(channelfeed)" in name.lower():
@@ -299,13 +406,12 @@ def calculate_entry_priority(entry: M3UEntry) -> int:
 
 def filter_entries(
     entries: List[M3UEntry],
-    rules: List[ChannelRule],
-    single_group: str = "FAVORITES"
+    config: AppConfig
 ) -> List[M3UEntry]:
     matched_entries: List[tuple[int, M3UEntry]] = []
 
     for entry in entries:
-        matched_res = match_rules_entry(entry, rules)
+        matched_res = match_rules_entry(entry, config.rules, config.noise_tokens)
         if matched_res is not None:
             rule_idx, matched_rule = matched_res
             matched_entries.append((rule_idx, entry))
@@ -348,10 +454,18 @@ def filter_entries(
     deduped_entries: List[M3UEntry] = []
     for rule_idx in sorted(grouped_by_rule.keys()):
         group_items = grouped_by_rule[rule_idx]
-        best_entry = max(group_items, key=calculate_entry_priority)
-        if single_group:
-            best_entry.extinf = update_group_title(best_entry.extinf, single_group)
-            best_entry.group = single_group
+        best_entry = max(group_items, key=lambda e: calculate_entry_priority(e, config.regional_keywords))
+        rule = config.rules[rule_idx] if rule_idx < len(config.rules) else None
+        if config.group:
+            best_entry.extinf = update_group_title(best_entry.extinf, config.group)
+            best_entry.group = config.group
+        if rule:
+            if rule.keyword:
+                clean_name = rule.keyword.strip()
+                best_entry.extinf = update_channel_name(best_entry.extinf, clean_name)
+                best_entry.name = clean_name
+            if rule.logo:
+                best_entry.extinf = update_logo_url(best_entry.extinf, rule.logo)
         deduped_entries.append(best_entry)
 
     return deduped_entries
@@ -360,7 +474,7 @@ def main():
     parser = argparse.ArgumentParser(description="Generate dhanytv-favorites.m3u playlist.")
     parser.add_argument("-s", "--source", default="dhanytv.m3u", help="Path to master source playlist (default: dhanytv.m3u)")
     parser.add_argument("-o", "--output", default="favorites.m3u", help="Path to output favorites playlist (default: favorites.m3u)")
-    parser.add_argument("-c", "--config", default="update-script/favorites.txt", help="Path to keywords config file")
+    parser.add_argument("-c", "--config", default="update-script/favorites.json", help="Path to config file (default: update-script/favorites.json)")
 
     args = parser.parse_args()
 
@@ -372,14 +486,13 @@ def main():
     header, entries = parse_m3u(source_path)
     print(f"Total channels in master playlist: {len(entries)}")
 
-    rules = load_config_rules(config_path)
-    if rules:
-        print(f"Loaded {len(rules)} rules from '{config_path}'")
+    config = load_config(config_path)
+    if config.rules:
+        print(f"Loaded {len(config.rules)} channel rules from '{config_path}'")
 
     filtered = filter_entries(
         entries=entries,
-        rules=rules,
-        single_group="FAVORITES"
+        config=config
     )
 
     out_content = [header, ""]

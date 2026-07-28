@@ -347,7 +347,10 @@ def _check_mpd_segment_health(url: str, headers: dict, timeout: float) -> bool:
         if not m:
             return True
 
-        seg_file = m.group(1).replace("$Number$", "1")
+        rep_match = re.search(r'<Representation\s+[^>]*id=[\'"]([^\'"]+)[\'"]', xml_content)
+        rep_id = rep_match.group(1) if rep_match else ""
+
+        seg_file = m.group(1).replace("$RepresentationID$", rep_id).replace("$Number$", "1")
         seg_url = urllib.parse.urljoin(url, seg_file)
         if "?" not in seg_url and "?" in url:
             query = url.split("?", 1)[1]

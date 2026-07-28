@@ -20,7 +20,7 @@ import urllib.parse
 import urllib.request
 import urllib.error
 
-DEFAULT_HEADER = '#EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"'
+DEFAULT_HEADER = '#EXTM3U url-tvg="https://raw.githubusercontent.com/shofistwn/dhanytv/refs/heads/main/epg.xml"'
 
 RESOLUTION_RE = re.compile(r'\b(?:1080p?|720p?|480p?|360p?|240p?|4k|8k|fhd|uhd|sd)\b', re.IGNORECASE)
 
@@ -284,14 +284,23 @@ def _check_hls_segment_health(url: str, headers: dict, timeout: float) -> bool:
         sub_playlist = None
         media_segment = None
 
+        is_next_sub = False
         for line in lines:
+            if line.startswith("#EXT-X-STREAM-INF") or line.startswith("#EXT-X-I-FRAME-STREAM-INF"):
+                is_next_sub = True
+                continue
             if line.startswith("#"):
                 continue
-            if line.endswith(".m3u8") or ".m3u8?" in line:
+
+            if is_next_sub or line.endswith(".m3u8") or ".m3u8?" in line:
                 sub_playlist = urllib.parse.urljoin(url, line)
+                if "?" not in sub_playlist and "?" in url:
+                    sub_playlist = f"{sub_playlist}?{url.split('?', 1)[1]}"
                 break
-            elif not line.startswith("#"):
+            else:
                 media_segment = urllib.parse.urljoin(url, line)
+                if "?" not in media_segment and "?" in url:
+                    media_segment = f"{media_segment}?{url.split('?', 1)[1]}"
                 break
 
         if sub_playlist:
@@ -300,10 +309,16 @@ def _check_hls_segment_health(url: str, headers: dict, timeout: float) -> bool:
                 if resp_sub.status not in (200, 206):
                     return False
                 sub_content = resp_sub.read(16384).decode("utf-8", errors="replace")
+            is_next_sub = False
             for sub_line in sub_content.splitlines():
                 sub_line = sub_line.strip()
+                if sub_line.startswith("#EXT-X-STREAM-INF") or sub_line.startswith("#EXT-X-I-FRAME-STREAM-INF"):
+                    is_next_sub = True
+                    continue
                 if sub_line and not sub_line.startswith("#"):
                     media_segment = urllib.parse.urljoin(sub_playlist, sub_line)
+                    if "?" not in media_segment and "?" in sub_playlist:
+                        media_segment = f"{media_segment}?{sub_playlist.split('?', 1)[1]}"
                     break
 
         if not media_segment:
@@ -334,6 +349,9 @@ def _check_mpd_segment_health(url: str, headers: dict, timeout: float) -> bool:
 
         seg_file = m.group(1).replace("$Number$", "1")
         seg_url = urllib.parse.urljoin(url, seg_file)
+        if "?" not in seg_url and "?" in url:
+            query = url.split("?", 1)[1]
+            seg_url = f"{seg_url}?{query}"
 
         seg_headers = {**headers, "Range": "bytes=0-1024"}
         req_seg = urllib.request.Request(seg_url, headers=seg_headers, method="GET")
@@ -342,7 +360,7 @@ def _check_mpd_segment_health(url: str, headers: dict, timeout: float) -> bool:
     except Exception:
         return False
 
-def check_stream_health(url: str, props: List[str], timeout: float = 3.0) -> bool:
+def check_stream_health(url: str, props: List[str], timeout: float = 5.0) -> bool:
     if not url or not url.startswith("http"):
         return False
     headers = {

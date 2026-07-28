@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - 'dhanytv.m3u'
+      - 'update-script/favorites.json'
   workflow_dispatch:
 
 permissions:

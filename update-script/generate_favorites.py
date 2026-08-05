@@ -38,7 +38,7 @@ class M3UEntry:
 
     def is_dash_drm(self) -> bool:
         combined = " ".join(self.props + self.urls + [self.extinf]).lower()
-        return ".mpd" in combined or "clearkey" in combined or "widevine" in combined or "(v+)" in self.name.lower()
+        return "clearkey" in combined or "widevine" in combined or "license_key" in combined or "(v+)" in self.name.lower()
 
     def to_m3u_block(self) -> str:
         lines = []
@@ -55,6 +55,13 @@ def parse_channel_name(extinf: str) -> str:
     if ',' in extinf:
         return extinf.rsplit(',', 1)[1].strip()
     return ""
+
+def normalize_stream_url(url: str) -> str:
+    return (
+        url.replace("op-group1-swiftservehd-1.dens.tv", "op-flashcon-digdayahd-1.dens.tv")
+           .replace("op-group2-swiftservesd-1.dens.tv", "op-flashcon-digdayahd-1.dens.tv")
+           .replace("op-group1-swiftservesd-1.dens.tv", "op-flashcon-digdayahd-1.dens.tv")
+    )
 
 def parse_m3u(file_path: Path) -> tuple[str, List[M3UEntry]]:
     if not file_path.exists():
@@ -98,7 +105,7 @@ def parse_m3u(file_path: Path) -> tuple[str, List[M3UEntry]]:
 
         # URL line
         if current_entry:
-            current_entry.urls.append(line)
+            current_entry.urls.append(normalize_stream_url(line))
             entries.append(current_entry)
             current_entry = None
 
@@ -424,16 +431,58 @@ def _check_hls_segment_health(url: str, headers: dict, timeout: float) -> bool:
     except Exception:
         return False
 
-def _check_mpd_segment_health(url: str, headers: dict, timeout: float) -> bool:
-    """Verifies DASH MPD manifest validity and segment fetchability with proxy-worker fallback."""
+def verify_mpd_drm_key_validity(xml_content: str, props: List[str], headers: dict, timeout: float) -> bool:
+    """Verifies that MPD DRM streams have valid, matching, and reachable DRM license keys."""
+    has_drm = "ContentProtection" in xml_content or "cenc:" in xml_content
+    if not has_drm:
+        return True  # Non-DRM DASH stream (e.g. IndiHome)
+
+    lic_key = None
+    for p in props:
+        if "license_key=" in p.lower():
+            lic_key = p.split("=", 1)[1].strip()
+            break
+
+    if not lic_key:
+        return False  # MPD requires DRM but no license_key property is set
+
+    if lic_key.startswith("http"):
+        try:
+            lic_req = urllib.request.Request(lic_key, headers=headers)
+            with urllib.request.urlopen(lic_req, timeout=timeout) as lic_resp:
+                return lic_resp.status in (200, 204, 206)
+        except Exception:
+            return False
+
+    if ":" in lic_key and len(lic_key.replace(":", "")) == 64:
+        key_id = lic_key.split(":")[0].replace("-", "").lower()
+        m = re.search(r'default_KID=[\'"]([^\'"]+)[\'"]', xml_content, re.IGNORECASE)
+        if not m:
+            m = re.search(r'cenc:default_KID=[\'"]([^\'"]+)[\'"]', xml_content, re.IGNORECASE)
+
+        if m:
+            mpd_kid = m.group(1).replace("-", "").lower()
+            if key_id != mpd_kid:
+                return False  # Key ID mismatch: static ClearKey is expired/invalid for this manifest
+
+        return True
+
+    return False
+
+def _check_mpd_segment_health(url: str, headers: dict, props: List[str], timeout: float) -> bool:
+    """Verifies DASH MPD manifest validity, DRM key validity, and segment fetchability."""
     try:
         req = urllib.request.Request(url, headers=headers, method="GET")
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             if resp.status not in (200, 206):
                 return False
-            xml_content = resp.read(16384).decode("utf-8", errors="replace")
+            xml_content = resp.read(65536).decode("utf-8", errors="replace")
 
         if "<MPD" not in xml_content and "<mpd" not in xml_content.lower():
+            return False
+
+        # Validate DRM License Key (if MPD uses DRM)
+        if not verify_mpd_drm_key_validity(xml_content, props, headers, timeout):
             return False
 
         m = re.search(r'initialization=[\'"]([^\'"]+)[\'"]', xml_content)
@@ -470,7 +519,7 @@ def _check_mpd_segment_health(url: str, headers: dict, timeout: float) -> bool:
             except Exception:
                 pass
 
-        # Resilient Fallback: Manifest HTTP 200 OK with valid MPD XML structure
+        # Resilient Fallback: Manifest HTTP 200 OK with valid DRM key structure
         return True
     except Exception:
         return False
@@ -478,6 +527,7 @@ def _check_mpd_segment_health(url: str, headers: dict, timeout: float) -> bool:
 def check_stream_health(url: str, props: List[str], timeout: float = 5.0) -> bool:
     if not url or not url.startswith("http"):
         return False
+
     clean_url, headers = extract_stream_headers(url, props)
 
     combined_text = " ".join([clean_url, url] + props).lower()
@@ -485,7 +535,7 @@ def check_stream_health(url: str, props: List[str], timeout: float = 5.0) -> boo
     is_hls = ".m3u8" in combined_text or "manifest_type=hls" in combined_text
 
     if is_mpd:
-        return _check_mpd_segment_health(clean_url, headers, timeout=timeout)
+        return _check_mpd_segment_health(clean_url, headers, props, timeout=timeout)
 
     if is_hls:
         return _check_hls_segment_health(clean_url, headers, timeout=timeout)
@@ -542,7 +592,7 @@ def filter_entries(
 
     dead_urls: Set[str] = set()
     if matched_entries:
-        print("Running concurrent HTTP health check to discard dead / 403 streams...")
+        print("Running HTTP health check to discard dead / 403 streams...")
         url_props: dict[str, List[str]] = {}
         urls_to_check: List[str] = []
         for _, entry in matched_entries:
@@ -556,7 +606,7 @@ def filter_entries(
                 return u
             return None
 
-        with ThreadPoolExecutor(max_workers=20) as executor:
+        with ThreadPoolExecutor(max_workers=10) as executor:
             results = executor.map(verify_worker, urls_to_check)
             for res in results:
                 if res:
@@ -564,13 +614,7 @@ def filter_entries(
         if dead_urls:
             print(f"Discarded {len(dead_urls)} dead/403 stream URLs")
 
-    # Drop entries whose URLs are all dead
-    if dead_urls:
-        matched_entries = [
-            (idx, e) for idx, e in matched_entries
-            if not all(u in dead_urls for u in e.urls)
-        ]
-
+    # Group entries by rule index
     grouped_by_rule: dict[int, List[M3UEntry]] = {}
     for rule_idx, entry in matched_entries:
         grouped_by_rule.setdefault(rule_idx, []).append(entry)
@@ -578,7 +622,12 @@ def filter_entries(
     deduped_entries: List[M3UEntry] = []
     for rule_idx in sorted(grouped_by_rule.keys()):
         group_items = grouped_by_rule[rule_idx]
-        best_entry = max(group_items, key=lambda e: calculate_entry_priority(e, config.regional_keywords))
+        
+        # Prefer healthy items if available
+        healthy_items = [e for e in group_items if not any(u in dead_urls for u in e.urls)]
+        items_to_pick = healthy_items if healthy_items else group_items
+
+        best_entry = max(items_to_pick, key=lambda e: calculate_entry_priority(e, config.regional_keywords))
         rule = config.rules[rule_idx] if rule_idx < len(config.rules) else None
         if config.group:
             best_entry.extinf = update_group_title(best_entry.extinf, config.group)
@@ -611,7 +660,14 @@ def main():
 
     print(f"Reading master playlist from '{source_path}'...")
     header, entries = parse_m3u(source_path)
-    print(f"Total channels in master playlist: {len(entries)}")
+
+    extra_path = config_path.parent / "extra_channels.m3u"
+    if extra_path.exists():
+        _, extra_entries = parse_m3u(extra_path)
+        entries.extend(extra_entries)
+        print(f"Merged {len(extra_entries)} curated extra channels from '{extra_path}'")
+
+    print(f"Total channels to process: {len(entries)}")
 
     config = load_config(config_path)
     if config.rules:

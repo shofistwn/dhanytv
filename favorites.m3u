@@ -56,11 +56,12 @@ https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_Trans7.png/330px-Logo_Trans7.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Trans7",Trans7
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
 
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-#EXTVLCOPT:http-origin=https://www.vidio.com
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:contentlookup=false
 #EXTINF:-1 tvg-id="tvOne.id" group-title="FAVORITES" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/330px-TvOne_2023.svg.png&w=320&h=180&fit=contain&bg=ffffff" tvg-name="tvOne",tvOne
-https://beetv.my.id/stream/vd.m3u8?ch=tvone
+https://cdnbal1.indihometv.com/atm/DASH/tvone/tvone.mpd
+
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv

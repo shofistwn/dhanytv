@@ -3,8 +3,10 @@
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
 #EXTVLCOPT:http-referrer=https://www.vidio.com/
 #EXTVLCOPT:http-origin=https://www.vidio.com
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://tvratu.my.id/vid/index.mpd?id=2058&type=drm
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/330px-INDOSIAR_Logo.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Indosiar",Indosiar
-https://beetv.my.id/stream/vd.m3u8?ch=indosiar
+https://tvratu.my.id/vid/index.mpd?id=205&type=dash
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -30,17 +32,14 @@ https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=gtv
 #EXTINF:-1 tvg-id="RCTI.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/330px-RCTI_logo_2015.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="RCTI",RCTI
 https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=rcti
 
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-#EXTVLCOPT:http-origin=https://www.vidio.com
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/SCTV_Logo.svg/330px-SCTV_Logo.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="SCTV",SCTV
-https://beetv.my.id/stream/vd.m3u8?ch=sctv
+https://beetv.my.id/stream/vd.m3u8?ch=sctv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://www.vidio.com/&Origin=https://www.vidio.com
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0"}
 #EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/5/5a/Rajawali_Televisi.svg/330px-Rajawali_Televisi.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="RTV",RTV
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8
 
@@ -56,28 +55,56 @@ https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_Trans7.png/330px-Logo_Trans7.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Trans7",Trans7
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
 
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:contentlookup=false
-#EXTINF:-1 tvg-id="tvOne.id" group-title="FAVORITES" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/330px-TvOne_2023.svg.png&w=320&h=180&fit=contain&bg=ffffff" tvg-name="tvOne",tvOne
-https://cdnbal1.indihometv.com/atm/DASH/tvone/tvone.mpd
+#EXTVLCOPT:http-referer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/rcti_pro/index.drm?id=112
+#EXTINF:-1 tvg-id="Sportstars" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/3f/Sportstars.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Sportstars",Sportstars
+https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
 
+#EXTVLCOPT:http-referer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/rcti_pro/index.drm?id=113
+#EXTINF:-1 tvg-id="Sportstars 2" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/d/d7/Sportstars_2.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Sportstars 2",Sportstars 2
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
+
+#EXTVLCOPT:http-referer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/rcti_pro/index.drm?id=114
+#EXTINF:-1 tvg-id="Sportstars3.id" tvg-name="Sportstars 3" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a3/Sportstars_3.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES",Sportstars 3
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
+
+#EXTVLCOPT:http-referer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/rcti_pro/index.drm?id=205
+#EXTINF:-1 tvg-id="Sportstars4.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a4/Sportstars_4.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Sportstars 4",Sportstars 4
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
+
+#EXTVLCOPT:http-referer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/rcti_pro/index.drm?id=12
+#EXTINF:-1 tvg-id="tvOne.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/330px-TvOne_2023.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="tvOne",tvOne
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"}
-#EXTINF:-1 tvg-id="MetroTV.id" group-title="FAVORITES" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/c/c1/LogoMetroTVsince2010.svg/330px-LogoMetroTVsince2010.svg.png&w=320&h=180&fit=contain&bg=ffffff" tvg-name="Metro TV",Metro TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0"}
+#EXTINF:-1 tvg-id="MetroTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/c/c1/LogoMetroTVsince2010.svg/330px-LogoMetroTVsince2010.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Metro TV",Metro TV
 https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0"}
 #EXTINF:-1 tvg-id="KompasTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/4/4c/Kompas-TV.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Kompas TV",Kompas TV
-http://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
+https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -88,26 +115,30 @@ http://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=inews
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:contentlookup=false
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://cdn.siar.us/
-#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/31/Logo_nusantaratv.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Nusantara TV",Nusantara TV
-https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-
-#EXTINF:-1 tvg-id="JTV" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/JTV_%28Indonesian_TV_channel%29_2022.svg/330px-JTV_%28Indonesian_TV_channel%29_2022.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="JTV",JTV
-http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
-
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTINF:-1 group-title="FAVORITES" tvg-id="Jawapos TV" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a1/Jawa_Pos_TV_2024.png&w=320&h=180&fit=contain&bg=ffffff" tvg-name="Jawa Pos TV",Jawa Pos TV
-http://122.248.43.242:1935/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8
-
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=994121840707471a920b2e65bdf21b7e:0033ae3118a0153ad05fc9a066a8805c
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="FAVORITES" tvg-id="JTV" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/JTV_%28Indonesian_TV_channel%29_2022.svg/330px-JTV_%28Indonesian_TV_channel%29_2022.svg.png&w=320&h=180&fit=contain&bg=ffffff" tvg-name="JTV",JTV
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/77641c37b4834a9db823ec5137774973/index.mpd
+
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTINF:-1 tvg-id="Channel Jowo" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/d/d7/Channel_Jowo.png/330px-Channel_Jowo.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Jowo TV",Jowo TV
+https://op-flashcon-digdayasd-1.dens.tv/h/h215/S1/mnf.m3u8
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0de1f882d278465abdba73a8b4cb2bda:7061f5e1115d6ef504726c3faa8bf146
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #EXTINF:-1 tvg-id="HanacarakaTV.id" tvg-logo="https://wsrv.nl/?url=https://www.mncvision.id/userfiles/image/channel/channel_90.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Hanacaraka TV",Hanacaraka TV
 https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
 

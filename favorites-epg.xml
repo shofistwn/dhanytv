@@ -53,6 +53,10 @@
     <url>http://www.vidio.com</url>
     <icon src="https://thumbor.prod.vidiocdn.com/cStgoV5oqj2Om_6NMOzK0AFY-sg=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/1561/665aea.png" />
   </channel>
+  <channel id="NusantaraTV.id">
+    <display-name>Nusantara TV.id</display-name>
+    <icon src="https://images.open-epg.com/x1204.png" />
+  </channel>
   <channel id="Sportstars">
     <display-name lang="id">Sportstars</display-name>
     <url>http://www.mncvision.id</url>
@@ -9587,6 +9591,366 @@
   <programme start="20260812143000 +0700" stop="20260812160000 +0700" channel="RTV.id">
     <title>Smurfs</title>
     <desc>Di Tengah Hutan Belantara, Terdapat Desa Rahasia Dihuni Oleh Sekelompok Makhluk Kecil Berwarna Biru Yang Dipimpin Oleh Papa Smurf. Para Smurf Tinggal Di Rumah Berbentuk Jamur Dan Hidup Dengan Damai. Namun, Kedatangan Penyihir Jahat Gargamel Dan Kucingnya, Azrael, Merusak Kedamaian Desa Tersebut. Sehingga Para Smurf Harus Mencari Cara Agar Tidak Ditangkap Oleh Gargamel Dan Azrael.</desc>
+  </programme>
+  <programme start="20260808230000 +0700" stop="20260809000000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260809000000 +0700" stop="20260809010000 +0700" channel="NusantaraTV.id">
+    <title>Kok Bisa Viral</title>
+    <desc>Kok Bisa Viral menyajikan ragam informasi/fakta unik dari dalam ataupun luar negeri secara urutan peringkat</desc>
+  </programme>
+  <programme start="20260809010000 +0700" stop="20260809020000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260809020000 +0700" stop="20260809030000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Senandung Sunda</title>
+    <desc>Program yang menampilkan penampilan musik dari daerah Sunda</desc>
+  </programme>
+  <programme start="20260809030000 +0700" stop="20260809040000 +0700" channel="NusantaraTV.id">
+    <title>Ooh I See</title>
+    <desc>Program magazine berdurasi 30 menit yang akan membahas mengenai beragam informasi serta fakta menarik yang mendalam dari sebuah fenomena, kebudayaan, wisata, dan isu tren terkini</desc>
+  </programme>
+  <programme start="20260809040000 +0700" stop="20260809060000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260809060000 +0700" stop="20260809070000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260809070000 +0700" stop="20260809080000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260809080000 +0700" stop="20260809090000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260809090000 +0700" stop="20260809103000 +0700" channel="NusantaraTV.id">
+    <title>Ibadah Online</title>
+    <desc>Program Ibadah Kristen secara online dari HKBP</desc>
+  </programme>
+  <programme start="20260809103000 +0700" stop="20260809110000 +0700" channel="NusantaraTV.id">
+    <title>Kok Bisa Viral</title>
+    <desc>Kok Bisa Viral menyajikan ragam informasi/fakta unik dari dalam ataupun luar negeri secara urutan peringkat</desc>
+  </programme>
+  <programme start="20260809110000 +0700" stop="20260809120000 +0700" channel="NusantaraTV.id">
+    <title>NTV Today</title>
+    <desc>Program buletin berita harian yang menyajikan beragam informasi terkini dari dalam dan luar negeri, mencakup peristiwa, hukum, politik, agenda kegiatan, wisata, kuliner, dan hiburan</desc>
+  </programme>
+  <programme start="20260809120000 +0700" stop="20260809123000 +0700" channel="NusantaraTV.id">
+    <title>100 % Recommended</title>
+    <desc>Sajikan ulasan kuliner serta restoran yang menyediakan berbagai jenis makanan nusantara ataupun mancanegara</desc>
+  </programme>
+  <programme start="20260809123000 +0700" stop="20260809133000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260809133000 +0700" stop="20260809150000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260809150000 +0700" stop="20260809153000 +0700" channel="NusantaraTV.id">
+    <title>Ooh I See</title>
+    <desc>Program magazine berdurasi 30 menit yang akan membahas mengenai beragam informasi serta fakta menarik yang mendalam dari sebuah fenomena, kebudayaan, wisata, dan isu tren terkini</desc>
+  </programme>
+  <programme start="20260809153000 +0700" stop="20260809160000 +0700" channel="NusantaraTV.id">
+    <title>Lol</title>
+    <desc>Program magazine tentang aksi kriminal yang terjadi di masyarakat dengan kejadian lucu dan absurd</desc>
+  </programme>
+  <programme start="20260809160000 +0700" stop="20260809170000 +0700" channel="NusantaraTV.id">
+    <title>NTV Highlight</title>
+    <desc>Highlights berita-berita utama selama sepekan. Baik berita peristiwa, isu politik maupun hukum, dan masalah sosial yang viral selama sepekan</desc>
+  </programme>
+  <programme start="20260809170000 +0700" stop="20260809190000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260809190000 +0700" stop="20260809200000 +0700" channel="NusantaraTV.id">
+    <title>Crime Files</title>
+    <desc>Program yang mengulas kasus-kasus kejahatan nyata dengan pendekatan investigatif dan mendalam</desc>
+  </programme>
+  <programme start="20260809200000 +0700" stop="20260809203000 +0700" channel="NusantaraTV.id">
+    <title>Ooh I See</title>
+    <desc>Program magazine berdurasi 30 menit yang akan membahas mengenai beragam informasi serta fakta menarik yang mendalam dari sebuah fenomena, kebudayaan, wisata, dan isu tren terkini</desc>
+  </programme>
+  <programme start="20260809203000 +0700" stop="20260809213000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport Cast</title>
+    <desc>Sportcast yang dipandu oleh Boy Noya (host) dan Ronny Pangemanan (Analis) dan menghadirkan satu narasumber tamu dari kalangan atlet, mantan atlet, pengurus, hingga pengamat</desc>
+  </programme>
+  <programme start="20260809213000 +0700" stop="20260809223000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260809223000 +0700" stop="20260809230000 +0700" channel="NusantaraTV.id">
+    <title>Checkpoint</title>
+    <desc>Program infografis berdurasi 30 menit yang menyajikan berita pilihan berbasis data, telah melalui proses pengecekan ketat oleh tim newsroom NTV</desc>
+  </programme>
+  <programme start="20260809230000 +0700" stop="20260810000000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260810000000 +0700" stop="20260810010000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260810010000 +0700" stop="20260810020000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260810020000 +0700" stop="20260810030000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260810030000 +0700" stop="20260810040000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260810040000 +0700" stop="20260810060000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260810060000 +0700" stop="20260810073000 +0700" channel="NusantaraTV.id">
+    <title>NTV Morning</title>
+    <desc>Sumber informasi yang bisa diakses masyarakat setiap pagi sebelum memulai aktivitas. Menyajikan rangkuman berita utama dari kemarin hingga dini hari</desc>
+  </programme>
+  <programme start="20260810073000 +0700" stop="20260810080000 +0700" channel="NusantaraTV.id">
+    <title>Dari Meja Redaksi</title>
+    <desc>Sebuah program berita dengan menghadirkan perspektif jernih dari ruang redaksi. Membahas pentingnya isu-isu nasional setiap minggunya dan mendatang yang akan menjadi ulasan serta berdampak bagi masyarakat Indonesia</desc>
+  </programme>
+  <programme start="20260810080000 +0700" stop="20260810090000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260810090000 +0700" stop="20260810093000 +0700" channel="NusantaraTV.id">
+    <title>Kok Bisa Viral</title>
+    <desc>Kok Bisa Viral menyajikan ragam informasi/fakta unik dari dalam ataupun luar negeri secara urutan peringkat</desc>
+  </programme>
+  <programme start="20260810093000 +0700" stop="20260810103000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Economic Updates</title>
+    <desc>Program buletin harian yang khusus mengulas ragam isu ekonomi dan bisnis dengan mengedepankan updates, analisa mendalam, serta dampaknya pada sektor ekonomi nasional</desc>
+  </programme>
+  <programme start="20260810103000 +0700" stop="20260810110000 +0700" channel="NusantaraTV.id">
+    <title>NTV Crime</title>
+    <desc>Menyajikan informasi kriminal terkini dari seluruh penjuru tanah air dan fakta yang aktual dibalik peristiwa kriminal</desc>
+  </programme>
+  <programme start="20260810110000 +0700" stop="20260810120000 +0700" channel="NusantaraTV.id">
+    <title>NTV Today</title>
+    <desc>Program buletin berita harian yang menyajikan beragam informasi terkini dari dalam dan luar negeri, mencakup peristiwa, hukum, politik, agenda kegiatan, wisata, kuliner, dan hiburan</desc>
+  </programme>
+  <programme start="20260810120000 +0700" stop="20260810123000 +0700" channel="NusantaraTV.id">
+    <title>Asta Cita</title>
+    <desc>Sumber tayangan yang menginformasikan capaian pemerintah. Program ini menyoroti delapan arah kebijakan utama pemerintahan Presiden Prabowo Subianto, yang menjadi pondasi dalam mewujudkan Indonesia Maju, Adil, dan Berdaulat</desc>
+  </programme>
+  <programme start="20260810123000 +0700" stop="20260810133000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260810133000 +0700" stop="20260810140000 +0700" channel="NusantaraTV.id">
+    <title>Petualang Nusantara</title>
+    <desc>Program dokumenter petualangan bersama Sang Petualang Panji yang mengeksplorasi kekayaan budaya, alam, dan kehidupan masyarakat lokal di pelosok Nusantara, serta mengangkat kearifan lokal dan semangat cinta tanah air melalui perjalanan penuh inspirasi</desc>
+  </programme>
+  <programme start="20260810140000 +0700" stop="20260810153000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260810153000 +0700" stop="20260810160000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Business Hour</title>
+    <desc>Program ekonomi sore yang menyajikan update tercepat, analisis tajam, dan dialog strategis untuk memahami arah ekonomi nasional dan global serta dampaknya bagi pasar, industri, dan daerah</desc>
+  </programme>
+  <programme start="20260810160000 +0700" stop="20260810163000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang dipandu oleh dua host, menampilkan beragam informasi seputar selebriti tanah air, serta trend terkini yang terjadi di kalangan selebriti</desc>
+  </programme>
+  <programme start="20260810163000 +0700" stop="20260810170000 +0700" channel="NusantaraTV.id">
+    <title>NTV Crime</title>
+    <desc>Menyajikan informasi kriminal terkini dari seluruh penjuru tanah air dan fakta yang aktual dibalik peristiwa kriminal</desc>
+  </programme>
+  <programme start="20260810170000 +0700" stop="20260810193000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260810193000 +0700" stop="20260810203000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260810203000 +0700" stop="20260810213000 +0700" channel="NusantaraTV.id">
+    <title>Abraham</title>
+    <desc>Program docudrama menyajikan penelusuran fakta Abraham Silaban terkait kebijakan publik serta isu-isu sosial yang terjadi di masyarakat. Hadir dengan konsep indepth reporting dan penelusuran TKP, ABRAHAM mengulik fakta langsung dari narasumber primer</desc>
+  </programme>
+  <programme start="20260810213000 +0700" stop="20260810223000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260810223000 +0700" stop="20260810233000 +0700" channel="NusantaraTV.id">
+    <title>NTV Tonight</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260810233000 +0700" stop="20260811000000 +0700" channel="NusantaraTV.id">
+    <title>NTV Headlines</title>
+    <desc>Program news buletin yang menyajikan berita-berita utama yang terjadi sepanjang hari, dirangkum secara akurat berdasarkan dampak, urgensi dan relevansinya bagi publik. Program ini hadir dengan pilihan baru, memberikan perspektif yang ringkas, jelas dan mudah untuk disimak pemirsa di ujung hari</desc>
+  </programme>
+  <programme start="20260811000000 +0700" stop="20260811010000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260811010000 +0700" stop="20260811020000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260811020000 +0700" stop="20260811030000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260811030000 +0700" stop="20260811040000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260811040000 +0700" stop="20260811060000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260811060000 +0700" stop="20260811073000 +0700" channel="NusantaraTV.id">
+    <title>NTV Morning</title>
+    <desc>Sumber informasi yang bisa diakses masyarakat setiap pagi sebelum memulai aktivitas. Menyajikan rangkuman berita utama dari kemarin hingga dini hari</desc>
+  </programme>
+  <programme start="20260811073000 +0700" stop="20260811080000 +0700" channel="NusantaraTV.id">
+    <title>Morning Spotlights</title>
+    <desc>Program pagi yang menyoroti current issue setiap harinya, dan dibawakan oleh dua host. Program ini menggabungkan: Hard news yang dikemas secara ringan, Live Report dengan penyajian lebih pop, Info event harian (konser, seminar, workshop, dll), Trending topic &amp; viral content, Lifestyle, Interaksi dengan audiens dan komentar netizen</desc>
+  </programme>
+  <programme start="20260811080000 +0700" stop="20260811090000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260811090000 +0700" stop="20260811093000 +0700" channel="NusantaraTV.id">
+    <title>Kok Bisa Viral</title>
+    <desc>Kok Bisa Viral menyajikan ragam informasi/fakta unik dari dalam ataupun luar negeri secara urutan peringkat</desc>
+  </programme>
+  <programme start="20260811093000 +0700" stop="20260811103000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Economic Updates</title>
+    <desc>Program buletin harian yang khusus mengulas ragam isu ekonomi dan bisnis dengan mengedepankan updates, analisa mendalam, serta dampaknya pada sektor ekonomi nasional</desc>
+  </programme>
+  <programme start="20260811103000 +0700" stop="20260811110000 +0700" channel="NusantaraTV.id">
+    <title>NTV Crime</title>
+    <desc>Menyajikan informasi kriminal terkini dari seluruh penjuru tanah air dan fakta yang aktual dibalik peristiwa kriminal</desc>
+  </programme>
+  <programme start="20260811110000 +0700" stop="20260811120000 +0700" channel="NusantaraTV.id">
+    <title>NTV Today</title>
+    <desc>Program buletin berita harian yang menyajikan beragam informasi terkini dari dalam dan luar negeri, mencakup peristiwa, hukum, politik, agenda kegiatan, wisata, kuliner, dan hiburan</desc>
+  </programme>
+  <programme start="20260811120000 +0700" stop="20260811123000 +0700" channel="NusantaraTV.id">
+    <title>Asta Cita</title>
+    <desc>Sumber tayangan yang menginformasikan capaian pemerintah. Program ini menyoroti delapan arah kebijakan utama pemerintahan Presiden Prabowo Subianto, yang menjadi pondasi dalam mewujudkan Indonesia Maju, Adil, dan Berdaulat</desc>
+  </programme>
+  <programme start="20260811123000 +0700" stop="20260811133000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260811133000 +0700" stop="20260811140000 +0700" channel="NusantaraTV.id">
+    <title>Petualang Nusantara</title>
+    <desc>Program dokumenter petualangan bersama Sang Petualang Panji yang mengeksplorasi kekayaan budaya, alam, dan kehidupan masyarakat lokal di pelosok Nusantara, serta mengangkat kearifan lokal dan semangat cinta tanah air melalui perjalanan penuh inspirasi</desc>
+  </programme>
+  <programme start="20260811140000 +0700" stop="20260811153000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260811153000 +0700" stop="20260811163000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Business Hour</title>
+    <desc>Program ekonomi sore yang menyajikan update tercepat, analisis tajam, dan dialog strategis untuk memahami arah ekonomi nasional dan global serta dampaknya bagi pasar, industri, dan daerah</desc>
+  </programme>
+  <programme start="20260811163000 +0700" stop="20260811170000 +0700" channel="NusantaraTV.id">
+    <title>NTV Crime</title>
+    <desc>Menyajikan informasi kriminal terkini dari seluruh penjuru tanah air dan fakta yang aktual dibalik peristiwa kriminal</desc>
+  </programme>
+  <programme start="20260811170000 +0700" stop="20260811193000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260811193000 +0700" stop="20260811203000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260811203000 +0700" stop="20260811213000 +0700" channel="NusantaraTV.id">
+    <title>Kasipaham</title>
+    <desc>Dialog informatif untuk memberikan pemahaman mendalam (mengedukasi) kepada penonton terhadap berbagai isu terkini, kebijakan pemerintah, dan fenomena sosial</desc>
+  </programme>
+  <programme start="20260811213000 +0700" stop="20260811223000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260811223000 +0700" stop="20260811233000 +0700" channel="NusantaraTV.id">
+    <title>NTV Tonight</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260811233000 +0700" stop="20260812000000 +0700" channel="NusantaraTV.id">
+    <title>NTV Headlines</title>
+    <desc>Program news buletin yang menyajikan berita-berita utama yang terjadi sepanjang hari, dirangkum secara akurat berdasarkan dampak, urgensi dan relevansinya bagi publik. Program ini hadir dengan pilihan baru, memberikan perspektif yang ringkas, jelas dan mudah untuk disimak pemirsa di ujung hari</desc>
+  </programme>
+  <programme start="20260812000000 +0700" stop="20260812010000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260812010000 +0700" stop="20260812020000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260812020000 +0700" stop="20260812030000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260812030000 +0700" stop="20260812040000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260812040000 +0700" stop="20260812060000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260812060000 +0700" stop="20260812073000 +0700" channel="NusantaraTV.id">
+    <title>NTV Morning</title>
+    <desc>Sumber informasi yang bisa diakses masyarakat setiap pagi sebelum memulai aktivitas. Menyajikan rangkuman berita utama dari kemarin hingga dini hari</desc>
+  </programme>
+  <programme start="20260812073000 +0700" stop="20260812080000 +0700" channel="NusantaraTV.id">
+    <title>Morning Spotlights</title>
+    <desc>Program pagi yang menyoroti current issue setiap harinya, dan dibawakan oleh dua host. Program ini menggabungkan: Hard news yang dikemas secara ringan, Live Report dengan penyajian lebih pop, Info event harian (konser, seminar, workshop, dll), Trending topic &amp; viral content, Lifestyle, Interaksi dengan audiens dan komentar netizen</desc>
+  </programme>
+  <programme start="20260812080000 +0700" stop="20260812090000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260812090000 +0700" stop="20260812093000 +0700" channel="NusantaraTV.id">
+    <title>Kok Bisa Viral</title>
+    <desc>Kok Bisa Viral menyajikan ragam informasi/fakta unik dari dalam ataupun luar negeri secara urutan peringkat</desc>
+  </programme>
+  <programme start="20260812093000 +0700" stop="20260812103000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Economic Updates</title>
+    <desc>Program buletin harian yang khusus mengulas ragam isu ekonomi dan bisnis dengan mengedepankan updates, analisa mendalam, serta dampaknya pada sektor ekonomi nasional</desc>
+  </programme>
+  <programme start="20260812103000 +0700" stop="20260812110000 +0700" channel="NusantaraTV.id">
+    <title>NTV Crime</title>
+    <desc>Menyajikan informasi kriminal terkini dari seluruh penjuru tanah air dan fakta yang aktual dibalik peristiwa kriminal</desc>
+  </programme>
+  <programme start="20260812110000 +0700" stop="20260812120000 +0700" channel="NusantaraTV.id">
+    <title>NTV Today</title>
+    <desc>Program buletin berita harian yang menyajikan beragam informasi terkini dari dalam dan luar negeri, mencakup peristiwa, hukum, politik, agenda kegiatan, wisata, kuliner, dan hiburan</desc>
+  </programme>
+  <programme start="20260812120000 +0700" stop="20260812123000 +0700" channel="NusantaraTV.id">
+    <title>Asta Cita</title>
+    <desc>Sumber tayangan yang menginformasikan capaian pemerintah. Program ini menyoroti delapan arah kebijakan utama pemerintahan Presiden Prabowo Subianto, yang menjadi pondasi dalam mewujudkan Indonesia Maju, Adil, dan Berdaulat.</desc>
+  </programme>
+  <programme start="20260812123000 +0700" stop="20260812133000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260812133000 +0700" stop="20260812140000 +0700" channel="NusantaraTV.id">
+    <title>Petualang Nusantara</title>
+    <desc>Program dokumenter petualangan bersama Sang Petualang Panji yang mengeksplorasi kekayaan budaya, alam, dan kehidupan masyarakat lokal di pelosok Nusantara, serta mengangkat kearifan lokal dan semangat cinta tanah air melalui perjalanan penuh inspirasi</desc>
+  </programme>
+  <programme start="20260812140000 +0700" stop="20260812153000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
   </programme>
   <programme start="20260810003000 +0700" stop="20260810010000 +0700" channel="Sportstars">
     <title lang="id">Bloopers</title>

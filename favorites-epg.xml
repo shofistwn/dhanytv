@@ -88,54 +88,6 @@
     <display-name>Channel Jowo.id</display-name>
     <icon src="https://images.open-epg.com/x1236.png" />
   </channel>
-  <programme start="20260809003000 +0700" stop="20260809013000 +0700" channel="RCTI.id">
-    <title lang="id">Gudeg Prince</title>
-  </programme>
-  <programme start="20260809013000 +0700" stop="20260809020000 +0700" channel="RCTI.id">
-    <title lang="id">Miss Samson In Love</title>
-  </programme>
-  <programme start="20260809020000 +0700" stop="20260809030000 +0700" channel="RCTI.id">
-    <title lang="id">Mega Film TV Malam</title>
-  </programme>
-  <programme start="20260809030000 +0700" stop="20260809033000 +0700" channel="RCTI.id">
-    <title lang="id">Mujizat Itu Nyata</title>
-  </programme>
-  <programme start="20260809033000 +0700" stop="20260809060000 +0700" channel="RCTI.id">
-    <title lang="id">Preman Pensiun S5</title>
-  </programme>
-  <programme start="20260809060000 +0700" stop="20260809080000 +0700" channel="RCTI.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260809080000 +0700" stop="20260809103000 +0700" channel="RCTI.id">
-    <title lang="id">Entong</title>
-  </programme>
-  <programme start="20260809103000 +0700" stop="20260809110000 +0700" channel="RCTI.id">
-    <title lang="id">Kiko</title>
-  </programme>
-  <programme start="20260809110000 +0700" stop="20260809113000 +0700" channel="RCTI.id">
-    <title lang="id">Titus The Detective</title>
-  </programme>
-  <programme start="20260809113000 +0700" stop="20260809140000 +0700" channel="RCTI.id">
-    <title lang="id">Terikat Janji Selamanya</title>
-  </programme>
-  <programme start="20260809140000 +0700" stop="20260809173000 +0700" channel="RCTI.id">
-    <title lang="id">Ikatan Cinta Aldebaran &amp; Andin</title>
-  </programme>
-  <programme start="20260809173000 +0700" stop="20260809190000 +0700" channel="RCTI.id">
-    <title lang="id">Adagium</title>
-  </programme>
-  <programme start="20260809190000 +0700" stop="20260809203000 +0700" channel="RCTI.id">
-    <title lang="id">Terikat Janji</title>
-  </programme>
-  <programme start="20260809203000 +0700" stop="20260809214500 +0700" channel="RCTI.id">
-    <title lang="id">Terlanjur Mencintaimu</title>
-  </programme>
-  <programme start="20260809214500 +0700" stop="20260809230000 +0700" channel="RCTI.id">
-    <title lang="id">Satu Atap Dua Mantan</title>
-  </programme>
-  <programme start="20260809230000 +0700" stop="20260810001500 +0700" channel="RCTI.id">
-    <title lang="id">Semua Indah Karena Cinta</title>
-  </programme>
   <programme start="20260810001500 +0700" stop="20260810013000 +0700" channel="RCTI.id">
     <title lang="id">Laila Majnun Van Java</title>
   </programme>
@@ -183,6 +135,103 @@
   </programme>
   <programme start="20260810230000 +0700" stop="20260811001500 +0700" channel="RCTI.id">
     <title lang="id">Semua Indah Karena Cinta</title>
+  </programme>
+  <programme start="20260811001500 +0700" stop="20260811013000 +0700" channel="RCTI.id">
+    <title lang="id">Pawang Gajah Jatuh Cinta</title>
+  </programme>
+  <programme start="20260811013000 +0700" stop="20260811020000 +0700" channel="RCTI.id">
+    <title lang="id">Cinta Dikejar Deadline</title>
+  </programme>
+  <programme start="20260811020000 +0700" stop="20260811030000 +0700" channel="RCTI.id">
+    <title lang="id">Mega Film TV Malam</title>
+  </programme>
+  <programme start="20260811030000 +0700" stop="20260811051500 +0700" channel="RCTI.id">
+    <title lang="id">Preman Pensiun S5</title>
+  </programme>
+  <programme start="20260811051500 +0700" stop="20260811054500 +0700" channel="RCTI.id">
+    <title lang="id">Seputar iNews</title>
+  </programme>
+  <programme start="20260811054500 +0700" stop="20260811074500 +0700" channel="RCTI.id">
+    <title lang="id">Preman Pensiun Deui</title>
+  </programme>
+  <programme start="20260811074500 +0700" stop="20260811094500 +0700" channel="RCTI.id">
+    <title lang="id">Terindah Cinta Yasmin</title>
+  </programme>
+  <programme start="20260811094500 +0700" stop="20260811110000 +0700" channel="RCTI.id">
+    <title lang="id">Terlanjur Mencintaimu Arumi</title>
+  </programme>
+  <programme start="20260811110000 +0700" stop="20260811113000 +0700" channel="RCTI.id">
+    <title lang="id">Go Spot Eksklusif</title>
+  </programme>
+  <programme start="20260811113000 +0700" stop="20260811133000 +0700" channel="RCTI.id">
+    <title lang="id">Terikat Janji Selamanya</title>
+  </programme>
+  <programme start="20260811133000 +0700" stop="20260811173000 +0700" channel="RCTI.id">
+    <title lang="id">Ikatan Cinta Aldebaran &amp; Andin</title>
+  </programme>
+  <programme start="20260811173000 +0700" stop="20260811190000 +0700" channel="RCTI.id">
+    <title lang="id">Ternyata Ini Cinta</title>
+  </programme>
+  <programme start="20260811190000 +0700" stop="20260811203000 +0700" channel="RCTI.id">
+    <title lang="id">Terikat Janji</title>
+  </programme>
+  <programme start="20260811203000 +0700" stop="20260811214500 +0700" channel="RCTI.id">
+    <title lang="id">Terlanjur Mencintaimu</title>
+  </programme>
+  <programme start="20260811214500 +0700" stop="20260811230000 +0700" channel="RCTI.id">
+    <title lang="id">Cinta Dua Kasta</title>
+  </programme>
+  <programme start="20260811230000 +0700" stop="20260812001500 +0700" channel="RCTI.id">
+    <title lang="id">Semua Indah Karena Cinta</title>
+  </programme>
+  <programme start="20260809003000 +0700" stop="20260809013000 +0700" channel="RCTI.id">
+    <title>Gudeg Prince</title>
+  </programme>
+  <programme start="20260809013000 +0700" stop="20260809020000 +0700" channel="RCTI.id">
+    <title>Miss Samson In Love</title>
+  </programme>
+  <programme start="20260809020000 +0700" stop="20260809030000 +0700" channel="RCTI.id">
+    <title>Mega Film TV Malam</title>
+  </programme>
+  <programme start="20260809030000 +0700" stop="20260809033000 +0700" channel="RCTI.id">
+    <title>Mujizat Itu Nyata</title>
+  </programme>
+  <programme start="20260809033000 +0700" stop="20260809060000 +0700" channel="RCTI.id">
+    <title>Preman Pensiun S5</title>
+    <episode-num system="xmltv_ns">4..</episode-num>
+  </programme>
+  <programme start="20260809060000 +0700" stop="20260809080000 +0700" channel="RCTI.id">
+    <title>Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260809080000 +0700" stop="20260809103000 +0700" channel="RCTI.id">
+    <title>Entong</title>
+  </programme>
+  <programme start="20260809103000 +0700" stop="20260809110000 +0700" channel="RCTI.id">
+    <title>Kiko</title>
+  </programme>
+  <programme start="20260809110000 +0700" stop="20260809113000 +0700" channel="RCTI.id">
+    <title>Titus The Detective</title>
+  </programme>
+  <programme start="20260809113000 +0700" stop="20260809140000 +0700" channel="RCTI.id">
+    <title>Terikat Janji Selamanya</title>
+  </programme>
+  <programme start="20260809140000 +0700" stop="20260809173000 +0700" channel="RCTI.id">
+    <title>Ikatan Cinta Aldebaran &amp; Andin</title>
+  </programme>
+  <programme start="20260809173000 +0700" stop="20260809190000 +0700" channel="RCTI.id">
+    <title>Adagium</title>
+  </programme>
+  <programme start="20260809190000 +0700" stop="20260809203000 +0700" channel="RCTI.id">
+    <title>Terikat Janji</title>
+  </programme>
+  <programme start="20260809203000 +0700" stop="20260809214500 +0700" channel="RCTI.id">
+    <title>Terlanjur Mencintaimu</title>
+  </programme>
+  <programme start="20260809214500 +0700" stop="20260809230000 +0700" channel="RCTI.id">
+    <title>Satu Atap Dua Mantan</title>
+  </programme>
+  <programme start="20260809230000 +0700" stop="20260810001500 +0700" channel="RCTI.id">
+    <title>Semua Indah Karena Cinta</title>
   </programme>
   <programme start="20260802001500 +0700" stop="20260802013000 +0700" channel="RCTI.id">
     <title lang="id">Cantik-Cantik Tukang Dodol</title>
@@ -490,99 +539,6 @@
   <programme start="20260808213000 +0700" stop="20260809003000 +0700" channel="RCTI.id">
     <title lang="id">#ILoveRCTI: Kendal</title>
   </programme>
-  <programme start="20260811001500 +0700" stop="20260811013000 +0700" channel="RCTI.id">
-    <title lang="id">Pawang Gajah Jatuh Cinta</title>
-  </programme>
-  <programme start="20260811013000 +0700" stop="20260811020000 +0700" channel="RCTI.id">
-    <title lang="id">Cinta Dikejar Deadline</title>
-  </programme>
-  <programme start="20260811020000 +0700" stop="20260811030000 +0700" channel="RCTI.id">
-    <title lang="id">Mega Film TV Malam</title>
-  </programme>
-  <programme start="20260811030000 +0700" stop="20260811051500 +0700" channel="RCTI.id">
-    <title lang="id">Preman Pensiun S5</title>
-  </programme>
-  <programme start="20260811051500 +0700" stop="20260811054500 +0700" channel="RCTI.id">
-    <title lang="id">Seputar iNews</title>
-  </programme>
-  <programme start="20260811054500 +0700" stop="20260811074500 +0700" channel="RCTI.id">
-    <title lang="id">Preman Pensiun Deui</title>
-  </programme>
-  <programme start="20260811074500 +0700" stop="20260811094500 +0700" channel="RCTI.id">
-    <title lang="id">Terindah Cinta Yasmin</title>
-  </programme>
-  <programme start="20260811094500 +0700" stop="20260811110000 +0700" channel="RCTI.id">
-    <title lang="id">Terlanjur Mencintaimu Arumi</title>
-  </programme>
-  <programme start="20260811110000 +0700" stop="20260811113000 +0700" channel="RCTI.id">
-    <title lang="id">Go Spot Eksklusif</title>
-  </programme>
-  <programme start="20260811113000 +0700" stop="20260811133000 +0700" channel="RCTI.id">
-    <title lang="id">Terikat Janji Selamanya</title>
-  </programme>
-  <programme start="20260811133000 +0700" stop="20260811173000 +0700" channel="RCTI.id">
-    <title lang="id">Ikatan Cinta Aldebaran &amp; Andin</title>
-  </programme>
-  <programme start="20260811173000 +0700" stop="20260811190000 +0700" channel="RCTI.id">
-    <title lang="id">Ternyata Ini Cinta</title>
-  </programme>
-  <programme start="20260811190000 +0700" stop="20260811203000 +0700" channel="RCTI.id">
-    <title lang="id">Terikat Janji</title>
-  </programme>
-  <programme start="20260811203000 +0700" stop="20260811214500 +0700" channel="RCTI.id">
-    <title lang="id">Terlanjur Mencintaimu</title>
-  </programme>
-  <programme start="20260811214500 +0700" stop="20260811230000 +0700" channel="RCTI.id">
-    <title lang="id">Cinta Dua Kasta</title>
-  </programme>
-  <programme start="20260811230000 +0700" stop="20260812001500 +0700" channel="RCTI.id">
-    <title lang="id">Semua Indah Karena Cinta</title>
-  </programme>
-  <programme start="20260809000000 +0700" stop="20260809020000 +0700" channel="MNCTV.id">
-    <title lang="id">Suparman Reborn</title>
-  </programme>
-  <programme start="20260809020000 +0700" stop="20260809030000 +0700" channel="MNCTV.id">
-    <title lang="id">Suparman Reborn</title>
-  </programme>
-  <programme start="20260809030000 +0700" stop="20260809033000 +0700" channel="MNCTV.id">
-    <title lang="id">Bimbingan Rohani Katolik</title>
-  </programme>
-  <programme start="20260809033000 +0700" stop="20260809060000 +0700" channel="MNCTV.id">
-    <title lang="id">Suparman Reborn</title>
-  </programme>
-  <programme start="20260809060000 +0700" stop="20260809063000 +0700" channel="MNCTV.id">
-    <title lang="id">Bima S</title>
-  </programme>
-  <programme start="20260809063000 +0700" stop="20260809070000 +0700" channel="MNCTV.id">
-    <title lang="id">Titus The Detective</title>
-  </programme>
-  <programme start="20260809070000 +0700" stop="20260809080000 +0700" channel="MNCTV.id">
-    <title lang="id">Pada Zaman Dahulu</title>
-  </programme>
-  <programme start="20260809080000 +0700" stop="20260809113000 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260809113000 +0700" stop="20260809143000 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260809143000 +0700" stop="20260809160000 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260809160000 +0700" stop="20260809173000 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260809173000 +0700" stop="20260809190000 +0700" channel="MNCTV.id">
-    <title lang="id">Entong</title>
-  </programme>
-  <programme start="20260809190000 +0700" stop="20260809193000 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260809193000 +0700" stop="20260809230000 +0700" channel="MNCTV.id">
-    <title lang="id">Liga DMD Panggung Rezeki (L)</title>
-  </programme>
-  <programme start="20260809230000 +0700" stop="20260810000000 +0700" channel="MNCTV.id">
-    <title lang="id">Disconnected</title>
-  </programme>
   <programme start="20260810000000 +0700" stop="20260810020000 +0700" channel="MNCTV.id">
     <title lang="id">Suparman Reborn</title>
   </programme>
@@ -735,6 +691,99 @@
   </programme>
   <programme start="20260812230000 +0700" stop="20260813020000 +0700" channel="MNCTV.id">
     <title lang="id">Suparman Reborn</title>
+  </programme>
+  <programme start="20260813020000 +0700" stop="20260813060000 +0700" channel="MNCTV.id">
+    <title lang="id">Suparman Reborn</title>
+  </programme>
+  <programme start="20260813060000 +0700" stop="20260813061500 +0700" channel="MNCTV.id">
+    <title lang="id">CoComelon</title>
+  </programme>
+  <programme start="20260813061500 +0700" stop="20260813070000 +0700" channel="MNCTV.id">
+    <title lang="id">Dora &amp; Sahabat</title>
+  </programme>
+  <programme start="20260813070000 +0700" stop="20260813073000 +0700" channel="MNCTV.id">
+    <title lang="id">Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260813073000 +0700" stop="20260813080000 +0700" channel="MNCTV.id">
+    <title lang="id">Pada Zaman Dahulu</title>
+  </programme>
+  <programme start="20260813080000 +0700" stop="20260813111500 +0700" channel="MNCTV.id">
+    <title lang="id">Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260813111500 +0700" stop="20260813120000 +0700" channel="MNCTV.id">
+    <title lang="id">Kiko</title>
+  </programme>
+  <programme start="20260813120000 +0700" stop="20260813123000 +0700" channel="MNCTV.id">
+    <title lang="id">Lintas iNews Siang</title>
+  </programme>
+  <programme start="20260813123000 +0700" stop="20260813130000 +0700" channel="MNCTV.id">
+    <title lang="id">Seleb On News</title>
+  </programme>
+  <programme start="20260813130000 +0700" stop="20260813143000 +0700" channel="MNCTV.id">
+    <title lang="id">Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260813143000 +0700" stop="20260813160000 +0700" channel="MNCTV.id">
+    <title lang="id">Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260813160000 +0700" stop="20260813180000 +0700" channel="MNCTV.id">
+    <title lang="id">Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260813180000 +0700" stop="20260813190000 +0700" channel="MNCTV.id">
+    <title lang="id">Entong</title>
+  </programme>
+  <programme start="20260813190000 +0700" stop="20260813200000 +0700" channel="MNCTV.id">
+    <title lang="id">Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260813200000 +0700" stop="20260813230000 +0700" channel="MNCTV.id">
+    <title lang="id">DMD Panggung Rezeki</title>
+  </programme>
+  <programme start="20260813230000 +0700" stop="20260814020000 +0700" channel="MNCTV.id">
+    <title lang="id">Suparman Reborn</title>
+  </programme>
+  <programme start="20260809000000 +0700" stop="20260809020000 +0700" channel="MNCTV.id">
+    <title>Suparman Reborn</title>
+  </programme>
+  <programme start="20260809020000 +0700" stop="20260809030000 +0700" channel="MNCTV.id">
+    <title>Suparman Reborn</title>
+  </programme>
+  <programme start="20260809030000 +0700" stop="20260809033000 +0700" channel="MNCTV.id">
+    <title>Bimbingan Rohani Katolik</title>
+  </programme>
+  <programme start="20260809033000 +0700" stop="20260809060000 +0700" channel="MNCTV.id">
+    <title>Suparman Reborn</title>
+  </programme>
+  <programme start="20260809060000 +0700" stop="20260809063000 +0700" channel="MNCTV.id">
+    <title>Bima S</title>
+  </programme>
+  <programme start="20260809063000 +0700" stop="20260809070000 +0700" channel="MNCTV.id">
+    <title>Titus The Detective</title>
+  </programme>
+  <programme start="20260809070000 +0700" stop="20260809080000 +0700" channel="MNCTV.id">
+    <title>Pada Zaman Dahulu</title>
+  </programme>
+  <programme start="20260809080000 +0700" stop="20260809113000 +0700" channel="MNCTV.id">
+    <title>Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260809113000 +0700" stop="20260809143000 +0700" channel="MNCTV.id">
+    <title>Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260809143000 +0700" stop="20260809160000 +0700" channel="MNCTV.id">
+    <title>Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260809160000 +0700" stop="20260809173000 +0700" channel="MNCTV.id">
+    <title>Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260809173000 +0700" stop="20260809190000 +0700" channel="MNCTV.id">
+    <title>Entong</title>
+  </programme>
+  <programme start="20260809190000 +0700" stop="20260809193000 +0700" channel="MNCTV.id">
+    <title>Upin &amp; Ipin</title>
+  </programme>
+  <programme start="20260809193000 +0700" stop="20260809230000 +0700" channel="MNCTV.id">
+    <title>Liga DMD Panggung Rezeki (L)</title>
+  </programme>
+  <programme start="20260809230000 +0700" stop="20260810000000 +0700" channel="MNCTV.id">
+    <title>Disconnected</title>
   </programme>
   <programme start="20260802000000 +0700" stop="20260802020000 +0700" channel="MNCTV.id">
     <title lang="id">Suparman Reborn</title>
@@ -1099,54 +1148,6 @@
   <programme start="20260810050000 +0700" stop="20260810060000 +0700" channel="MNCTV.id">
     <title lang="id">Siraman Qolbu</title>
   </programme>
-  <programme start="20260813020000 +0700" stop="20260813060000 +0700" channel="MNCTV.id">
-    <title lang="id">Suparman Reborn</title>
-  </programme>
-  <programme start="20260813060000 +0700" stop="20260813061500 +0700" channel="MNCTV.id">
-    <title lang="id">CoComelon</title>
-  </programme>
-  <programme start="20260813061500 +0700" stop="20260813070000 +0700" channel="MNCTV.id">
-    <title lang="id">Dora &amp; Sahabat</title>
-  </programme>
-  <programme start="20260813070000 +0700" stop="20260813073000 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260813073000 +0700" stop="20260813080000 +0700" channel="MNCTV.id">
-    <title lang="id">Pada Zaman Dahulu</title>
-  </programme>
-  <programme start="20260813080000 +0700" stop="20260813111500 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260813111500 +0700" stop="20260813120000 +0700" channel="MNCTV.id">
-    <title lang="id">Kiko</title>
-  </programme>
-  <programme start="20260813120000 +0700" stop="20260813123000 +0700" channel="MNCTV.id">
-    <title lang="id">Lintas iNews Siang</title>
-  </programme>
-  <programme start="20260813123000 +0700" stop="20260813130000 +0700" channel="MNCTV.id">
-    <title lang="id">Seleb On News</title>
-  </programme>
-  <programme start="20260813130000 +0700" stop="20260813143000 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260813143000 +0700" stop="20260813160000 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260813160000 +0700" stop="20260813180000 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260813180000 +0700" stop="20260813190000 +0700" channel="MNCTV.id">
-    <title lang="id">Entong</title>
-  </programme>
-  <programme start="20260813190000 +0700" stop="20260813200000 +0700" channel="MNCTV.id">
-    <title lang="id">Upin &amp; Ipin</title>
-  </programme>
-  <programme start="20260813200000 +0700" stop="20260813230000 +0700" channel="MNCTV.id">
-    <title lang="id">DMD Panggung Rezeki</title>
-  </programme>
-  <programme start="20260813230000 +0700" stop="20260814020000 +0700" channel="MNCTV.id">
-    <title lang="id">Suparman Reborn</title>
-  </programme>
   <programme start="20260814020000 +0700" stop="20260814050000 +0700" channel="MNCTV.id">
     <title lang="id">Suparman Reborn</title>
   </programme>
@@ -1272,51 +1273,6 @@
   </programme>
   <programme start="20260816230000 +0700" stop="20260817000000 +0700" channel="MNCTV.id">
     <title lang="id">Cinlock</title>
-  </programme>
-  <programme start="20260809000000 +0700" stop="20260809020000 +0700" channel="GTV.id">
-    <title lang="id">1001 Kisah</title>
-  </programme>
-  <programme start="20260809020000 +0700" stop="20260809040000 +0700" channel="GTV.id">
-    <title lang="id">Ragam Cerita</title>
-  </programme>
-  <programme start="20260809040000 +0700" stop="20260809060000 +0700" channel="GTV.id">
-    <title lang="id">Petualangan Fantasi</title>
-  </programme>
-  <programme start="20260809060000 +0700" stop="20260809070000 +0700" channel="GTV.id">
-    <title lang="id">CoComelon Dan Sahabat</title>
-  </programme>
-  <programme start="20260809070000 +0700" stop="20260809080000 +0700" channel="GTV.id">
-    <title lang="id">Bernard Bear</title>
-  </programme>
-  <programme start="20260809080000 +0700" stop="20260809103000 +0700" channel="GTV.id">
-    <title lang="id">Pada Zaman Dahulu</title>
-  </programme>
-  <programme start="20260809103000 +0700" stop="20260809123000 +0700" channel="GTV.id">
-    <title lang="id">SpongeBob SquarePants</title>
-  </programme>
-  <programme start="20260809123000 +0700" stop="20260809150000 +0700" channel="GTV.id">
-    <title lang="id">SpongeBob SquarePants</title>
-  </programme>
-  <programme start="20260809150000 +0700" stop="20260809170000 +0700" channel="GTV.id">
-    <title lang="id">Entong</title>
-  </programme>
-  <programme start="20260809170000 +0700" stop="20260809180000 +0700" channel="GTV.id">
-    <title lang="id">Pada Zaman Dahulu</title>
-  </programme>
-  <programme start="20260809180000 +0700" stop="20260809193000 +0700" channel="GTV.id">
-    <title lang="id">Berkawan Dengan Kera</title>
-  </programme>
-  <programme start="20260809193000 +0700" stop="20260809203000 +0700" channel="GTV.id">
-    <title lang="id">Legenda Nusantara</title>
-  </programme>
-  <programme start="20260809203000 +0700" stop="20260809223000 +0700" channel="GTV.id">
-    <title lang="id">Ancient Beast: Wolf Lizard</title>
-  </programme>
-  <programme start="20260809223000 +0700" stop="20260809233000 +0700" channel="GTV.id">
-    <title lang="id">Journey To Dianfeng Valley</title>
-  </programme>
-  <programme start="20260809233000 +0700" stop="20260810003000 +0700" channel="GTV.id">
-    <title lang="id">Kisah Viral</title>
   </programme>
   <programme start="20260810003000 +0700" stop="20260810020000 +0700" channel="GTV.id">
     <title lang="id">1001 Kisah</title>
@@ -1452,6 +1408,99 @@
   </programme>
   <programme start="20260812233000 +0700" stop="20260813003000 +0700" channel="GTV.id">
     <title lang="id">Arab Maklum</title>
+  </programme>
+  <programme start="20260813003000 +0700" stop="20260813020000 +0700" channel="GTV.id">
+    <title lang="id">1001 Kisah</title>
+  </programme>
+  <programme start="20260813020000 +0700" stop="20260813040000 +0700" channel="GTV.id">
+    <title lang="id">Ragam Cerita</title>
+  </programme>
+  <programme start="20260813040000 +0700" stop="20260813060000 +0700" channel="GTV.id">
+    <title lang="id">Petualangan Fantasi</title>
+  </programme>
+  <programme start="20260813060000 +0700" stop="20260813063000 +0700" channel="GTV.id">
+    <title lang="id">Buletin iNews Pagi</title>
+  </programme>
+  <programme start="20260813063000 +0700" stop="20260813080000 +0700" channel="GTV.id">
+    <title lang="id">Kiko</title>
+  </programme>
+  <programme start="20260813080000 +0700" stop="20260813103000 +0700" channel="GTV.id">
+    <title lang="id">Pada Zaman Dahulu</title>
+  </programme>
+  <programme start="20260813103000 +0700" stop="20260813123000 +0700" channel="GTV.id">
+    <title lang="id">SpongeBob SquarePants</title>
+  </programme>
+  <programme start="20260813123000 +0700" stop="20260813150000 +0700" channel="GTV.id">
+    <title lang="id">SpongeBob SquarePants</title>
+  </programme>
+  <programme start="20260813150000 +0700" stop="20260813170000 +0700" channel="GTV.id">
+    <title lang="id">Entong</title>
+  </programme>
+  <programme start="20260813170000 +0700" stop="20260813180000 +0700" channel="GTV.id">
+    <title lang="id">Pada Zaman Dahulu</title>
+  </programme>
+  <programme start="20260813180000 +0700" stop="20260813193000 +0700" channel="GTV.id">
+    <title lang="id">Film Keluarga</title>
+  </programme>
+  <programme start="20260813193000 +0700" stop="20260813203000 +0700" channel="GTV.id">
+    <title lang="id">Entong</title>
+  </programme>
+  <programme start="20260813203000 +0700" stop="20260813223000 +0700" channel="GTV.id">
+    <title lang="id">Medallion</title>
+  </programme>
+  <programme start="20260813223000 +0700" stop="20260813233000 +0700" channel="GTV.id">
+    <title lang="id">Jin &amp; Jun</title>
+  </programme>
+  <programme start="20260813233000 +0700" stop="20260814003000 +0700" channel="GTV.id">
+    <title lang="id">Arab Maklum</title>
+  </programme>
+  <programme start="20260808220000 +0700" stop="20260809000000 +0700" channel="GTV.id">
+    <title>GTV Program</title>
+  </programme>
+  <programme start="20260809000000 +0700" stop="20260809020000 +0700" channel="GTV.id">
+    <title>1001 Kisah</title>
+  </programme>
+  <programme start="20260809020000 +0700" stop="20260809040000 +0700" channel="GTV.id">
+    <title>Ragam Cerita</title>
+  </programme>
+  <programme start="20260809040000 +0700" stop="20260809060000 +0700" channel="GTV.id">
+    <title>Petualangan Fantasi</title>
+  </programme>
+  <programme start="20260809060000 +0700" stop="20260809070000 +0700" channel="GTV.id">
+    <title>Cocomelon dan Sahabat</title>
+  </programme>
+  <programme start="20260809070000 +0700" stop="20260809080000 +0700" channel="GTV.id">
+    <title>Bernard Bear</title>
+  </programme>
+  <programme start="20260809080000 +0700" stop="20260809103000 +0700" channel="GTV.id">
+    <title>Pada Zaman Dahulu</title>
+  </programme>
+  <programme start="20260809103000 +0700" stop="20260809123000 +0700" channel="GTV.id">
+    <title>SpongeBob SquarePants</title>
+  </programme>
+  <programme start="20260809123000 +0700" stop="20260809150000 +0700" channel="GTV.id">
+    <title>SpongeBob SquarePants</title>
+  </programme>
+  <programme start="20260809150000 +0700" stop="20260809170000 +0700" channel="GTV.id">
+    <title>Entong</title>
+  </programme>
+  <programme start="20260809170000 +0700" stop="20260809180000 +0700" channel="GTV.id">
+    <title>Pada Zaman Dahulu</title>
+  </programme>
+  <programme start="20260809180000 +0700" stop="20260809193000 +0700" channel="GTV.id">
+    <title>Berkawan Dengan Kera</title>
+  </programme>
+  <programme start="20260809193000 +0700" stop="20260809203000 +0700" channel="GTV.id">
+    <title>Legenda Nusantara</title>
+  </programme>
+  <programme start="20260809203000 +0700" stop="20260809223000 +0700" channel="GTV.id">
+    <title>Big Movies : Ancient Beast: Wolf Lizard</title>
+  </programme>
+  <programme start="20260809223000 +0700" stop="20260809233000 +0700" channel="GTV.id">
+    <title>Journey to Dianfeng Valley</title>
+  </programme>
+  <programme start="20260809233000 +0700" stop="20260810010000 +0700" channel="GTV.id">
+    <title>Kisah Viral</title>
   </programme>
   <programme start="20260802000000 +0700" stop="20260802010000 +0700" channel="GTV.id">
     <title lang="id">Uang Kaget</title>
@@ -1816,56 +1865,8 @@
   <programme start="20260808193000 +0700" stop="20260808220000 +0700" channel="GTV.id">
     <title lang="id">ASEAN C'ship Hyundai Cup (L)</title>
   </programme>
-  <programme start="20260808220000 +0700" stop="20260809000000 +0700" channel="GTV.id">
-    <title lang="id">ASEAN C'ship Hyundai Cup</title>
-  </programme>
   <programme start="20260809010000 +0700" stop="20260809020000 +0700" channel="GTV.id">
     <title lang="id">1001 Kisah</title>
-  </programme>
-  <programme start="20260813003000 +0700" stop="20260813020000 +0700" channel="GTV.id">
-    <title lang="id">1001 Kisah</title>
-  </programme>
-  <programme start="20260813020000 +0700" stop="20260813040000 +0700" channel="GTV.id">
-    <title lang="id">Ragam Cerita</title>
-  </programme>
-  <programme start="20260813040000 +0700" stop="20260813060000 +0700" channel="GTV.id">
-    <title lang="id">Petualangan Fantasi</title>
-  </programme>
-  <programme start="20260813060000 +0700" stop="20260813063000 +0700" channel="GTV.id">
-    <title lang="id">Buletin iNews Pagi</title>
-  </programme>
-  <programme start="20260813063000 +0700" stop="20260813080000 +0700" channel="GTV.id">
-    <title lang="id">Kiko</title>
-  </programme>
-  <programme start="20260813080000 +0700" stop="20260813103000 +0700" channel="GTV.id">
-    <title lang="id">Pada Zaman Dahulu</title>
-  </programme>
-  <programme start="20260813103000 +0700" stop="20260813123000 +0700" channel="GTV.id">
-    <title lang="id">SpongeBob SquarePants</title>
-  </programme>
-  <programme start="20260813123000 +0700" stop="20260813150000 +0700" channel="GTV.id">
-    <title lang="id">SpongeBob SquarePants</title>
-  </programme>
-  <programme start="20260813150000 +0700" stop="20260813170000 +0700" channel="GTV.id">
-    <title lang="id">Entong</title>
-  </programme>
-  <programme start="20260813170000 +0700" stop="20260813180000 +0700" channel="GTV.id">
-    <title lang="id">Pada Zaman Dahulu</title>
-  </programme>
-  <programme start="20260813180000 +0700" stop="20260813193000 +0700" channel="GTV.id">
-    <title lang="id">Film Keluarga</title>
-  </programme>
-  <programme start="20260813193000 +0700" stop="20260813203000 +0700" channel="GTV.id">
-    <title lang="id">Entong</title>
-  </programme>
-  <programme start="20260813203000 +0700" stop="20260813223000 +0700" channel="GTV.id">
-    <title lang="id">Medallion</title>
-  </programme>
-  <programme start="20260813223000 +0700" stop="20260813233000 +0700" channel="GTV.id">
-    <title lang="id">Jin &amp; Jun</title>
-  </programme>
-  <programme start="20260813233000 +0700" stop="20260814003000 +0700" channel="GTV.id">
-    <title lang="id">Arab Maklum</title>
   </programme>
   <programme start="20260814003000 +0700" stop="20260814020000 +0700" channel="GTV.id">
     <title lang="id">1001 Kisah</title>
@@ -1960,60 +1961,6 @@
   <programme start="20260816003000 +0700" stop="20260816020000 +0700" channel="GTV.id">
     <title lang="id">1001 Kisah</title>
   </programme>
-  <programme start="20260809000100 +0700" stop="20260809020000 +0700" channel="SCTV.id">
-    <title lang="id">Warkop DKI Reborn: Jangkrik...</title>
-  </programme>
-  <programme start="20260809020000 +0700" stop="20260809030000 +0700" channel="SCTV.id">
-    <title lang="id">Namaku Sugeng Rawuh</title>
-  </programme>
-  <programme start="20260809030000 +0700" stop="20260809040000 +0700" channel="SCTV.id">
-    <title lang="id">Pak Kades Itu Kekasihku</title>
-  </programme>
-  <programme start="20260809040000 +0700" stop="20260809043000 +0700" channel="SCTV.id">
-    <title lang="id">Barakallah</title>
-  </programme>
-  <programme start="20260809043000 +0700" stop="20260809050000 +0700" channel="SCTV.id">
-    <title lang="id">Buser</title>
-  </programme>
-  <programme start="20260809050000 +0700" stop="20260809060000 +0700" channel="SCTV.id">
-    <title lang="id">Liputan 6 Pagi (L)</title>
-  </programme>
-  <programme start="20260809060000 +0700" stop="20260809063000 +0700" channel="SCTV.id">
-    <title lang="id">Point Of View</title>
-  </programme>
-  <programme start="20260809063000 +0700" stop="20260809070000 +0700" channel="SCTV.id">
-    <title lang="id">Halo Selebriti</title>
-  </programme>
-  <programme start="20260809070000 +0700" stop="20260809100000 +0700" channel="SCTV.id">
-    <title lang="id">Karnaval SCTV (L)</title>
-  </programme>
-  <programme start="20260809100000 +0700" stop="20260809120000 +0700" channel="SCTV.id">
-    <title lang="id">Hampir Aja Kegocek Mas Plenger</title>
-  </programme>
-  <programme start="20260809120000 +0700" stop="20260809123000 +0700" channel="SCTV.id">
-    <title lang="id">Liputan 6 Siang (L)</title>
-  </programme>
-  <programme start="20260809123000 +0700" stop="20260809141500 +0700" channel="SCTV.id">
-    <title lang="id">SCTV FTV Siang</title>
-  </programme>
-  <programme start="20260809141500 +0700" stop="20260809171500 +0700" channel="SCTV.id">
-    <title lang="id">Karnaval SCTV (L)</title>
-  </programme>
-  <programme start="20260809171500 +0700" stop="20260809184500 +0700" channel="SCTV.id">
-    <title lang="id">Asmara Gen Z New Era</title>
-  </programme>
-  <programme start="20260809184500 +0700" stop="20260809201500 +0700" channel="SCTV.id">
-    <title lang="id">Seindah Masa Remaja</title>
-  </programme>
-  <programme start="20260809201500 +0700" stop="20260809214500 +0700" channel="SCTV.id">
-    <title lang="id">Wajah Cinta Yang Lain</title>
-  </programme>
-  <programme start="20260809214500 +0700" stop="20260809230000 +0700" channel="SCTV.id">
-    <title lang="id">Biarkan Hati Bicara</title>
-  </programme>
-  <programme start="20260809230000 +0700" stop="20260810000100 +0700" channel="SCTV.id">
-    <title lang="id">Vidio Original Series: Mercury</title>
-  </programme>
   <programme start="20260810000100 +0700" stop="20260810020000 +0700" channel="SCTV.id">
     <title lang="id">FTV Utama</title>
   </programme>
@@ -2034,14 +1981,31 @@
     <title>Barakallah</title>
     <desc>Ceramah islami penuh makna. Tayang setiap selasa - minggu, mulai pukul 04.00 WIB</desc>
   </programme>
+  <programme start="20260809043000 +0700" stop="20260809045300 +0700" channel="SCTV.id">
+    <title>Buser</title>
+  </programme>
   <programme start="20260809045300 +0700" stop="20260809060000 +0700" channel="SCTV.id">
     <title>Liputan 6 Pagi</title>
+  </programme>
+  <programme start="20260809060000 +0700" stop="20260809063000 +0700" channel="SCTV.id">
+    <title>Point Of View</title>
+  </programme>
+  <programme start="20260809063000 +0700" stop="20260809070200 +0700" channel="SCTV.id">
+    <title>Halo Selebriti</title>
   </programme>
   <programme start="20260809070200 +0700" stop="20260809100000 +0700" channel="SCTV.id">
     <title>Karnaval SCTV</title>
   </programme>
+  <programme start="20260809100000 +0700" stop="20260809115700 +0700" channel="SCTV.id">
+    <title>FTV Pagi: Hampir Aja Kegocek Mas Plenger</title>
+    <desc>Film televisi yang mengangkat kisah romantisme kehidupan dengan konflik yang menarik. Tayang setiap hari.</desc>
+  </programme>
   <programme start="20260809115700 +0700" stop="20260809123000 +0700" channel="SCTV.id">
     <title>Liputan 6 Siang</title>
+  </programme>
+  <programme start="20260809123000 +0700" stop="20260809140600 +0700" channel="SCTV.id">
+    <title>FTV Siang: Ditembak Cinta Pake Botol Dor Dor Dor</title>
+    <desc>Film televisi yang mengangkat kisah romantisme kehidupan dengan konflik yang menarik. Tayang setiap hari.</desc>
   </programme>
   <programme start="20260809140600 +0700" stop="20260809170500 +0700" channel="SCTV.id">
     <title>Karnaval SCTV</title>
@@ -2187,6 +2151,72 @@
   </programme>
   <programme start="20260811153000 +0700" stop="20260811171500 +0700" channel="SCTV.id">
     <title>FTV Sore: Bebek Bebeknya Sudah Mulai Aktif Ya Bund</title>
+    <desc>Film televisi yang mengangkat kisah romantisme kehidupan dengan konflik yang menarik. Tayang setiap hari.</desc>
+  </programme>
+  <programme start="20260811171500 +0700" stop="20260811184500 +0700" channel="SCTV.id">
+    <title>Asmara Gen Z New Era</title>
+    <desc>Sinetron yang bercerita tentang persahabatan, cinta dan serunya keseharian para Gen Z. Dibintangi oleh AQEELA CALISTA, FATTAH SYACH, ARYA MOHAN, NICOLE ROSSI, HARRY VAUGHAN dan RAISA MARIE. Tayang setiap hari pukul 17.00 WIB.</desc>
+  </programme>
+  <programme start="20260811184500 +0700" stop="20260811201500 +0700" channel="SCTV.id">
+    <title>Seindah Masa Remaja</title>
+    <desc>Kanaya (Sandrinna Michelle) seorang gadis remaja yang populer di sekolah, namun di rumah ia hanyalah seorang kakak yang harus menjaga adiknya, Alisa (Giselle Irene), apalagi Alisa yang memutuskan untuk sekolah bersama Kanaya. Tidak hanya itu, di sekolah Kanaya harus berhadapan dengan cinta pertamanya Arga (Andy William) dan Dastan (Lazuardy Nasution), anak baru yang tengil di sekolah. Bagaimanakah nasib Kanaya selanjutnya? Sakiskan SINETRON TERBARU SEINDAH MASA REMAJA</desc>
+  </programme>
+  <programme start="20260811201500 +0700" stop="20260811214500 +0700" channel="SCTV.id">
+    <title>Wajah Cinta Yang Lain</title>
+    <desc>Rasa sakit dan cinta di ingatakanku akan terus kekal. Dan Sekarang, cinta itu kembali dengan wajah yang lain..? Wajah Cinta Yang lain dibintangi oleh Dinda Kirana, Ibrahim Risyad, Oka Antara, Aulia Sarah, Andi Anissa, dan Andri Mashadi.</desc>
+  </programme>
+  <programme start="20260811214500 +0700" stop="20260811230000 +0700" channel="SCTV.id">
+    <title>Biarkan Hati Bicara</title>
+    <desc>Mimpi bahagia arina (febby rastanty) berubah jadi ancaman saat hari pernikahannya bersama reno (randy jhon) dihancurkan oleh fico (rangga azof) yang dikuasai dendam keluarga! saksikan kisahnya dalam sinetron terbaru biarkan hati bicara</desc>
+  </programme>
+  <programme start="20260811230000 +0700" stop="20260812000000 +0700" channel="SCTV.id">
+    <title>Vidio Original Series Mercury</title>
+  </programme>
+  <programme start="20260812000000 +0700" stop="20260812013000 +0700" channel="SCTV.id">
+    <title>FTV Primetime: Siraman Air Cinta Tukang Air</title>
+    <desc>Film televisi yang mengangkat kisah romantisme kehidupan dengan konflik yang menarik. Tayang setiap hari.</desc>
+  </programme>
+  <programme start="20260812013000 +0700" stop="20260812024500 +0700" channel="SCTV.id">
+    <title>FTV Utama: Rebutan Pembantu Cantik</title>
+    <desc>Film televisi yang mengangkat kisah romantisme kehidupan dengan konflik yang menarik. Tayang setiap hari.</desc>
+  </programme>
+  <programme start="20260812024500 +0700" stop="20260812040000 +0700" channel="SCTV.id">
+    <title>Sinema Dini Hari</title>
+    <desc>Film televisi yang mengangkat kisah romantisme kehidupan dengan konflik yang menarik. Tayang setiap hari.</desc>
+  </programme>
+  <programme start="20260812040000 +0700" stop="20260812043000 +0700" channel="SCTV.id">
+    <title>Barakallah</title>
+    <desc>Ceramah islami penuh makna. Tayang setiap selasa - minggu, mulai pukul 04.00 WIB</desc>
+  </programme>
+  <programme start="20260812043000 +0700" stop="20260812050000 +0700" channel="SCTV.id">
+    <title>Buser</title>
+  </programme>
+  <programme start="20260812050000 +0700" stop="20260812060000 +0700" channel="SCTV.id">
+    <title>Liputan 6 Pagi</title>
+  </programme>
+  <programme start="20260812060000 +0700" stop="20260812070000 +0700" channel="SCTV.id">
+    <title>Hot Shot</title>
+  </programme>
+  <programme start="20260812070000 +0700" stop="20260812081500 +0700" channel="SCTV.id">
+    <title>Tiba Tiba Kuis</title>
+    <desc>Program reality show yang di pandu oleh Baim Wong ini akan menemani masyarakat Indonesia selama bulan suci Ramadan di stasiun televisi SCTV Satu Untuk Semua.</desc>
+  </programme>
+  <programme start="20260812081500 +0700" stop="20260812100000 +0700" channel="SCTV.id">
+    <title>Gaspol (Games Asyik Paling Nampol)</title>
+  </programme>
+  <programme start="20260812100000 +0700" stop="20260812120000 +0700" channel="SCTV.id">
+    <title>FTV Pagi: Cintaku Diracik Dulu 5 Menit Baru Paham</title>
+    <desc>Film televisi yang mengangkat kisah romantisme kehidupan dengan konflik yang menarik. Tayang setiap hari.</desc>
+  </programme>
+  <programme start="20260812120000 +0700" stop="20260812123000 +0700" channel="SCTV.id">
+    <title>Liputan 6 Siang</title>
+  </programme>
+  <programme start="20260812123000 +0700" stop="20260812140000 +0700" channel="SCTV.id">
+    <title>FTV Siang: Tersipu Malu Sama Mas Sapu Sapu</title>
+    <desc>Film televisi yang mengangkat kisah romantisme kehidupan dengan konflik yang menarik. Tayang setiap hari.</desc>
+  </programme>
+  <programme start="20260812140000 +0700" stop="20260812153000 +0700" channel="SCTV.id">
+    <title>FTV Siang: Sedia Aku Sebelum Kamu Turun Ke Medan</title>
     <desc>Film televisi yang mengangkat kisah romantisme kehidupan dengan konflik yang menarik. Tayang setiap hari.</desc>
   </programme>
   <programme start="20260802000000 +0700" stop="20260802020000 +0700" channel="SCTV.id">
@@ -2652,6 +2682,45 @@
     <title lang="id">Biarkan Hati Bicara</title>
   </programme>
   <programme start="20260808230000 +0700" stop="20260809000100 +0700" channel="SCTV.id">
+    <title lang="id">Vidio Original Series: Mercury</title>
+  </programme>
+  <programme start="20260809000100 +0700" stop="20260809020000 +0700" channel="SCTV.id">
+    <title lang="id">Warkop DKI Reborn: Jangkrik...</title>
+  </programme>
+  <programme start="20260809020000 +0700" stop="20260809030000 +0700" channel="SCTV.id">
+    <title lang="id">Namaku Sugeng Rawuh</title>
+  </programme>
+  <programme start="20260809030000 +0700" stop="20260809040000 +0700" channel="SCTV.id">
+    <title lang="id">Pak Kades Itu Kekasihku</title>
+  </programme>
+  <programme start="20260809040000 +0700" stop="20260809043000 +0700" channel="SCTV.id">
+    <title lang="id">Barakallah</title>
+  </programme>
+  <programme start="20260809050000 +0700" stop="20260809060000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Pagi (L)</title>
+  </programme>
+  <programme start="20260809070000 +0700" stop="20260809100000 +0700" channel="SCTV.id">
+    <title lang="id">Karnaval SCTV (L)</title>
+  </programme>
+  <programme start="20260809120000 +0700" stop="20260809123000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Siang (L)</title>
+  </programme>
+  <programme start="20260809141500 +0700" stop="20260809171500 +0700" channel="SCTV.id">
+    <title lang="id">Karnaval SCTV (L)</title>
+  </programme>
+  <programme start="20260809171500 +0700" stop="20260809184500 +0700" channel="SCTV.id">
+    <title lang="id">Asmara Gen Z New Era</title>
+  </programme>
+  <programme start="20260809184500 +0700" stop="20260809201500 +0700" channel="SCTV.id">
+    <title lang="id">Seindah Masa Remaja</title>
+  </programme>
+  <programme start="20260809201500 +0700" stop="20260809214500 +0700" channel="SCTV.id">
+    <title lang="id">Wajah Cinta Yang Lain</title>
+  </programme>
+  <programme start="20260809214500 +0700" stop="20260809230000 +0700" channel="SCTV.id">
+    <title lang="id">Biarkan Hati Bicara</title>
+  </programme>
+  <programme start="20260809230000 +0700" stop="20260810000100 +0700" channel="SCTV.id">
     <title lang="id">Vidio Original Series: Mercury</title>
   </programme>
   <programme start="20260808221500 +0700" stop="20260809001500 +0700" channel="TransTV.id">
@@ -3587,6 +3656,93 @@
   <programme start="20260811150000 +0700" stop="20260811160000 +0700" channel="Trans7.id">
     <title>Bikin Seneng</title>
   </programme>
+  <programme start="20260811160000 +0700" stop="20260811170000 +0700" channel="Trans7.id">
+    <title>Makan Receh</title>
+  </programme>
+  <programme start="20260811170000 +0700" stop="20260811180000 +0700" channel="Trans7.id">
+    <title>Selebrita Update</title>
+  </programme>
+  <programme start="20260811180000 +0700" stop="20260811184500 +0700" channel="Trans7.id">
+    <title>On The Spot</title>
+  </programme>
+  <programme start="20260811184500 +0700" stop="20260811191500 +0700" channel="Trans7.id">
+    <title>Secret Story</title>
+  </programme>
+  <programme start="20260811191500 +0700" stop="20260811200000 +0700" channel="Trans7.id">
+    <title>POV (Pasti Obrolan Viral)</title>
+  </programme>
+  <programme start="20260811200000 +0700" stop="20260811213000 +0700" channel="Trans7.id">
+    <title>Arisan</title>
+  </programme>
+  <programme start="20260811213000 +0700" stop="20260811224500 +0700" channel="Trans7.id">
+    <title>Lapor Pak!</title>
+  </programme>
+  <programme start="20260811224500 +0700" stop="20260811233000 +0700" channel="Trans7.id">
+    <title>The Police</title>
+  </programme>
+  <programme start="20260811233000 +0700" stop="20260812001500 +0700" channel="Trans7.id">
+    <title>Misteri Dunia</title>
+  </programme>
+  <programme start="20260812001500 +0700" stop="20260812004500 +0700" channel="Trans7.id">
+    <title>Redaksi Malam</title>
+  </programme>
+  <programme start="20260812004500 +0700" stop="20260812013000 +0700" channel="Trans7.id">
+    <title>Sport 7</title>
+  </programme>
+  <programme start="20260812013000 +0700" stop="20260812020000 +0700" channel="Trans7.id">
+    <title>Best Fishing</title>
+  </programme>
+  <programme start="20260812020000 +0700" stop="20260812023000 +0700" channel="Trans7.id">
+    <title>Dracin</title>
+  </programme>
+  <programme start="20260812023000 +0700" stop="20260812030000 +0700" channel="Trans7.id">
+    <title>Best Fishing</title>
+  </programme>
+  <programme start="20260812030000 +0700" stop="20260812040000 +0700" channel="Trans7.id">
+    <title>Amazing Trip</title>
+  </programme>
+  <programme start="20260812040000 +0700" stop="20260812044500 +0700" channel="Trans7.id">
+    <title>POV (Pasti Obrolan Viral)</title>
+  </programme>
+  <programme start="20260812044500 +0700" stop="20260812053000 +0700" channel="Trans7.id">
+    <title>Jejak Al Qur'an</title>
+  </programme>
+  <programme start="20260812053000 +0700" stop="20260812063000 +0700" channel="Trans7.id">
+    <title>Redaksi Pagi</title>
+  </programme>
+  <programme start="20260812063000 +0700" stop="20260812073000 +0700" channel="Trans7.id">
+    <title>Spotlite</title>
+  </programme>
+  <programme start="20260812073000 +0700" stop="20260812083000 +0700" channel="Trans7.id">
+    <title>Selebrita Pagi</title>
+  </programme>
+  <programme start="20260812083000 +0700" stop="20260812093000 +0700" channel="Trans7.id">
+    <title>FYP (For Your Pagi)</title>
+  </programme>
+  <programme start="20260812093000 +0700" stop="20260812101500 +0700" channel="Trans7.id">
+    <title>Selebrita Heits</title>
+  </programme>
+  <programme start="20260812101500 +0700" stop="20260812111500 +0700" channel="Trans7.id">
+    <title>Big Bang!</title>
+  </programme>
+  <programme start="20260812111500 +0700" stop="20260812120000 +0700" channel="Trans7.id">
+    <title>Enah Bikin Enak</title>
+  </programme>
+  <programme start="20260812120000 +0700" stop="20260812124500 +0700" channel="Trans7.id">
+    <title>Jejak Si Gundul</title>
+  </programme>
+  <programme start="20260812124500 +0700" stop="20260812133000 +0700" channel="Trans7.id">
+    <title>Bocah Petualang</title>
+  </programme>
+  <programme start="20260812133000 +0700" stop="20260812141500 +0700" channel="Trans7.id">
+    <title>Kepo</title>
+  </programme>
+  <programme start="20260812141500 +0700" stop="20260812144500 +0700" channel="Trans7.id">
+    <title>Redaksi</title>
+  </programme>
+  <programme start="20260812144500 +0700" stop="20260812151500 +0700" channel="Trans7.id">
+    <title>Berani Coba</title>
+  </programme>
   <programme start="20260802011500 +0700" stop="20260802020000 +0700" channel="Trans7.id">
     <title lang="id">Best Fishing</title>
   </programme>
@@ -4190,93 +4346,6 @@
   <programme start="20260808224500 +0700" stop="20260808233000 +0700" channel="Trans7.id">
     <title lang="id">The Police</title>
   </programme>
-  <programme start="20260811160000 +0700" stop="20260811170000 +0700" channel="Trans7.id">
-    <title lang="id">Makan Receh</title>
-  </programme>
-  <programme start="20260811170000 +0700" stop="20260811180000 +0700" channel="Trans7.id">
-    <title lang="id">Selebrita Update</title>
-  </programme>
-  <programme start="20260811180000 +0700" stop="20260811184500 +0700" channel="Trans7.id">
-    <title lang="id">On The Spot</title>
-  </programme>
-  <programme start="20260811184500 +0700" stop="20260811191500 +0700" channel="Trans7.id">
-    <title lang="id">Secret Story</title>
-  </programme>
-  <programme start="20260811191500 +0700" stop="20260811200000 +0700" channel="Trans7.id">
-    <title lang="id">POV (Pasti Obrolan Viral)</title>
-  </programme>
-  <programme start="20260811200000 +0700" stop="20260811213000 +0700" channel="Trans7.id">
-    <title lang="id">Arisan</title>
-  </programme>
-  <programme start="20260811213000 +0700" stop="20260811224500 +0700" channel="Trans7.id">
-    <title lang="id">Lapor Pak!</title>
-  </programme>
-  <programme start="20260811224500 +0700" stop="20260811233000 +0700" channel="Trans7.id">
-    <title lang="id">The Police</title>
-  </programme>
-  <programme start="20260811233000 +0700" stop="20260812001500 +0700" channel="Trans7.id">
-    <title lang="id">Misteri Dunia</title>
-  </programme>
-  <programme start="20260812001500 +0700" stop="20260812004500 +0700" channel="Trans7.id">
-    <title lang="id">Redaksi Malam</title>
-  </programme>
-  <programme start="20260812004500 +0700" stop="20260812013000 +0700" channel="Trans7.id">
-    <title lang="id">Sport7</title>
-  </programme>
-  <programme start="20260812013000 +0700" stop="20260812020000 +0700" channel="Trans7.id">
-    <title lang="id">Best Fishing</title>
-  </programme>
-  <programme start="20260812020000 +0700" stop="20260812023000 +0700" channel="Trans7.id">
-    <title lang="id">Dracin</title>
-  </programme>
-  <programme start="20260812023000 +0700" stop="20260812030000 +0700" channel="Trans7.id">
-    <title lang="id">Best Fishing</title>
-  </programme>
-  <programme start="20260812030000 +0700" stop="20260812040000 +0700" channel="Trans7.id">
-    <title lang="id">Amazing Trip</title>
-  </programme>
-  <programme start="20260812040000 +0700" stop="20260812044500 +0700" channel="Trans7.id">
-    <title lang="id">POV (Pasti Obrolan Viral)</title>
-  </programme>
-  <programme start="20260812044500 +0700" stop="20260812053000 +0700" channel="Trans7.id">
-    <title lang="id">Jejak Al Qur'an</title>
-  </programme>
-  <programme start="20260812053000 +0700" stop="20260812063000 +0700" channel="Trans7.id">
-    <title lang="id">Redaksi Pagi</title>
-  </programme>
-  <programme start="20260812063000 +0700" stop="20260812073000 +0700" channel="Trans7.id">
-    <title lang="id">Spotlite</title>
-  </programme>
-  <programme start="20260812073000 +0700" stop="20260812083000 +0700" channel="Trans7.id">
-    <title lang="id">Selebrita Pagi</title>
-  </programme>
-  <programme start="20260812083000 +0700" stop="20260812093000 +0700" channel="Trans7.id">
-    <title lang="id">FYP (For Your Pagi)</title>
-  </programme>
-  <programme start="20260812093000 +0700" stop="20260812101500 +0700" channel="Trans7.id">
-    <title lang="id">Selebrita Heits</title>
-  </programme>
-  <programme start="20260812101500 +0700" stop="20260812111500 +0700" channel="Trans7.id">
-    <title lang="id">Big-Bang!</title>
-  </programme>
-  <programme start="20260812111500 +0700" stop="20260812120000 +0700" channel="Trans7.id">
-    <title lang="id">Enah Bikin Enak</title>
-  </programme>
-  <programme start="20260812120000 +0700" stop="20260812124500 +0700" channel="Trans7.id">
-    <title lang="id">Jejak Si Gundul</title>
-  </programme>
-  <programme start="20260812124500 +0700" stop="20260812133000 +0700" channel="Trans7.id">
-    <title lang="id">Bocah Petualang</title>
-  </programme>
-  <programme start="20260812133000 +0700" stop="20260812141500 +0700" channel="Trans7.id">
-    <title lang="id">Kepo</title>
-  </programme>
-  <programme start="20260812141500 +0700" stop="20260812144500 +0700" channel="Trans7.id">
-    <title lang="id">Redaksi</title>
-  </programme>
-  <programme start="20260812144500 +0700" stop="20260812151500 +0700" channel="Trans7.id">
-    <title lang="id">Berani Coba</title>
-  </programme>
   <programme start="20260812151500 +0700" stop="20260812160000 +0700" channel="Trans7.id">
     <title lang="id">Cuan Bos</title>
   </programme>
@@ -4577,78 +4646,6 @@
   <programme start="20260816011500 +0700" stop="20260816020000 +0700" channel="Trans7.id">
     <title lang="id">Best Fishing</title>
   </programme>
-  <programme start="20260809000000 +0700" stop="20260809003000 +0700" channel="iNews.id">
-    <title lang="id">iNews Sport</title>
-  </programme>
-  <programme start="20260809003000 +0700" stop="20260809010000 +0700" channel="iNews.id">
-    <title lang="id">Highlight Formula E: Tokyo</title>
-  </programme>
-  <programme start="20260809010000 +0700" stop="20260809023000 +0700" channel="iNews.id">
-    <title lang="id">Hyundai Cup 2026: MAS Vs PHI</title>
-  </programme>
-  <programme start="20260809023000 +0700" stop="20260809031500 +0700" channel="iNews.id">
-    <title lang="id">Special Report</title>
-  </programme>
-  <programme start="20260809031500 +0700" stop="20260809040000 +0700" channel="iNews.id">
-    <title lang="id">Realita</title>
-  </programme>
-  <programme start="20260809040000 +0700" stop="20260809041500 +0700" channel="iNews.id">
-    <title lang="id">Realita</title>
-  </programme>
-  <programme start="20260809041500 +0700" stop="20260809060000 +0700" channel="iNews.id">
-    <title lang="id">iNews Pagi (L)</title>
-  </programme>
-  <programme start="20260809060000 +0700" stop="20260809061000 +0700" channel="iNews.id">
-    <title lang="id">Indonesia Raya</title>
-  </programme>
-  <programme start="20260809061000 +0700" stop="20260809063000 +0700" channel="iNews.id">
-    <title lang="id">iNews Sport</title>
-  </programme>
-  <programme start="20260809063000 +0700" stop="20260809073000 +0700" channel="iNews.id">
-    <title lang="id">Special Report</title>
-  </programme>
-  <programme start="20260809073000 +0700" stop="20260809081500 +0700" channel="iNews.id">
-    <title lang="id">Breaking News</title>
-  </programme>
-  <programme start="20260809081500 +0700" stop="20260809090000 +0700" channel="iNews.id">
-    <title lang="id">Realita</title>
-  </programme>
-  <programme start="20260809090000 +0700" stop="20260809100000 +0700" channel="iNews.id">
-    <title lang="id">iNews Files</title>
-  </programme>
-  <programme start="20260809100000 +0700" stop="20260809121500 +0700" channel="iNews.id">
-    <title lang="id">iNews Siang (L)</title>
-  </programme>
-  <programme start="20260809121500 +0700" stop="20260809123000 +0700" channel="iNews.id">
-    <title lang="id">Cahaya Hati The Series</title>
-  </programme>
-  <programme start="20260809123000 +0700" stop="20260809140000 +0700" channel="iNews.id">
-    <title lang="id">Cahaya Hati Indonesia (L)</title>
-  </programme>
-  <programme start="20260809140000 +0700" stop="20260809140500 +0700" channel="iNews.id">
-    <title lang="id">Breaking Goals (L)</title>
-  </programme>
-  <programme start="20260809140500 +0700" stop="20260809153000 +0700" channel="iNews.id">
-    <title lang="id">Breaking News (L)</title>
-  </programme>
-  <programme start="20260809153000 +0700" stop="20260809170000 +0700" channel="iNews.id">
-    <title lang="id">Realita (L)</title>
-  </programme>
-  <programme start="20260809170000 +0700" stop="20260809190000 +0700" channel="iNews.id">
-    <title lang="id">iNews Sore (L)</title>
-  </programme>
-  <programme start="20260809190000 +0700" stop="20260809201500 +0700" channel="iNews.id">
-    <title lang="id">iNews Room Weekend (L)</title>
-  </programme>
-  <programme start="20260809201500 +0700" stop="20260809215000 +0700" channel="iNews.id">
-    <title lang="id">iNews Malam (L)</title>
-  </programme>
-  <programme start="20260809215000 +0700" stop="20260809220000 +0700" channel="iNews.id">
-    <title lang="id">Breaking Goals (L)</title>
-  </programme>
-  <programme start="20260809220000 +0700" stop="20260810010000 +0700" channel="iNews.id">
-    <title lang="id">Rakyat Bersuara</title>
-  </programme>
   <programme start="20260810010000 +0700" stop="20260810014500 +0700" channel="iNews.id">
     <title lang="id">iNews Sore</title>
   </programme>
@@ -4888,6 +4885,162 @@
   </programme>
   <programme start="20260812233000 +0700" stop="20260813000000 +0700" channel="iNews.id">
     <title lang="id">iNews Sport (L)</title>
+  </programme>
+  <programme start="20260813000000 +0700" stop="20260813004500 +0700" channel="iNews.id">
+    <title lang="id">Breaking News</title>
+  </programme>
+  <programme start="20260813004500 +0700" stop="20260813013000 +0700" channel="iNews.id">
+    <title lang="id">iNews Sore</title>
+  </programme>
+  <programme start="20260813013000 +0700" stop="20260813020000 +0700" channel="iNews.id">
+    <title lang="id">Highlight Formula E: Tokyo</title>
+  </programme>
+  <programme start="20260813020000 +0700" stop="20260813023000 +0700" channel="iNews.id">
+    <title lang="id">iNews Malam</title>
+  </programme>
+  <programme start="20260813023000 +0700" stop="20260813031500 +0700" channel="iNews.id">
+    <title lang="id">Special Report</title>
+  </programme>
+  <programme start="20260813031500 +0700" stop="20260813040000 +0700" channel="iNews.id">
+    <title lang="id">Realita</title>
+  </programme>
+  <programme start="20260813040000 +0700" stop="20260813041500 +0700" channel="iNews.id">
+    <title lang="id">Realita</title>
+  </programme>
+  <programme start="20260813041500 +0700" stop="20260813053000 +0700" channel="iNews.id">
+    <title lang="id">iNews Pagi (L)</title>
+  </programme>
+  <programme start="20260813053000 +0700" stop="20260813054000 +0700" channel="iNews.id">
+    <title lang="id">Indonesia Raya</title>
+  </programme>
+  <programme start="20260813054000 +0700" stop="20260813060000 +0700" channel="iNews.id">
+    <title lang="id">iNews Pagi (L)</title>
+  </programme>
+  <programme start="20260813060000 +0700" stop="20260813061500 +0700" channel="iNews.id">
+    <title lang="id">iNews Sport Pagi (L)</title>
+  </programme>
+  <programme start="20260813061500 +0700" stop="20260813064500 +0700" channel="iNews.id">
+    <title lang="id">Special Report</title>
+  </programme>
+  <programme start="20260813064500 +0700" stop="20260813071500 +0700" channel="iNews.id">
+    <title lang="id">Morning Update</title>
+  </programme>
+  <programme start="20260813071500 +0700" stop="20260813081500 +0700" channel="iNews.id">
+    <title lang="id">iNews Room Pagi (L)</title>
+  </programme>
+  <programme start="20260813081500 +0700" stop="20260813091500 +0700" channel="iNews.id">
+    <title lang="id">Lapor Polisi (L)</title>
+  </programme>
+  <programme start="20260813091500 +0700" stop="20260813100000 +0700" channel="iNews.id">
+    <title lang="id">Breaking News (L)</title>
+  </programme>
+  <programme start="20260813100000 +0700" stop="20260813110000 +0700" channel="iNews.id">
+    <title lang="id">iNews Today (L)</title>
+  </programme>
+  <programme start="20260813110000 +0700" stop="20260813130000 +0700" channel="iNews.id">
+    <title lang="id">iNews Siang (L)</title>
+  </programme>
+  <programme start="20260813130000 +0700" stop="20260813133000 +0700" channel="iNews.id">
+    <title lang="id">Pemimpin Rakyat (L)</title>
+  </programme>
+  <programme start="20260813133000 +0700" stop="20260813140000 +0700" channel="iNews.id">
+    <title lang="id">Breaking News (L)</title>
+  </programme>
+  <programme start="20260813140000 +0700" stop="20260813150000 +0700" channel="iNews.id">
+    <title lang="id">iSeleb (L)</title>
+  </programme>
+  <programme start="20260813150000 +0700" stop="20260813163000 +0700" channel="iNews.id">
+    <title lang="id">Realita (L)</title>
+  </programme>
+  <programme start="20260813163000 +0700" stop="20260813190000 +0700" channel="iNews.id">
+    <title lang="id">iNews Sore (L)</title>
+  </programme>
+  <programme start="20260813190000 +0700" stop="20260813200000 +0700" channel="iNews.id">
+    <title lang="id">iNews Room (L)</title>
+  </programme>
+  <programme start="20260813200000 +0700" stop="20260813210000 +0700" channel="iNews.id">
+    <title lang="id">Interupsi (L)</title>
+  </programme>
+  <programme start="20260813210000 +0700" stop="20260813223000 +0700" channel="iNews.id">
+    <title lang="id">Indonesia Automotive Awards</title>
+  </programme>
+  <programme start="20260813223000 +0700" stop="20260813233000 +0700" channel="iNews.id">
+    <title lang="id">iNews Malam (L)</title>
+  </programme>
+  <programme start="20260813233000 +0700" stop="20260814000000 +0700" channel="iNews.id">
+    <title lang="id">iNews Sport (L)</title>
+  </programme>
+  <programme start="20260809000000 +0700" stop="20260809003000 +0700" channel="iNews.id">
+    <title>iNews Sport</title>
+  </programme>
+  <programme start="20260809003000 +0700" stop="20260809010000 +0700" channel="iNews.id">
+    <title>Highlight Formula E: Tokyo</title>
+  </programme>
+  <programme start="20260809010000 +0700" stop="20260809023000 +0700" channel="iNews.id">
+    <title>Hyundai Cup 2026: MAS Vs PHI</title>
+  </programme>
+  <programme start="20260809023000 +0700" stop="20260809031500 +0700" channel="iNews.id">
+    <title>Special Report</title>
+  </programme>
+  <programme start="20260809031500 +0700" stop="20260809040000 +0700" channel="iNews.id">
+    <title>Realita</title>
+  </programme>
+  <programme start="20260809040000 +0700" stop="20260809041500 +0700" channel="iNews.id">
+    <title>Realita</title>
+  </programme>
+  <programme start="20260809041500 +0700" stop="20260809060000 +0700" channel="iNews.id">
+    <title>iNews Pagi (L)</title>
+  </programme>
+  <programme start="20260809060000 +0700" stop="20260809061000 +0700" channel="iNews.id">
+    <title>Indonesia Raya</title>
+  </programme>
+  <programme start="20260809061000 +0700" stop="20260809063000 +0700" channel="iNews.id">
+    <title>iNews Sport</title>
+  </programme>
+  <programme start="20260809063000 +0700" stop="20260809073000 +0700" channel="iNews.id">
+    <title>Special Report</title>
+  </programme>
+  <programme start="20260809073000 +0700" stop="20260809081500 +0700" channel="iNews.id">
+    <title>Breaking News</title>
+  </programme>
+  <programme start="20260809081500 +0700" stop="20260809090000 +0700" channel="iNews.id">
+    <title>Realita</title>
+  </programme>
+  <programme start="20260809090000 +0700" stop="20260809100000 +0700" channel="iNews.id">
+    <title>iNews Files</title>
+  </programme>
+  <programme start="20260809100000 +0700" stop="20260809121500 +0700" channel="iNews.id">
+    <title>iNews Siang (L)</title>
+  </programme>
+  <programme start="20260809121500 +0700" stop="20260809123000 +0700" channel="iNews.id">
+    <title>Cahaya Hati The Series</title>
+  </programme>
+  <programme start="20260809123000 +0700" stop="20260809140000 +0700" channel="iNews.id">
+    <title>Cahaya Hati Indonesia (L)</title>
+  </programme>
+  <programme start="20260809140000 +0700" stop="20260809140500 +0700" channel="iNews.id">
+    <title>Breaking Goals (L)</title>
+  </programme>
+  <programme start="20260809140500 +0700" stop="20260809153000 +0700" channel="iNews.id">
+    <title>Breaking News (L)</title>
+  </programme>
+  <programme start="20260809153000 +0700" stop="20260809170000 +0700" channel="iNews.id">
+    <title>Realita (L)</title>
+  </programme>
+  <programme start="20260809170000 +0700" stop="20260809190000 +0700" channel="iNews.id">
+    <title>iNews Sore (L)</title>
+  </programme>
+  <programme start="20260809190000 +0700" stop="20260809201500 +0700" channel="iNews.id">
+    <title>iNews Room Weekend (L)</title>
+  </programme>
+  <programme start="20260809201500 +0700" stop="20260809215000 +0700" channel="iNews.id">
+    <title>iNews Malam (L)</title>
+  </programme>
+  <programme start="20260809215000 +0700" stop="20260809220000 +0700" channel="iNews.id">
+    <title>Breaking Goals (L)</title>
+  </programme>
+  <programme start="20260809220000 +0700" stop="20260810010000 +0700" channel="iNews.id">
+    <title>Rakyat Bersuara</title>
   </programme>
   <programme start="20260802000000 +0700" stop="20260802003000 +0700" channel="iNews.id">
     <title lang="id">iNews Sport</title>
@@ -5479,90 +5632,6 @@
   </programme>
   <programme start="20260810163000 +0700" stop="20260810190000 +0700" channel="iNews.id">
     <title lang="id">iNews Sore (L)</title>
-  </programme>
-  <programme start="20260813000000 +0700" stop="20260813004500 +0700" channel="iNews.id">
-    <title lang="id">Breaking News</title>
-  </programme>
-  <programme start="20260813004500 +0700" stop="20260813013000 +0700" channel="iNews.id">
-    <title lang="id">iNews Sore</title>
-  </programme>
-  <programme start="20260813013000 +0700" stop="20260813020000 +0700" channel="iNews.id">
-    <title lang="id">Highlight Formula E: Tokyo</title>
-  </programme>
-  <programme start="20260813020000 +0700" stop="20260813023000 +0700" channel="iNews.id">
-    <title lang="id">iNews Malam</title>
-  </programme>
-  <programme start="20260813023000 +0700" stop="20260813031500 +0700" channel="iNews.id">
-    <title lang="id">Special Report</title>
-  </programme>
-  <programme start="20260813031500 +0700" stop="20260813040000 +0700" channel="iNews.id">
-    <title lang="id">Realita</title>
-  </programme>
-  <programme start="20260813040000 +0700" stop="20260813041500 +0700" channel="iNews.id">
-    <title lang="id">Realita</title>
-  </programme>
-  <programme start="20260813041500 +0700" stop="20260813053000 +0700" channel="iNews.id">
-    <title lang="id">iNews Pagi (L)</title>
-  </programme>
-  <programme start="20260813053000 +0700" stop="20260813054000 +0700" channel="iNews.id">
-    <title lang="id">Indonesia Raya</title>
-  </programme>
-  <programme start="20260813054000 +0700" stop="20260813060000 +0700" channel="iNews.id">
-    <title lang="id">iNews Pagi (L)</title>
-  </programme>
-  <programme start="20260813060000 +0700" stop="20260813061500 +0700" channel="iNews.id">
-    <title lang="id">iNews Sport Pagi (L)</title>
-  </programme>
-  <programme start="20260813061500 +0700" stop="20260813064500 +0700" channel="iNews.id">
-    <title lang="id">Special Report</title>
-  </programme>
-  <programme start="20260813064500 +0700" stop="20260813071500 +0700" channel="iNews.id">
-    <title lang="id">Morning Update</title>
-  </programme>
-  <programme start="20260813071500 +0700" stop="20260813081500 +0700" channel="iNews.id">
-    <title lang="id">iNews Room Pagi (L)</title>
-  </programme>
-  <programme start="20260813081500 +0700" stop="20260813091500 +0700" channel="iNews.id">
-    <title lang="id">Lapor Polisi (L)</title>
-  </programme>
-  <programme start="20260813091500 +0700" stop="20260813100000 +0700" channel="iNews.id">
-    <title lang="id">Breaking News (L)</title>
-  </programme>
-  <programme start="20260813100000 +0700" stop="20260813110000 +0700" channel="iNews.id">
-    <title lang="id">iNews Today (L)</title>
-  </programme>
-  <programme start="20260813110000 +0700" stop="20260813130000 +0700" channel="iNews.id">
-    <title lang="id">iNews Siang (L)</title>
-  </programme>
-  <programme start="20260813130000 +0700" stop="20260813133000 +0700" channel="iNews.id">
-    <title lang="id">Pemimpin Rakyat (L)</title>
-  </programme>
-  <programme start="20260813133000 +0700" stop="20260813140000 +0700" channel="iNews.id">
-    <title lang="id">Breaking News (L)</title>
-  </programme>
-  <programme start="20260813140000 +0700" stop="20260813150000 +0700" channel="iNews.id">
-    <title lang="id">iSeleb (L)</title>
-  </programme>
-  <programme start="20260813150000 +0700" stop="20260813163000 +0700" channel="iNews.id">
-    <title lang="id">Realita (L)</title>
-  </programme>
-  <programme start="20260813163000 +0700" stop="20260813190000 +0700" channel="iNews.id">
-    <title lang="id">iNews Sore (L)</title>
-  </programme>
-  <programme start="20260813190000 +0700" stop="20260813200000 +0700" channel="iNews.id">
-    <title lang="id">iNews Room (L)</title>
-  </programme>
-  <programme start="20260813200000 +0700" stop="20260813210000 +0700" channel="iNews.id">
-    <title lang="id">Interupsi (L)</title>
-  </programme>
-  <programme start="20260813210000 +0700" stop="20260813223000 +0700" channel="iNews.id">
-    <title lang="id">Indonesia Automotive Awards</title>
-  </programme>
-  <programme start="20260813223000 +0700" stop="20260813233000 +0700" channel="iNews.id">
-    <title lang="id">iNews Malam (L)</title>
-  </programme>
-  <programme start="20260813233000 +0700" stop="20260814000000 +0700" channel="iNews.id">
-    <title lang="id">iNews Sport (L)</title>
   </programme>
   <programme start="20260814000000 +0700" stop="20260814004500 +0700" channel="iNews.id">
     <title lang="id">Breaking News</title>
@@ -8670,80 +8739,80 @@
   <programme start="20260816163000 +0700" stop="20260816170000 +0700" channel="MetroTV.id">
     <title lang="id">Metro Hari Ini</title>
   </programme>
-  <programme start="20260809000000 +0700" stop="20260809013000 +0700" channel="tvOne.id">
-    <title lang="id">Kabar Petang</title>
-  </programme>
-  <programme start="20260809013000 +0700" stop="20260809030000 +0700" channel="tvOne.id">
-    <title lang="id">Apa Kabar Indonesia Malam</title>
-  </programme>
-  <programme start="20260809030000 +0700" stop="20260809033000 +0700" channel="tvOne.id">
-    <title lang="id">Kabar Utama 2</title>
-  </programme>
-  <programme start="20260809033000 +0700" stop="20260809040000 +0700" channel="tvOne.id">
-    <title lang="id">Kabar Hari Ini</title>
-  </programme>
-  <programme start="20260809040000 +0700" stop="20260809043000 +0700" channel="tvOne.id">
-    <title lang="id">Kabar Arena Pagi 2</title>
-  </programme>
-  <programme start="20260809043000 +0700" stop="20260809060000 +0700" channel="tvOne.id">
-    <title lang="id">Kabar Pagi</title>
-  </programme>
-  <programme start="20260809060000 +0700" stop="20260809063000 +0700" channel="tvOne.id">
-    <title lang="id">Kabar Arena Pagi 2</title>
-  </programme>
-  <programme start="20260809063000 +0700" stop="20260809080000 +0700" channel="tvOne.id">
-    <title lang="id">Apa Kabar Indonesia Pagi</title>
-  </programme>
-  <programme start="20260809080000 +0700" stop="20260809083000 +0700" channel="tvOne.id">
-    <title lang="id">Inspirasi Pagi</title>
-  </programme>
-  <programme start="20260809083000 +0700" stop="20260809090000 +0700" channel="tvOne.id">
-    <title lang="id">Antara</title>
-  </programme>
-  <programme start="20260809090000 +0700" stop="20260809093000 +0700" channel="tvOne.id">
-    <title lang="id">Xpose</title>
-  </programme>
-  <programme start="20260809093000 +0700" stop="20260809100000 +0700" channel="tvOne.id">
-    <title lang="id">Indonesia Plus</title>
-  </programme>
-  <programme start="20260809100000 +0700" stop="20260809103000 +0700" channel="tvOne.id">
-    <title lang="id">Dunia Dalam Kamera</title>
-  </programme>
-  <programme start="20260809103000 +0700" stop="20260809110000 +0700" channel="tvOne.id">
-    <title lang="id">Selalu Ada Hikmah</title>
-  </programme>
-  <programme start="20260809110000 +0700" stop="20260809123000 +0700" channel="tvOne.id">
-    <title lang="id">Kabar Siang</title>
-  </programme>
-  <programme start="20260809123000 +0700" stop="20260809140000 +0700" channel="tvOne.id">
-    <title lang="id">Damai Indonesiaku</title>
-  </programme>
-  <programme start="20260809140000 +0700" stop="20260809150000 +0700" channel="tvOne.id">
-    <title lang="id">Breaking News</title>
-  </programme>
-  <programme start="20260809150000 +0700" stop="20260809160000 +0700" channel="tvOne.id">
-    <title lang="id">Apa Kabar Indonesia Akhir Pekan</title>
-  </programme>
-  <programme start="20260809160000 +0700" stop="20260809180000 +0700" channel="tvOne.id">
-    <title lang="id">Kabar Petang</title>
-  </programme>
-  <programme start="20260809180000 +0700" stop="20260809200000 +0700" channel="tvOne.id">
-    <title lang="id">Apa Kabar Indonesia Malam</title>
-  </programme>
-  <programme start="20260809200000 +0700" stop="20260809210000 +0700" channel="tvOne.id">
-    <title lang="id">Renungan Jiwa</title>
-  </programme>
-  <programme start="20260809210000 +0700" stop="20260809220000 +0700" channel="tvOne.id">
-    <title lang="id">Kabar Utama 2</title>
-  </programme>
-  <programme start="20260809220000 +0700" stop="20260809230000 +0700" channel="tvOne.id">
-    <title lang="id">Kabar Hari Ini</title>
-  </programme>
-  <programme start="20260809230000 +0700" stop="20260810000000 +0700" channel="tvOne.id">
-    <title lang="id">One Pride MMA</title>
-  </programme>
   <programme start="20260808233000 +0700" stop="20260809000000 +0700" channel="tvOne.id">
     <title>Kabar Utama 2</title>
+  </programme>
+  <programme start="20260809000000 +0700" stop="20260809013000 +0700" channel="tvOne.id">
+    <title>Kabar Petang</title>
+  </programme>
+  <programme start="20260809013000 +0700" stop="20260809030000 +0700" channel="tvOne.id">
+    <title>Apa Kabar Indonesia Malam</title>
+  </programme>
+  <programme start="20260809030000 +0700" stop="20260809033000 +0700" channel="tvOne.id">
+    <title>Kabar Utama 2</title>
+  </programme>
+  <programme start="20260809033000 +0700" stop="20260809040000 +0700" channel="tvOne.id">
+    <title>Kabar Hari Ini</title>
+  </programme>
+  <programme start="20260809040000 +0700" stop="20260809043000 +0700" channel="tvOne.id">
+    <title>Kabar Arena Pagi 2</title>
+  </programme>
+  <programme start="20260809043000 +0700" stop="20260809060000 +0700" channel="tvOne.id">
+    <title>Kabar Pagi</title>
+  </programme>
+  <programme start="20260809060000 +0700" stop="20260809063000 +0700" channel="tvOne.id">
+    <title>Kabar Arena Pagi 2</title>
+  </programme>
+  <programme start="20260809063000 +0700" stop="20260809080000 +0700" channel="tvOne.id">
+    <title>Apa Kabar Indonesia Pagi</title>
+  </programme>
+  <programme start="20260809080000 +0700" stop="20260809083000 +0700" channel="tvOne.id">
+    <title>Inspirasi Pagi</title>
+  </programme>
+  <programme start="20260809083000 +0700" stop="20260809090000 +0700" channel="tvOne.id">
+    <title>Antara : TBA</title>
+  </programme>
+  <programme start="20260809090000 +0700" stop="20260809093000 +0700" channel="tvOne.id">
+    <title>Xpose</title>
+  </programme>
+  <programme start="20260809093000 +0700" stop="20260809100000 +0700" channel="tvOne.id">
+    <title>Indonesia Plus</title>
+  </programme>
+  <programme start="20260809100000 +0700" stop="20260809103000 +0700" channel="tvOne.id">
+    <title>Dunia Dalam Kamera</title>
+  </programme>
+  <programme start="20260809103000 +0700" stop="20260809110000 +0700" channel="tvOne.id">
+    <title>Selalu Ada Hikmah</title>
+  </programme>
+  <programme start="20260809110000 +0700" stop="20260809123000 +0700" channel="tvOne.id">
+    <title>Kabar Siang</title>
+  </programme>
+  <programme start="20260809123000 +0700" stop="20260809140000 +0700" channel="tvOne.id">
+    <title>Damai Indonesiaku</title>
+  </programme>
+  <programme start="20260809140000 +0700" stop="20260809150000 +0700" channel="tvOne.id">
+    <title>Breaking News</title>
+  </programme>
+  <programme start="20260809150000 +0700" stop="20260809160000 +0700" channel="tvOne.id">
+    <title>Apa Kabar Indonesia Akhir Pekan</title>
+  </programme>
+  <programme start="20260809160000 +0700" stop="20260809180000 +0700" channel="tvOne.id">
+    <title>Kabar Petang</title>
+  </programme>
+  <programme start="20260809180000 +0700" stop="20260809200000 +0700" channel="tvOne.id">
+    <title>Apa Kabar Indonesia Malam</title>
+  </programme>
+  <programme start="20260809200000 +0700" stop="20260809210000 +0700" channel="tvOne.id">
+    <title>Renungan Jiwa</title>
+  </programme>
+  <programme start="20260809210000 +0700" stop="20260809220000 +0700" channel="tvOne.id">
+    <title>Kabar Utama 2</title>
+  </programme>
+  <programme start="20260809220000 +0700" stop="20260809230000 +0700" channel="tvOne.id">
+    <title>Kabar Hari Ini</title>
+  </programme>
+  <programme start="20260809230000 +0700" stop="20260810000000 +0700" channel="tvOne.id">
+    <title>One Pride MMA</title>
   </programme>
   <programme start="20260803000000 +0700" stop="20260803003000 +0700" channel="tvOne.id">
     <title lang="id">Sport Style</title>
@@ -9427,56 +9496,97 @@
     <title>Smurfs</title>
     <desc>Di Tengah Hutan Belantara, Terdapat Desa Rahasia Dihuni Oleh Sekelompok Makhluk Kecil Berwarna Biru Yang Dipimpin Oleh Papa Smurf. Para Smurf Tinggal Di Rumah Berbentuk Jamur Dan Hidup Dengan Damai. Namun, Kedatangan Penyihir Jahat Gargamel Dan Kucingnya, Azrael, Merusak Kedamaian Desa Tersebut. Sehingga Para Smurf Harus Mencari Cara Agar Tidak Ditangkap Oleh Gargamel Dan Azrael.</desc>
   </programme>
-  <programme start="20260809010000 +0700" stop="20260809013000 +0700" channel="Sportstars">
-    <title lang="id">Sports Today</title>
+  <programme start="20260811160000 +0700" stop="20260811173000 +0700" channel="RTV.id">
+    <title>Grizzy And The Lemmings</title>
+    <desc>Grizzy &amp; The Lemmings Merupakan Animasi Yang Menceritakan Tentang Seekor Beruang Grizzly Yang Bernama Grizzy Dan Sekawanan Leming Yang Selalu Ingin Bermain Dengan Grizzy Setiap Harinya Sehingga Banyak Cerita Dan Petualangan Yang Menarik Dari Mereka.</desc>
   </programme>
-  <programme start="20260809013000 +0700" stop="20260809020000 +0700" channel="Sportstars">
-    <title lang="id">iNews Sport</title>
+  <programme start="20260811173000 +0700" stop="20260811183000 +0700" channel="RTV.id">
+    <title>Quantum Heroes Dinoster</title>
+    <desc>Empat Sahabat Bernama Lucio, Delby, Jay Min, Dan Oz Melakukan Perjalanan Rahasia Ke Bumi Dinosaurus Untuk Menyelamatkan Para Dinosaurus Dari Bahaya, Mereka Disebut Tim Dinoster. Petualangan Mereka Dibantu Oleh Seorang Ilmuwan Kuantum Yaitu Professor Laura. Mereka Bersama-Sama Berusaha Untuk Melindungi Dinosaurus Dari Bahaya Alam Dan Bex Hunter, Seorang Ilmuwan Yang Ingin Membuat Dinosaurus Melawan Manusia.</desc>
   </programme>
-  <programme start="20260809020000 +0700" stop="20260809040000 +0700" channel="Sportstars">
-    <title lang="id">Best Of Badminton</title>
+  <programme start="20260811183000 +0700" stop="20260811200000 +0700" channel="RTV.id">
+    <title>Boboiboy Galaxy</title>
+    <desc>Boboiboy Galaxy Merupakan Sebuah Kisah Tentang Robot-Robot Power Sphera Yang Dibuat Untuk Memberikan Kekuasaan Besar Kepada Pemiliknya. Namun, Proyek Power Sphera Akhirnya Dianggap Sebagai Proyek Yang Berbahaya Dan Dibatalkan, Sedangkan Power Sphera Yang Lain Melarikan Diri Dan Bersembunyi Di Berbagai Pelosok Galaksi.</desc>
   </programme>
-  <programme start="20260809040000 +0700" stop="20260809060000 +0700" channel="Sportstars">
-    <title lang="id">Satu Hati Untuk Garuda</title>
+  <programme start="20260811200000 +0700" stop="20260811213000 +0700" channel="RTV.id">
+    <title>Metal Cardbot</title>
+    <desc>Dahulu Kala, Terdapat Sebuah Planet Bernama Machina Dimana Metal Cardbots Tinggal. Suatu Ketika, Planet Ini Tiba-Tiba Meledak Dan Memaksa Semua Penghuninya Untuk Hidup Di Bumi. Agar Tidak Menarik Perhatian Makhluk Bumi, Cardbots Menyamar Sebagai Kendaraan Sehari-Hari. Hingga Suatu Hari, Seorang Anak Sekolah Dasar Yang Bernama Jun Secara Tidak Sengaja Menemukan Metal Breath, Dengan Metal Breath Tersebut Dia Bisa Menangkap Dan Menyalakan Cardbots Dengan Kemampuan Yang Berbeda.</desc>
   </programme>
-  <programme start="20260809060000 +0700" stop="20260809063000 +0700" channel="Sportstars">
-    <title lang="id">Sports Today</title>
+  <programme start="20260811213000 +0700" stop="20260811220000 +0700" channel="RTV.id">
+    <title>Blox Buster Action</title>
+    <desc>Blox Buster Adalah Program Entertainment Yang Menghadirkan Keseruan Bermain Di Dunia Roblox, Platform Game Populer Dengan Jutaan Kreasi Dari Komunitas Global, Penonton Diajak Menjelajahi Berbagai Dunia Virtual Yang Penuh Warna, Menantang, Sekaligus Menyenangkan. Tidak Hanya Sekadar Bermain, Main Bareng Blox Juga Menyuguhkan Pengalaman Unik Dari Para Gamers Yang Ikut Serta, Mulai Dari Review Game, Tips Seru, Hingga Momen-Momen Kejutan Yang Terjadi Saat Bermain.</desc>
   </programme>
-  <programme start="20260809063000 +0700" stop="20260809070000 +0700" channel="Sportstars">
-    <title lang="id">Bloopers</title>
+  <programme start="20260811220000 +0700" stop="20260811223000 +0700" channel="RTV.id">
+    <title>Terkepo-Kepo</title>
+    <desc>Program Informasi Dokumenter, Menyajikan Berbagai Informasi Yang Dekat Dengan Kehidupan Sehari-Hari Dan Dibahas Dari Berbagai Sudut Pandang Disertai Dengan Pemaparannya. Selain Menghibur, Program Ini Juga Kaya Akan Pengetahuan Sehingga Akan Menambah Banyak Wawasan Bagi Pemirsa.</desc>
   </programme>
-  <programme start="20260809070000 +0700" stop="20260809073000 +0700" channel="Sportstars">
-    <title lang="id">Golden Fit</title>
+  <programme start="20260811223000 +0700" stop="20260811230000 +0700" channel="RTV.id">
+    <title>Lensa Indonesia Malam</title>
+    <desc>Program Berita Yang Menghadirkan Informasi Terkini, Rangkuman Peristiwa Yang Terjadi Dari Malam Hingga Dini Hari Dengan Dua Segmen Khusus, Yaitu Lensa Dunia Dan Lensa Arena Yang Membahas Berbagai Informasi Olahraga Di Indonesia Maupun Mancanegara</desc>
   </programme>
-  <programme start="20260809073000 +0700" stop="20260809093000 +0700" channel="Sportstars">
-    <title lang="id">Pro Futsal League</title>
+  <programme start="20260811230000 +0700" stop="20260811233000 +0700" channel="RTV.id">
+    <title>Ijin, Ndan !</title>
+    <desc>Ijin, Ndan Adalah Program Crimetainment Yang Menggabungkan Informasi Seputar Kejahatan Dan Kriminalitas Dengan Sketsa Komedi Situasional Yang Berlatar Di Ruang Interogasi Atau Kantor Polisi. Dipandu Oleh Tiga Host Utama Yaitu Komandan Zack, Bro Dim, Dan Miss Binal, Setiap Episodenya Juga Menghadirkan Berbagai Cameo Menarik Seperti Tahanan, Petugas Kebersihan, Hingga Karakter Unik Lainnya Yang Menambah Keseruan. Dengan Gaya Penyajian Yang Ringan, Menghibur, Dan Penuh Humor, Ijin, Ndan Tetap Konsisten Menyampaikan Fakta Aktual Dan Pesan Edukatif Kepada Penonton, Menjadikannya Tontonan Yang Informatif Sekaligus Mengundang Tawa.</desc>
   </programme>
-  <programme start="20260809093000 +0700" stop="20260809113000 +0700" channel="Sportstars">
-    <title lang="id">V-League 2025-2026: Men</title>
+  <programme start="20260811233000 +0700" stop="20260812000000 +0700" channel="RTV.id">
+    <title>Abrakadabra</title>
+    <desc>Abrakadabra Merupakan Sebuah Reality Show Yang Menghadirkan Hiburan Street Magician, Dimana Para "Pesulap" Akan Memberikan Keajaiban Dengan Trik-Trik Rahasia Yang Memukau Setiap Mata Di Sekitar Area Publik Untuk Mendapatkan Reaksi Kagum, Tak Percaya Dan Kaget Dari Penonton Maupun Semua Orang Yang Melihatnya Secara Langsung Di Lokasi.</desc>
   </programme>
-  <programme start="20260809113000 +0700" stop="20260809120000 +0700" channel="Sportstars">
-    <title lang="id">Sports Today</title>
+  <programme start="20260812000000 +0700" stop="20260812010000 +0700" channel="RTV.id">
+    <title>Kokom (Kompilasi Komedi)</title>
+    <desc>Program Yang Berisikan Kompilasi Video-Video Lucu Yang Viral Di Sosial Media.</desc>
   </programme>
-  <programme start="20260809120000 +0700" stop="20260809123000 +0700" channel="Sportstars">
-    <title lang="id">iNews Sport</title>
+  <programme start="20260812010000 +0700" stop="20260812013000 +0700" channel="RTV.id">
+    <title>Cahaya Bagi Negeri</title>
+    <desc>Sebuah Program Yang Membahas Berbagai Isu Hangat Yang Sedang Ramai Diperbincangkan Masyarakat, Dikupas Dari Sudut Pandang Spiritual Dan Nilai-Nilai Kerohanian.</desc>
   </programme>
-  <programme start="20260809123000 +0700" stop="20260809142500 +0700" channel="Sportstars">
-    <title lang="id">V-League 2025-2026: Women</title>
+  <programme start="20260812013000 +0700" stop="20260812030000 +0700" channel="RTV.id">
+    <title>Movinesia</title>
+    <desc>Sebuah Program Yang Menghadirkan Sederet Film Pilihan Untuk Menemani Aktivitas Anda Dengan Dimeriahkan Oleh Para Pemain &amp; Artis Papan Atas Berbakat, Dengan Cerita Ringan Seputar Kehidupan Remaja.</desc>
   </programme>
-  <programme start="20260809142500 +0700" stop="20260809163000 +0700" channel="Sportstars">
-    <title lang="id">AUBL 2026 (L)</title>
+  <programme start="20260812030000 +0700" stop="20260812033000 +0700" channel="RTV.id">
+    <title>Ustadz On The Road</title>
+    <desc>Program Religi Yang Dipandu Oleh Seorang Host Dan Ustadz Yang Akan Memberikan Kajian Islami Dengan Treatment On The Road Disertai Dengan Study Kasus. Pembahasan Dilakukan Sepanjang Perjalanan Menuju Lokasi Sesuai Agenda Harian Ustadz. Program Ini Akan Disajikan Secara Ringan Dan Menyenangkan.</desc>
   </programme>
-  <programme start="20260809163000 +0700" stop="20260809182500 +0700" channel="Sportstars">
-    <title lang="id">Best Of Badminton</title>
+  <programme start="20260812033000 +0700" stop="20260812043000 +0700" channel="RTV.id">
+    <title>Lil Wild</title>
+    <desc>Sekumpulan Sahabat Yaitu Rara Si Gajah Yang Penuh Aksi, Wobi Buaya Jenius, Meep Harimau Putih Pemalu, Kokeko Si Berang-Berang Yang Banyak Akal, Dan Dil Seekor Merpati Yang Pemberani. Mereka Tinggal Di Suatu Kebun Binatang Yang Sudah Mereka Anggap Seperti Rumah Mereka Sendiri. Mereka Berpetualang Dan Bergembira Bersama Untuk Menyelamatkan Kebun Binatang.</desc>
   </programme>
-  <programme start="20260809182500 +0700" stop="20260809203000 +0700" channel="Sportstars">
-    <title lang="id">AUBL 2026 (L)</title>
+  <programme start="20260812043000 +0700" stop="20260812050000 +0700" channel="RTV.id">
+    <title>Si Bocil Trang Quynh</title>
+    <desc>Kisah Lucu Dan Jenaka Tentang Kehidupan Quynh Dan Orang-Orang Disekitarnya. Sebagai Anak Yang Nakal Tetapi Cerdas Dan Banyak Akal, Quynh Dan Teman-Temannya Akan Membawa Pengalaman Hidup Yang Penuh Warna Di Pedesaan Vietnam Pada Abad Ke-18. Menyoroti Juga Tentang Nilai-Nilai Budaya Rakyat Dan Hubungan Dengan Keluarga, Teman, Guru, Siswa, Dan Lingkungan. Trang Quynh Akan Membawa Tawa Bagi Penonton Dan Mengajarkan Mereka Tentang Keintiman, Persahabatan, Dan Nilai-Nilai Kemanusiaan.</desc>
   </programme>
-  <programme start="20260809203000 +0700" stop="20260809223000 +0700" channel="Sportstars">
-    <title lang="id">Satu Hati Untuk Garuda</title>
+  <programme start="20260812050000 +0700" stop="20260812080000 +0700" channel="RTV.id">
+    <title>Bread Barbershop</title>
+    <desc>Bread, Seorang Tukang Cukur Jenius, Memecahkan Masalah Penampilan Dengan Keterampilan Memotong Rambutnya Yang Briliant. Sekarang Dia Hadir Untuk Memecahkan Masalah Para Bintang Di Bakery Town. Bertentangan Dengan Penampilan Mereka Yang Glamor Dan Bersinar, Para Selebriti Ini Menjalani Hari Yang Sangat Suram. Bread Dan Keluarganya Siap Membantu Para Selebriti Untuk Menemukan Lagi Kebahagiaan Mereka.</desc>
   </programme>
-  <programme start="20260809223000 +0700" stop="20260810003000 +0700" channel="Sportstars">
-    <title lang="id">Pro Futsal League</title>
+  <programme start="20260812080000 +0700" stop="20260812090000 +0700" channel="RTV.id">
+    <title>Grizzy And The Lemmings</title>
+    <desc>Grizzy &amp; The Lemmings Merupakan Animasi Yang Menceritakan Tentang Seekor Beruang Grizzly Yang Bernama Grizzy Dan Sekawanan Leming Yang Selalu Ingin Bermain Dengan Grizzy Setiap Harinya Sehingga Banyak Cerita Dan Petualangan Yang Menarik Dari Mereka.</desc>
+  </programme>
+  <programme start="20260812090000 +0700" stop="20260812103000 +0700" channel="RTV.id">
+    <title>Boboiboy Galaxy</title>
+    <desc>Boboiboy Galaxy Merupakan Sebuah Kisah Tentang Robot-Robot Power Sphera Yang Dibuat Untuk Memberikan Kekuasaan Besar Kepada Pemiliknya. Namun, Proyek Power Sphera Akhirnya Dianggap Sebagai Proyek Yang Berbahaya Dan Dibatalkan, Sedangkan Power Sphera Yang Lain Melarikan Diri Dan Bersembunyi Di Berbagai Pelosok Galaksi.</desc>
+  </programme>
+  <programme start="20260812103000 +0700" stop="20260812113000 +0700" channel="RTV.id">
+    <title>Blox Buster</title>
+    <desc>Blox Buster Adalah Program Entertainment Yang Menghadirkan Keseruan Bermain Di Dunia Roblox, Platform Game Populer Dengan Jutaan Kreasi Dari Komunitas Global, Penonton Diajak Menjelajahi Berbagai Dunia Virtual Yang Penuh Warna, Menantang, Sekaligus Menyenangkan. Tidak Hanya Sekadar Bermain, Main Bareng Blox Juga Menyuguhkan Pengalaman Unik Dari Para Gamers Yang Ikut Serta, Mulai Dari Review Game, Tips Seru, Hingga Momen-Momen Kejutan Yang Terjadi Saat Bermain.</desc>
+  </programme>
+  <programme start="20260812113000 +0700" stop="20260812120000 +0700" channel="RTV.id">
+    <title>Tawa Satwa</title>
+    <desc>Program Yang Menampilkan Kompilasi Video Lucu Hewan Yang Viral Di Media Sosial Dan Di-React Secara Kekinian Oleh Voice Over Talent Dengan Karakter Beragam Yang Akan Menambah Kelucuan.</desc>
+  </programme>
+  <programme start="20260812120000 +0700" stop="20260812130000 +0700" channel="RTV.id">
+    <title>Bread Barbershop</title>
+    <desc>Bread, Seorang Tukang Cukur Jenius, Memecahkan Masalah Penampilan Dengan Keterampilan Memotong Rambutnya Yang Briliant. Sekarang Dia Hadir Untuk Memecahkan Masalah Para Bintang Di Bakery Town. Bertentangan Dengan Penampilan Mereka Yang Glamor Dan Bersinar, Para Selebriti Ini Menjalani Hari Yang Sangat Suram. Bread Dan Keluarganya Siap Membantu Para Selebriti Untuk Menemukan Lagi Kebahagiaan Mereka.</desc>
+  </programme>
+  <programme start="20260812130000 +0700" stop="20260812143000 +0700" channel="RTV.id">
+    <title>Boboiboy</title>
+    <desc>Sebuah Program Animasi Yang Mengisahkan Boboiboy Dan Teman-Temannya Yakni Gopal, Ying, Dan Yaya Yang Masing-Masing Memiliki Kekuatan Super. Dengan Kekuatan Yang Dimiliki Mereka Mencegah Adu Du Mencuri Biji Kakao Tok Aba Yang Digunakan Sebagai Sumber Energi. Selain Itu, Boboiboy Dan Teman-Temannya Menjadi Pahlawan Super Dalam Menumpas Kejahatan Dan Menjaga Kedamaian Bumi.</desc>
+  </programme>
+  <programme start="20260812143000 +0700" stop="20260812160000 +0700" channel="RTV.id">
+    <title>Smurfs</title>
+    <desc>Di Tengah Hutan Belantara, Terdapat Desa Rahasia Dihuni Oleh Sekelompok Makhluk Kecil Berwarna Biru Yang Dipimpin Oleh Papa Smurf. Para Smurf Tinggal Di Rumah Berbentuk Jamur Dan Hidup Dengan Damai. Namun, Kedatangan Penyihir Jahat Gargamel Dan Kucingnya, Azrael, Merusak Kedamaian Desa Tersebut. Sehingga Para Smurf Harus Mencari Cara Agar Tidak Ditangkap Oleh Gargamel Dan Azrael.</desc>
   </programme>
   <programme start="20260810003000 +0700" stop="20260810010000 +0700" channel="Sportstars">
     <title lang="id">Bloopers</title>
@@ -9657,6 +9767,110 @@
   </programme>
   <programme start="20260812223000 +0700" stop="20260813003000 +0700" channel="Sportstars">
     <title lang="id">Pro Futsal League</title>
+  </programme>
+  <programme start="20260813003000 +0700" stop="20260813010000 +0700" channel="Sportstars">
+    <title lang="id">Bloopers</title>
+  </programme>
+  <programme start="20260813010000 +0700" stop="20260813013000 +0700" channel="Sportstars">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20260813013000 +0700" stop="20260813020000 +0700" channel="Sportstars">
+    <title lang="id">iNews Sport</title>
+  </programme>
+  <programme start="20260813020000 +0700" stop="20260813040000 +0700" channel="Sportstars">
+    <title lang="id">Best Of Badminton</title>
+  </programme>
+  <programme start="20260813040000 +0700" stop="20260813060000 +0700" channel="Sportstars">
+    <title lang="id">Satu Hati Untuk Garuda</title>
+  </programme>
+  <programme start="20260813060000 +0700" stop="20260813063000 +0700" channel="Sportstars">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20260813063000 +0700" stop="20260813070000 +0700" channel="Sportstars">
+    <title lang="id">Bloopers</title>
+  </programme>
+  <programme start="20260813070000 +0700" stop="20260813073000 +0700" channel="Sportstars">
+    <title lang="id">Adrenaline Rush</title>
+  </programme>
+  <programme start="20260813073000 +0700" stop="20260813093000 +0700" channel="Sportstars">
+    <title lang="id">Pro Futsal League</title>
+  </programme>
+  <programme start="20260813093000 +0700" stop="20260813113000 +0700" channel="Sportstars">
+    <title lang="id">V-League 2025-2026: Men</title>
+  </programme>
+  <programme start="20260813113000 +0700" stop="20260813120000 +0700" channel="Sportstars">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20260813120000 +0700" stop="20260813123000 +0700" channel="Sportstars">
+    <title lang="id">iNews Sport</title>
+  </programme>
+  <programme start="20260813123000 +0700" stop="20260813143000 +0700" channel="Sportstars">
+    <title lang="id">V-League 2025-2026: Women</title>
+  </programme>
+  <programme start="20260813143000 +0700" stop="20260813163000 +0700" channel="Sportstars">
+    <title lang="id">V-League 2025-2026: Men</title>
+  </programme>
+  <programme start="20260813163000 +0700" stop="20260813170000 +0700" channel="Sportstars">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20260813170000 +0700" stop="20260813173000 +0700" channel="Sportstars">
+    <title lang="id">Bloopers</title>
+  </programme>
+  <programme start="20260813173000 +0700" stop="20260813200000 +0700" channel="Sportstars">
+    <title lang="id">Best Of Badminton</title>
+  </programme>
+  <programme start="20260813200000 +0700" stop="20260813203000 +0700" channel="Sportstars">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20260813203000 +0700" stop="20260813223000 +0700" channel="Sportstars">
+    <title lang="id">Satu Hati Untuk Garuda</title>
+  </programme>
+  <programme start="20260813223000 +0700" stop="20260814003000 +0700" channel="Sportstars">
+    <title lang="id">Pro Futsal League</title>
+  </programme>
+  <programme start="20260809070000 +0700" stop="20260809073000 +0700" channel="Sportstars">
+    <title>Golden Fit</title>
+    <desc>Featuring light exercises, stretching routines, and healthy lifestyle tips, the show helps maintain body strength, flexibility, and balance, supporting a better quality of life in the golden years.</desc>
+  </programme>
+  <programme start="20260809073000 +0700" stop="20260809093000 +0700" channel="Sportstars">
+    <title>Pro Futsal League</title>
+    <desc>A professional futsal league that has become a prestigious event in various countries, including Indonesia, to promote futsal at the national level.</desc>
+  </programme>
+  <programme start="20260809093000 +0700" stop="20260809113000 +0700" channel="Sportstars">
+    <title>V-League 2025-2026: Men</title>
+    <desc>V-League 2025-2026: Men — Coverage of the South Korean V-League men’s competition, featuring top clubs competing in intense volleyball action. Teams rely on powerful spikes, precise setting, and coordinated defensive systems. Fans can expect fast-paced rallies, tactical plays, and high-level athleticism as teams fight for league supremacy.</desc>
+  </programme>
+  <programme start="20260809113000 +0700" stop="20260809120000 +0700" channel="Sportstars">
+    <title>Sports Today</title>
+    <desc>Sports Today</desc>
+  </programme>
+  <programme start="20260809120000 +0700" stop="20260809123000 +0700" channel="Sportstars">
+    <title>iNews Sport</title>
+    <desc>A news program that focuses on information about the world of sports.</desc>
+  </programme>
+  <programme start="20260809123000 +0700" stop="20260809142500 +0700" channel="Sportstars">
+    <title>V-League 2025-2026: Women</title>
+    <desc>V-League 2025-2026: Women — Coverage of the South Korean V-League women’s competition, showcasing top clubs competing with agility, powerful attacks, and strategic teamwork. Matches feature fast-paced rallies, tactical serving, and impressive blocking, highlighting the skill and competitiveness of women’s professional volleyball.</desc>
+  </programme>
+  <programme start="20260809142500 +0700" stop="20260809163000 +0700" channel="Sportstars">
+    <title>Asian University Basketball League: 3rd Place</title>
+    <desc>Asian University Basketball League: 3rd Place offers one final opportunity for both teams to conclude their campaign on a high note. Pride, determination, and competitive spirit take center stage as the teams compete for the bronze medal in Asia's prestigious university basketball championship.</desc>
+  </programme>
+  <programme start="20260809163000 +0700" stop="20260809182500 +0700" channel="Sportstars">
+    <title>Best Of Badminton</title>
+    <desc>Best Of Badminton</desc>
+  </programme>
+  <programme start="20260809182500 +0700" stop="20260809203000 +0700" channel="Sportstars">
+    <title>Asian University Basketball League: Final</title>
+    <desc>Asian University Basketball League: Final delivers the championship showdown between the tournament's strongest university teams. Elite talent, tactical execution, and relentless determination will be on display as both sides battle for continental glory and the honor of becoming Asia's university basketball champion.</desc>
+  </programme>
+  <programme start="20260809203000 +0700" stop="20260809223000 +0700" channel="Sportstars">
+    <title>Satu Hati Untuk Garuda</title>
+    <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
+  </programme>
+  <programme start="20260809223000 +0700" stop="20260810003000 +0700" channel="Sportstars">
+    <title>Pro Futsal League</title>
+    <desc>A professional futsal league that has become a prestigious event in various countries, including Indonesia, to promote futsal at the national level.</desc>
   </programme>
   <programme start="20260802003000 +0700" stop="20260802010000 +0700" channel="Sportstars">
     <title lang="id">Bloopers</title>
@@ -10120,65 +10334,23 @@
   <programme start="20260808230000 +0700" stop="20260809010000 +0700" channel="Sportstars">
     <title lang="id">Pro Futsal League</title>
   </programme>
-  <programme start="20260813003000 +0700" stop="20260813010000 +0700" channel="Sportstars">
-    <title lang="id">Bloopers</title>
-  </programme>
-  <programme start="20260813010000 +0700" stop="20260813013000 +0700" channel="Sportstars">
+  <programme start="20260809010000 +0700" stop="20260809013000 +0700" channel="Sportstars">
     <title lang="id">Sports Today</title>
   </programme>
-  <programme start="20260813013000 +0700" stop="20260813020000 +0700" channel="Sportstars">
+  <programme start="20260809013000 +0700" stop="20260809020000 +0700" channel="Sportstars">
     <title lang="id">iNews Sport</title>
   </programme>
-  <programme start="20260813020000 +0700" stop="20260813040000 +0700" channel="Sportstars">
+  <programme start="20260809020000 +0700" stop="20260809040000 +0700" channel="Sportstars">
     <title lang="id">Best Of Badminton</title>
   </programme>
-  <programme start="20260813040000 +0700" stop="20260813060000 +0700" channel="Sportstars">
+  <programme start="20260809040000 +0700" stop="20260809060000 +0700" channel="Sportstars">
     <title lang="id">Satu Hati Untuk Garuda</title>
   </programme>
-  <programme start="20260813060000 +0700" stop="20260813063000 +0700" channel="Sportstars">
+  <programme start="20260809060000 +0700" stop="20260809063000 +0700" channel="Sportstars">
     <title lang="id">Sports Today</title>
   </programme>
-  <programme start="20260813063000 +0700" stop="20260813070000 +0700" channel="Sportstars">
+  <programme start="20260809063000 +0700" stop="20260809070000 +0700" channel="Sportstars">
     <title lang="id">Bloopers</title>
-  </programme>
-  <programme start="20260813070000 +0700" stop="20260813073000 +0700" channel="Sportstars">
-    <title lang="id">Adrenaline Rush</title>
-  </programme>
-  <programme start="20260813073000 +0700" stop="20260813093000 +0700" channel="Sportstars">
-    <title lang="id">Pro Futsal League</title>
-  </programme>
-  <programme start="20260813093000 +0700" stop="20260813113000 +0700" channel="Sportstars">
-    <title lang="id">V-League 2025-2026: Men</title>
-  </programme>
-  <programme start="20260813113000 +0700" stop="20260813120000 +0700" channel="Sportstars">
-    <title lang="id">Sports Today</title>
-  </programme>
-  <programme start="20260813120000 +0700" stop="20260813123000 +0700" channel="Sportstars">
-    <title lang="id">iNews Sport</title>
-  </programme>
-  <programme start="20260813123000 +0700" stop="20260813143000 +0700" channel="Sportstars">
-    <title lang="id">V-League 2025-2026: Women</title>
-  </programme>
-  <programme start="20260813143000 +0700" stop="20260813163000 +0700" channel="Sportstars">
-    <title lang="id">V-League 2025-2026: Men</title>
-  </programme>
-  <programme start="20260813163000 +0700" stop="20260813170000 +0700" channel="Sportstars">
-    <title lang="id">Sports Today</title>
-  </programme>
-  <programme start="20260813170000 +0700" stop="20260813173000 +0700" channel="Sportstars">
-    <title lang="id">Bloopers</title>
-  </programme>
-  <programme start="20260813173000 +0700" stop="20260813200000 +0700" channel="Sportstars">
-    <title lang="id">Best Of Badminton</title>
-  </programme>
-  <programme start="20260813200000 +0700" stop="20260813203000 +0700" channel="Sportstars">
-    <title lang="id">Sports Today</title>
-  </programme>
-  <programme start="20260813203000 +0700" stop="20260813223000 +0700" channel="Sportstars">
-    <title lang="id">Satu Hati Untuk Garuda</title>
-  </programme>
-  <programme start="20260813223000 +0700" stop="20260814003000 +0700" channel="Sportstars">
-    <title lang="id">Pro Futsal League</title>
   </programme>
   <programme start="20260814003000 +0700" stop="20260814010000 +0700" channel="Sportstars">
     <title lang="id">Bloopers</title>
@@ -10513,6 +10685,66 @@
   <programme start="20260811143000 +0700" stop="20260811163000 +0700" channel="Sportstars 2">
     <title>ASEAN Hyundai Cup: MYA Vs LAO</title>
     <desc>ASEAN Hyundai Cup: Myanmar vs Laos features two teams determined to climb the standings. Myanmar relies on structured attacking football and midfield control, while Laos aims to frustrate its opponent with disciplined defending and rapid counterattacks.</desc>
+  </programme>
+  <programme start="20260811163000 +0700" stop="20260811183000 +0700" channel="Sportstars 2">
+    <title>ASEAN Hyundai Cup: VIE Vs CAM</title>
+    <desc>Vietnam combines disciplined defending, quick transitions, and clinical finishing, while Cambodia aims to surprise with its energetic young squad and improving tactical organization in pursuit of a memorable result.</desc>
+  </programme>
+  <programme start="20260811183000 +0700" stop="20260811203000 +0700" channel="Sportstars 2">
+    <title>Satu Hati Untuk Garuda</title>
+    <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
+  </programme>
+  <programme start="20260811203000 +0700" stop="20260811220000 +0700" channel="Sportstars 2">
+    <title>Tinju</title>
+    <desc>Tinju</desc>
+  </programme>
+  <programme start="20260811220000 +0700" stop="20260812000000 +0700" channel="Sportstars 2">
+    <title>ASEAN Hyundai Cup: MYA Vs LAO</title>
+    <desc>ASEAN Hyundai Cup: Myanmar vs Laos features two teams determined to climb the standings. Myanmar relies on structured attacking football and midfield control, while Laos aims to frustrate its opponent with disciplined defending and rapid counterattacks.</desc>
+  </programme>
+  <programme start="20260812000000 +0700" stop="20260812020000 +0700" channel="Sportstars 2">
+    <title>ASEAN Hyundai Cup: VIE Vs CAM</title>
+    <desc>Vietnam combines disciplined defending, quick transitions, and clinical finishing, while Cambodia aims to surprise with its energetic young squad and improving tactical organization in pursuit of a memorable result.</desc>
+  </programme>
+  <programme start="20260812020000 +0700" stop="20260812040000 +0700" channel="Sportstars 2">
+    <title>Satu Hati Untuk Garuda</title>
+    <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
+  </programme>
+  <programme start="20260812040000 +0700" stop="20260812053000 +0700" channel="Sportstars 2">
+    <title>Tinju</title>
+    <desc>Tinju</desc>
+  </programme>
+  <programme start="20260812053000 +0700" stop="20260812080000 +0700" channel="Sportstars 2">
+    <title>Best Of Badminton</title>
+    <desc>Best Of Badminton</desc>
+  </programme>
+  <programme start="20260812080000 +0700" stop="20260812083000 +0700" channel="Sportstars 2">
+    <title>iNews Sport</title>
+    <desc>A news program that focuses on information about the world of sports.</desc>
+  </programme>
+  <programme start="20260812083000 +0700" stop="20260812090000 +0700" channel="Sportstars 2">
+    <title>Sport Today</title>
+    <desc>Sport Today</desc>
+  </programme>
+  <programme start="20260812090000 +0700" stop="20260812110000 +0700" channel="Sportstars 2">
+    <title>ASEAN Hyundai Cup: MYA Vs LAO</title>
+    <desc>ASEAN Hyundai Cup: Myanmar vs Laos features two teams determined to climb the standings. Myanmar relies on structured attacking football and midfield control, while Laos aims to frustrate its opponent with disciplined defending and rapid counterattacks.</desc>
+  </programme>
+  <programme start="20260812110000 +0700" stop="20260812113000 +0700" channel="Sportstars 2">
+    <title>Adrenaline Rush</title>
+    <desc>A show that provides action-packed footage of many extreme sports that test your mettle.</desc>
+  </programme>
+  <programme start="20260812113000 +0700" stop="20260812120000 +0700" channel="Sportstars 2">
+    <title>The Ultimate Goals</title>
+    <desc>World-class goal footage packaged into a show that football fans can enjoy.</desc>
+  </programme>
+  <programme start="20260812120000 +0700" stop="20260812143000 +0700" channel="Sportstars 2">
+    <title>Best Of Badminton</title>
+    <desc>Best Of Badminton</desc>
+  </programme>
+  <programme start="20260812143000 +0700" stop="20260812163000 +0700" channel="Sportstars 2">
+    <title>ASEAN Hyundai Cup: MAS Vs PHI</title>
+    <desc>ASEAN Hyundai Cup: Malaysia vs Philippines features two competitive Southeast Asian nations. Malaysia emphasizes speed, dynamic attacking football, and high pressing, while the Philippines relies on physicality, disciplined defending, and effective set-piece play in a battle for crucial points.</desc>
   </programme>
   <programme start="20260802000000 +0700" stop="20260802020000 +0700" channel="Sportstars 2">
     <title lang="id">Padel Hexagon Cup</title>
@@ -10856,51 +11088,6 @@
   <programme start="20260809053000 +0700" stop="20260809080000 +0700" channel="Sportstars 2">
     <title lang="id">Best Of Badminton</title>
   </programme>
-  <programme start="20260811163000 +0700" stop="20260811183000 +0700" channel="Sportstars 2">
-    <title lang="id">ASEAN Hyundai Cup: VIE Vs CAM</title>
-  </programme>
-  <programme start="20260811183000 +0700" stop="20260811203000 +0700" channel="Sportstars 2">
-    <title lang="id">Satu Hati Untuk Garuda</title>
-  </programme>
-  <programme start="20260811203000 +0700" stop="20260811220000 +0700" channel="Sportstars 2">
-    <title lang="id">Tinju</title>
-  </programme>
-  <programme start="20260811220000 +0700" stop="20260812000000 +0700" channel="Sportstars 2">
-    <title lang="id">ASEAN Hyundai Cup: MYA Vs LAO</title>
-  </programme>
-  <programme start="20260812000000 +0700" stop="20260812020000 +0700" channel="Sportstars 2">
-    <title lang="id">ASEAN Hyundai Cup: VIE Vs CAM</title>
-  </programme>
-  <programme start="20260812020000 +0700" stop="20260812040000 +0700" channel="Sportstars 2">
-    <title lang="id">Satu Hati Untuk Garuda</title>
-  </programme>
-  <programme start="20260812040000 +0700" stop="20260812053000 +0700" channel="Sportstars 2">
-    <title lang="id">Tinju</title>
-  </programme>
-  <programme start="20260812053000 +0700" stop="20260812080000 +0700" channel="Sportstars 2">
-    <title lang="id">Best Of Badminton</title>
-  </programme>
-  <programme start="20260812080000 +0700" stop="20260812083000 +0700" channel="Sportstars 2">
-    <title lang="id">iNews Sport</title>
-  </programme>
-  <programme start="20260812083000 +0700" stop="20260812090000 +0700" channel="Sportstars 2">
-    <title lang="id">Sport Today</title>
-  </programme>
-  <programme start="20260812090000 +0700" stop="20260812110000 +0700" channel="Sportstars 2">
-    <title lang="id">ASEAN Hyundai Cup: MYA Vs LAO</title>
-  </programme>
-  <programme start="20260812110000 +0700" stop="20260812113000 +0700" channel="Sportstars 2">
-    <title lang="id">Adrenaline Rush</title>
-  </programme>
-  <programme start="20260812113000 +0700" stop="20260812120000 +0700" channel="Sportstars 2">
-    <title lang="id">The Ultimate Goals</title>
-  </programme>
-  <programme start="20260812120000 +0700" stop="20260812143000 +0700" channel="Sportstars 2">
-    <title lang="id">Best Of Badminton</title>
-  </programme>
-  <programme start="20260812143000 +0700" stop="20260812163000 +0700" channel="Sportstars 2">
-    <title lang="id">ASEAN Hyundai Cup: MAS Vs PHI</title>
-  </programme>
   <programme start="20260812163000 +0700" stop="20260812183000 +0700" channel="Sportstars 2">
     <title lang="id">ASEAN Hyundai Cup: THA Vs MYA</title>
   </programme>
@@ -11205,6 +11392,54 @@
     <title>Satu Hati Untuk Garuda</title>
     <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
   </programme>
+  <programme start="20260811160000 +0700" stop="20260811180000 +0700" channel="Sportstars3.id">
+    <title>V-League Women</title>
+    <desc>This tournament is quite prestigious in South Korea and often serves as a platform for talented young players to show off their skills.</desc>
+  </programme>
+  <programme start="20260811180000 +0700" stop="20260811200000 +0700" channel="Sportstars3.id">
+    <title>ASEAN Hyundai C'ship 2026</title>
+    <desc>ASEAN Hyundai Championship 2026 showcases the strongest national teams from Southeast Asia in a tournament filled with fierce rivalries and passionate supporters. Traditional regional powers rely on experience and squad depth, while emerging nations aim to challenge the favorites with youthful talent and tactical discipline in pursuit of the championship title.</desc>
+  </programme>
+  <programme start="20260811200000 +0700" stop="20260811220000 +0700" channel="Sportstars3.id">
+    <title>Bundesliga</title>
+    <desc>The 2024–25 Bundesliga will be the 62nd season of the Bundesliga, Germany's premier men's football competition. The season will start on 23 August 2024 and conclude on 17 May 2025.</desc>
+  </programme>
+  <programme start="20260811220000 +0700" stop="20260812000000 +0700" channel="Sportstars3.id">
+    <title>Satu Hati Untuk Garuda</title>
+    <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
+  </programme>
+  <programme start="20260812000000 +0700" stop="20260812020000 +0700" channel="Sportstars3.id">
+    <title>ASEAN Hyundai C'ship 2026</title>
+    <desc>ASEAN Hyundai Championship 2026 showcases the strongest national teams from Southeast Asia in a tournament filled with fierce rivalries and passionate supporters. Traditional regional powers rely on experience and squad depth, while emerging nations aim to challenge the favorites with youthful talent and tactical discipline in pursuit of the championship title.</desc>
+  </programme>
+  <programme start="20260812020000 +0700" stop="20260812040000 +0700" channel="Sportstars3.id">
+    <title>V-League Women</title>
+    <desc>This tournament is quite prestigious in South Korea and often serves as a platform for talented young players to show off their skills.</desc>
+  </programme>
+  <programme start="20260812040000 +0700" stop="20260812060000 +0700" channel="Sportstars3.id">
+    <title>Bundesliga</title>
+    <desc>The 2024–25 Bundesliga will be the 62nd season of the Bundesliga, Germany's premier men's football competition. The season will start on 23 August 2024 and conclude on 17 May 2025.</desc>
+  </programme>
+  <programme start="20260812060000 +0700" stop="20260812080000 +0700" channel="Sportstars3.id">
+    <title>Satu Hati Untuk Garuda</title>
+    <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
+  </programme>
+  <programme start="20260812080000 +0700" stop="20260812100000 +0700" channel="Sportstars3.id">
+    <title>ASEAN Hyundai C'ship 2026</title>
+    <desc>ASEAN Hyundai Championship 2026 showcases the strongest national teams from Southeast Asia in a tournament filled with fierce rivalries and passionate supporters. Traditional regional powers rely on experience and squad depth, while emerging nations aim to challenge the favorites with youthful talent and tactical discipline in pursuit of the championship title.</desc>
+  </programme>
+  <programme start="20260812100000 +0700" stop="20260812120000 +0700" channel="Sportstars3.id">
+    <title>V-League Women</title>
+    <desc>This tournament is quite prestigious in South Korea and often serves as a platform for talented young players to show off their skills.</desc>
+  </programme>
+  <programme start="20260812120000 +0700" stop="20260812140000 +0700" channel="Sportstars3.id">
+    <title>Bundesliga</title>
+    <desc>The 2024–25 Bundesliga will be the 62nd season of the Bundesliga, Germany's premier men's football competition. The season will start on 23 August 2024 and conclude on 17 May 2025.</desc>
+  </programme>
+  <programme start="20260812140000 +0700" stop="20260812160000 +0700" channel="Sportstars3.id">
+    <title>Satu Hati Untuk Garuda</title>
+    <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
+  </programme>
   <programme start="20260802000000 +0700" stop="20260802020000 +0700" channel="Sportstars3.id">
     <title lang="id">Garuda Di Arena SEA Games</title>
   </programme>
@@ -11467,42 +11702,6 @@
     <title lang="id">Bundesliga</title>
   </programme>
   <programme start="20260809060000 +0700" stop="20260809080000 +0700" channel="Sportstars3.id">
-    <title lang="id">Satu Hati Untuk Garuda</title>
-  </programme>
-  <programme start="20260811160000 +0700" stop="20260811180000 +0700" channel="Sportstars3.id">
-    <title lang="id">V-League Women</title>
-  </programme>
-  <programme start="20260811180000 +0700" stop="20260811200000 +0700" channel="Sportstars3.id">
-    <title lang="id">ASEAN Hyundai C'ship 2026</title>
-  </programme>
-  <programme start="20260811200000 +0700" stop="20260811220000 +0700" channel="Sportstars3.id">
-    <title lang="id">Bundesliga</title>
-  </programme>
-  <programme start="20260811220000 +0700" stop="20260812000000 +0700" channel="Sportstars3.id">
-    <title lang="id">Satu Hati Untuk Garuda</title>
-  </programme>
-  <programme start="20260812000000 +0700" stop="20260812020000 +0700" channel="Sportstars3.id">
-    <title lang="id">ASEAN Hyundai C'ship 2026</title>
-  </programme>
-  <programme start="20260812020000 +0700" stop="20260812040000 +0700" channel="Sportstars3.id">
-    <title lang="id">V-League Women</title>
-  </programme>
-  <programme start="20260812040000 +0700" stop="20260812060000 +0700" channel="Sportstars3.id">
-    <title lang="id">Bundesliga</title>
-  </programme>
-  <programme start="20260812060000 +0700" stop="20260812080000 +0700" channel="Sportstars3.id">
-    <title lang="id">Satu Hati Untuk Garuda</title>
-  </programme>
-  <programme start="20260812080000 +0700" stop="20260812100000 +0700" channel="Sportstars3.id">
-    <title lang="id">ASEAN Hyundai C'ship 2026</title>
-  </programme>
-  <programme start="20260812100000 +0700" stop="20260812120000 +0700" channel="Sportstars3.id">
-    <title lang="id">V-League Women</title>
-  </programme>
-  <programme start="20260812120000 +0700" stop="20260812140000 +0700" channel="Sportstars3.id">
-    <title lang="id">Bundesliga</title>
-  </programme>
-  <programme start="20260812140000 +0700" stop="20260812160000 +0700" channel="Sportstars3.id">
     <title lang="id">Satu Hati Untuk Garuda</title>
   </programme>
   <programme start="20260812160000 +0700" stop="20260812180000 +0700" channel="Sportstars3.id">
@@ -11773,6 +11972,54 @@
     <title>Satu Hati Untuk Garuda</title>
     <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
   </programme>
+  <programme start="20260811160000 +0700" stop="20260811180000 +0700" channel="Sportstars4.id">
+    <title>V-League Women</title>
+    <desc>This tournament is quite prestigious in South Korea and often serves as a platform for talented young players to show off their skills.</desc>
+  </programme>
+  <programme start="20260811180000 +0700" stop="20260811200000 +0700" channel="Sportstars4.id">
+    <title>ASEAN C'ship Hyundai Cup 2026</title>
+    <desc>ASEAN C'ship Hyundai Cup 2026 showcases Southeast Asia's premier international football tournament featuring the region's strongest national teams. Traditional powerhouses such as Thailand, Vietnam, Indonesia, Malaysia, and Singapore battle alongside rising contenders in an exciting home-and-away format, with every match playing a crucial role in the race to become ASEAN champions. The tournament is staged across multiple ASEAN countries rather than at a single host nation.</desc>
+  </programme>
+  <programme start="20260811200000 +0700" stop="20260811220000 +0700" channel="Sportstars4.id">
+    <title>Bundesliga</title>
+    <desc>The 2024–25 Bundesliga will be the 62nd season of the Bundesliga, Germany's premier men's football competition. The season will start on 23 August 2024 and conclude on 17 May 2025.</desc>
+  </programme>
+  <programme start="20260811220000 +0700" stop="20260812000000 +0700" channel="Sportstars4.id">
+    <title>Satu Hati Untuk Garuda</title>
+    <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
+  </programme>
+  <programme start="20260812000000 +0700" stop="20260812020000 +0700" channel="Sportstars4.id">
+    <title>ASEAN C'ship Hyundai Cup 2026</title>
+    <desc>ASEAN C'ship Hyundai Cup 2026 showcases Southeast Asia's premier international football tournament featuring the region's strongest national teams. Traditional powerhouses such as Thailand, Vietnam, Indonesia, Malaysia, and Singapore battle alongside rising contenders in an exciting home-and-away format, with every match playing a crucial role in the race to become ASEAN champions. The tournament is staged across multiple ASEAN countries rather than at a single host nation.</desc>
+  </programme>
+  <programme start="20260812020000 +0700" stop="20260812040000 +0700" channel="Sportstars4.id">
+    <title>V-League Women</title>
+    <desc>This tournament is quite prestigious in South Korea and often serves as a platform for talented young players to show off their skills.</desc>
+  </programme>
+  <programme start="20260812040000 +0700" stop="20260812060000 +0700" channel="Sportstars4.id">
+    <title>Bundesliga</title>
+    <desc>The 2024–25 Bundesliga will be the 62nd season of the Bundesliga, Germany's premier men's football competition. The season will start on 23 August 2024 and conclude on 17 May 2025.</desc>
+  </programme>
+  <programme start="20260812060000 +0700" stop="20260812080000 +0700" channel="Sportstars4.id">
+    <title>Satu Hati Untuk Garuda</title>
+    <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
+  </programme>
+  <programme start="20260812080000 +0700" stop="20260812100000 +0700" channel="Sportstars4.id">
+    <title>ASEAN C'ship Hyundai Cup 2026</title>
+    <desc>ASEAN C'ship Hyundai Cup 2026 showcases Southeast Asia's premier international football tournament featuring the region's strongest national teams. Traditional powerhouses such as Thailand, Vietnam, Indonesia, Malaysia, and Singapore battle alongside rising contenders in an exciting home-and-away format, with every match playing a crucial role in the race to become ASEAN champions. The tournament is staged across multiple ASEAN countries rather than at a single host nation.</desc>
+  </programme>
+  <programme start="20260812100000 +0700" stop="20260812120000 +0700" channel="Sportstars4.id">
+    <title>V-League Women</title>
+    <desc>This tournament is quite prestigious in South Korea and often serves as a platform for talented young players to show off their skills.</desc>
+  </programme>
+  <programme start="20260812120000 +0700" stop="20260812140000 +0700" channel="Sportstars4.id">
+    <title>Bundesliga</title>
+    <desc>The 2024–25 Bundesliga will be the 62nd season of the Bundesliga, Germany's premier men's football competition. The season will start on 23 August 2024 and conclude on 17 May 2025.</desc>
+  </programme>
+  <programme start="20260812140000 +0700" stop="20260812160000 +0700" channel="Sportstars4.id">
+    <title>Satu Hati Untuk Garuda</title>
+    <desc>Satu Hati Untuk Garuda. A special feature highlighting the passion, dedication, and unwavering support surrounding Indonesia's national football team. Through inspiring stories, memorable moments, and the collective spirit of supporters, the program showcases the journey and ambitions of Garuda on the international stage.</desc>
+  </programme>
   <programme start="20260802000000 +0700" stop="20260802020000 +0700" channel="Sportstars4.id">
     <title lang="id">Garuda Di Arena SEA Games</title>
   </programme>
@@ -12035,42 +12282,6 @@
     <title lang="id">Bundesliga</title>
   </programme>
   <programme start="20260809060000 +0700" stop="20260809080000 +0700" channel="Sportstars4.id">
-    <title lang="id">Satu Hati Untuk Garuda</title>
-  </programme>
-  <programme start="20260811160000 +0700" stop="20260811180000 +0700" channel="Sportstars4.id">
-    <title lang="id">V-League Women</title>
-  </programme>
-  <programme start="20260811180000 +0700" stop="20260811200000 +0700" channel="Sportstars4.id">
-    <title lang="id">ASEAN C'ship Hyundai Cup 2026</title>
-  </programme>
-  <programme start="20260811200000 +0700" stop="20260811220000 +0700" channel="Sportstars4.id">
-    <title lang="id">Bundesliga</title>
-  </programme>
-  <programme start="20260811220000 +0700" stop="20260812000000 +0700" channel="Sportstars4.id">
-    <title lang="id">Satu Hati Untuk Garuda</title>
-  </programme>
-  <programme start="20260812000000 +0700" stop="20260812020000 +0700" channel="Sportstars4.id">
-    <title lang="id">ASEAN C'ship Hyundai Cup 2026</title>
-  </programme>
-  <programme start="20260812020000 +0700" stop="20260812040000 +0700" channel="Sportstars4.id">
-    <title lang="id">V-League Women</title>
-  </programme>
-  <programme start="20260812040000 +0700" stop="20260812060000 +0700" channel="Sportstars4.id">
-    <title lang="id">Bundesliga</title>
-  </programme>
-  <programme start="20260812060000 +0700" stop="20260812080000 +0700" channel="Sportstars4.id">
-    <title lang="id">Satu Hati Untuk Garuda</title>
-  </programme>
-  <programme start="20260812080000 +0700" stop="20260812100000 +0700" channel="Sportstars4.id">
-    <title lang="id">ASEAN C'ship Hyundai Cup 2026</title>
-  </programme>
-  <programme start="20260812100000 +0700" stop="20260812120000 +0700" channel="Sportstars4.id">
-    <title lang="id">V-League Women</title>
-  </programme>
-  <programme start="20260812120000 +0700" stop="20260812140000 +0700" channel="Sportstars4.id">
-    <title lang="id">Bundesliga</title>
-  </programme>
-  <programme start="20260812140000 +0700" stop="20260812160000 +0700" channel="Sportstars4.id">
     <title lang="id">Satu Hati Untuk Garuda</title>
   </programme>
   <programme start="20260812160000 +0700" stop="20260812180000 +0700" channel="Sportstars4.id">
@@ -12547,15 +12758,124 @@
   <programme start="20260811153000 +0700" stop="20260811160000 +0700" channel="JTV">
     <title>Goro Goro Kartolo</title>
   </programme>
-  <programme start="20260809000000 +0700" stop="20260810000000 +0700" channel="auto.staratv.malang">
-    <title lang="id">Jadwal belum tersedia</title>
-    <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
+  <programme start="20260811160000 +0700" stop="20260811160300 +0700" channel="JTV">
+    <title>Berita Gress</title>
+  </programme>
+  <programme start="20260811160300 +0700" stop="20260811163000 +0700" channel="JTV">
+    <title>Goro Goro Kartolo</title>
+  </programme>
+  <programme start="20260811163000 +0700" stop="20260811170000 +0700" channel="JTV">
+    <title>Jarwo</title>
+  </programme>
+  <programme start="20260811170000 +0700" stop="20260811173000 +0700" channel="JTV">
+    <title>Program Kesehatan Prosifa</title>
+  </programme>
+  <programme start="20260811173000 +0700" stop="20260811180000 +0700" channel="JTV">
+    <title>Program Kesehatan Healtik</title>
+  </programme>
+  <programme start="20260811180000 +0700" stop="20260811190000 +0700" channel="JTV">
+    <title>Dialog Jelajah Wisata</title>
+  </programme>
+  <programme start="20260811190000 +0700" stop="20260811200000 +0700" channel="JTV">
+    <title>Pojok Pitu</title>
+  </programme>
+  <programme start="20260811200000 +0700" stop="20260811210000 +0700" channel="JTV">
+    <title>Cangkrukan Satpol Pp Jatim</title>
+  </programme>
+  <programme start="20260811210000 +0700" stop="20260811220000 +0700" channel="JTV">
+    <title>Pojok Kampung</title>
+  </programme>
+  <programme start="20260811220000 +0700" stop="20260811230000 +0700" channel="JTV">
+    <title>Nusantara Kini</title>
+  </programme>
+  <programme start="20260811230000 +0700" stop="20260812000000 +0700" channel="JTV">
+    <title>Stasiun Dangdut</title>
+  </programme>
+  <programme start="20260812000000 +0700" stop="20260812000300 +0700" channel="JTV">
+    <title>Lagu Bagimu Negeri</title>
+  </programme>
+  <programme start="20260812000300 +0700" stop="20260812000800 +0700" channel="JTV">
+    <title>Station Id JTV</title>
+  </programme>
+  <programme start="20260812000800 +0700" stop="20260812003000 +0700" channel="JTV">
+    <title>Cocomaxx</title>
+  </programme>
+  <programme start="20260812003000 +0700" stop="20260812010000 +0700" channel="JTV">
+    <title>Ujung Timur</title>
+  </programme>
+  <programme start="20260812010000 +0700" stop="20260812020000 +0700" channel="JTV">
+    <title>Ampun Digoyang</title>
+  </programme>
+  <programme start="20260812020000 +0700" stop="20260812030000 +0700" channel="JTV">
+    <title>Ampun Dj</title>
+  </programme>
+  <programme start="20260812030000 +0700" stop="20260812040000 +0700" channel="JTV">
+    <title>Ilir Ilir</title>
+  </programme>
+  <programme start="20260812040000 +0700" stop="20260812050000 +0700" channel="JTV">
+    <title>Menek Blimbing</title>
+  </programme>
+  <programme start="20260812050000 +0700" stop="20260812055700 +0700" channel="JTV">
+    <title>Minyak Balur Tribbun Nabawi</title>
+  </programme>
+  <programme start="20260812055700 +0700" stop="20260812060000 +0700" channel="JTV">
+    <title>Indonesia Raya</title>
+    <desc>Sign On JTV</desc>
+  </programme>
+  <programme start="20260812060000 +0700" stop="20260812070000 +0700" channel="JTV">
+    <title>Ngaji Blusukan</title>
+  </programme>
+  <programme start="20260812070000 +0700" stop="20260812073000 +0700" channel="JTV">
+    <title>Badanamu</title>
+  </programme>
+  <programme start="20260812073000 +0700" stop="20260812080000 +0700" channel="JTV">
+    <title>Bintang Kecil</title>
+  </programme>
+  <programme start="20260812080000 +0700" stop="20260812083000 +0700" channel="JTV">
+    <title>Seni Pertunjukan</title>
+  </programme>
+  <programme start="20260812083000 +0700" stop="20260812090000 +0700" channel="JTV">
+    <title>Embun Pagi</title>
+  </programme>
+  <programme start="20260812090000 +0700" stop="20260812100000 +0700" channel="JTV">
+    <title>Musica Hits</title>
+  </programme>
+  <programme start="20260812100000 +0700" stop="20260812110000 +0700" channel="JTV">
+    <title>Nusantara Kini</title>
+  </programme>
+  <programme start="20260812110000 +0700" stop="20260812113000 +0700" channel="JTV">
+    <title>Dragon Warior</title>
+  </programme>
+  <programme start="20260812113000 +0700" stop="20260812120000 +0700" channel="JTV">
+    <title>Indonesiana Tv</title>
+  </programme>
+  <programme start="20260812120000 +0700" stop="20260812130000 +0700" channel="JTV">
+    <title>Stasiun Dangdut</title>
+  </programme>
+  <programme start="20260812130000 +0700" stop="20260812133000 +0700" channel="JTV">
+    <title>Gemes</title>
+  </programme>
+  <programme start="20260812133000 +0700" stop="20260812133300 +0700" channel="JTV">
+    <title>Berita Gress</title>
+  </programme>
+  <programme start="20260812133300 +0700" stop="20260812140000 +0700" channel="JTV">
+    <title>Gemes</title>
+  </programme>
+  <programme start="20260812140000 +0700" stop="20260812143000 +0700" channel="JTV">
+    <title>Jatim Awan</title>
+  </programme>
+  <programme start="20260812143000 +0700" stop="20260812150000 +0700" channel="JTV">
+    <title>Pojok Arena</title>
   </programme>
   <programme start="20260810000000 +0700" stop="20260811000000 +0700" channel="auto.staratv.malang">
     <title lang="id">Jadwal belum tersedia</title>
     <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
   </programme>
   <programme start="20260811000000 +0700" stop="20260812000000 +0700" channel="auto.staratv.malang">
+    <title lang="id">Jadwal belum tersedia</title>
+    <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
+  </programme>
+  <programme start="20260812000000 +0700" stop="20260813000000 +0700" channel="auto.staratv.malang">
     <title lang="id">Jadwal belum tersedia</title>
     <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
   </programme>
@@ -12822,6 +13142,122 @@
   <programme start="20260811150000 +0700" stop="20260811160000 +0700" channel="HanacarakaTV.id">
     <title>Surprise Mak!!</title>
     <desc>Surprise... Surprise... SURPRISEEE!! RCTI siap memberikan kejutan spesial untuk kamu di akhir Februari! Program variety show terbaru, SURPRISE MAK!!, akan menemani pagi kamu dengan hiburan seru, kejutan tak terduga, dan hadiah-hadiah menarik!</desc>
+  </programme>
+  <programme start="20260811160000 +0700" stop="20260811170000 +0700" channel="HanacarakaTV.id">
+    <title>4 Anak Rantau</title>
+    <desc>It tells the story of the struggles, the dynamics of friendship, and the love stories of young people studying far from home.</desc>
+  </programme>
+  <programme start="20260811170000 +0700" stop="20260811173000 +0700" channel="HanacarakaTV.id">
+    <title>Kaca Benggala</title>
+    <desc>Kaca Benggala</desc>
+  </programme>
+  <programme start="20260811173000 +0700" stop="20260811180000 +0700" channel="HanacarakaTV.id">
+    <title>Ge Bams</title>
+    <desc>Ge Bams</desc>
+  </programme>
+  <programme start="20260811180000 +0700" stop="20260811190000 +0700" channel="HanacarakaTV.id">
+    <title>Konco Ngaso</title>
+    <desc>Konco Ngaso</desc>
+  </programme>
+  <programme start="20260811190000 +0700" stop="20260811193000 +0700" channel="HanacarakaTV.id">
+    <title>Asal Mulane</title>
+    <desc>Asal Mulane</desc>
+  </programme>
+  <programme start="20260811193000 +0700" stop="20260811200000 +0700" channel="HanacarakaTV.id">
+    <title>Dagelan Jowo New</title>
+    <desc>Dagelan Jowo New</desc>
+  </programme>
+  <programme start="20260811200000 +0700" stop="20260811203000 +0700" channel="HanacarakaTV.id">
+    <title>Baskom (Banyumas Komedi)</title>
+    <desc>Baskom (Banyumas Komedi)</desc>
+  </programme>
+  <programme start="20260811203000 +0700" stop="20260811210000 +0700" channel="HanacarakaTV.id">
+    <title>Arwah Lelembut</title>
+    <desc>Arwah Lelembut</desc>
+  </programme>
+  <programme start="20260811210000 +0700" stop="20260811220000 +0700" channel="HanacarakaTV.id">
+    <title>Ludruk Humor Kirun</title>
+    <desc>Ludruk Humor Kirun</desc>
+  </programme>
+  <programme start="20260811220000 +0700" stop="20260811230000 +0700" channel="HanacarakaTV.id">
+    <title>Ada Basho Di Warung Kopi</title>
+    <desc>Ada Basho Di Warung Kopi</desc>
+  </programme>
+  <programme start="20260811230000 +0700" stop="20260812003000 +0700" channel="HanacarakaTV.id">
+    <title>Ketoprak Humor</title>
+    <desc>Ketoprak Humor</desc>
+  </programme>
+  <programme start="20260812003000 +0700" stop="20260812010000 +0700" channel="HanacarakaTV.id">
+    <title>Dagelan Jowo New</title>
+    <desc>Dagelan Jowo New</desc>
+  </programme>
+  <programme start="20260812010000 +0700" stop="20260812013000 +0700" channel="HanacarakaTV.id">
+    <title>Arwah Lelembut</title>
+    <desc>Arwah Lelembut</desc>
+  </programme>
+  <programme start="20260812013000 +0700" stop="20260812020000 +0700" channel="HanacarakaTV.id">
+    <title>Baskom (Banyumas Komedi)</title>
+    <desc>Baskom (Banyumas Komedi)</desc>
+  </programme>
+  <programme start="20260812020000 +0700" stop="20260812030000 +0700" channel="HanacarakaTV.id">
+    <title>Ludruk Humor Kirun</title>
+    <desc>Ludruk Humor Kirun</desc>
+  </programme>
+  <programme start="20260812030000 +0700" stop="20260812040000 +0700" channel="HanacarakaTV.id">
+    <title>Konco Ngaso</title>
+    <desc>Konco Ngaso</desc>
+  </programme>
+  <programme start="20260812040000 +0700" stop="20260812043000 +0700" channel="HanacarakaTV.id">
+    <title>Ge Bams</title>
+    <desc>Ge Bams</desc>
+  </programme>
+  <programme start="20260812043000 +0700" stop="20260812053000 +0700" channel="HanacarakaTV.id">
+    <title>4 Anak Rantau</title>
+    <desc>It tells the story of the struggles, the dynamics of friendship, and the love stories of young people studying far from home.</desc>
+  </programme>
+  <programme start="20260812053000 +0700" stop="20260812060000 +0700" channel="HanacarakaTV.id">
+    <title>Kaca Benggala</title>
+    <desc>Kaca Benggala</desc>
+  </programme>
+  <programme start="20260812060000 +0700" stop="20260812070000 +0700" channel="HanacarakaTV.id">
+    <title>Ludruk Humor Kirun</title>
+    <desc>Ludruk Humor Kirun</desc>
+  </programme>
+  <programme start="20260812070000 +0700" stop="20260812073000 +0700" channel="HanacarakaTV.id">
+    <title>Asal Mulane</title>
+    <desc>Asal Mulane</desc>
+  </programme>
+  <programme start="20260812073000 +0700" stop="20260812080000 +0700" channel="HanacarakaTV.id">
+    <title>Arwah Lelembut</title>
+    <desc>Arwah Lelembut</desc>
+  </programme>
+  <programme start="20260812080000 +0700" stop="20260812090000 +0700" channel="HanacarakaTV.id">
+    <title>Ada Basho Di Warung Kopi</title>
+    <desc>Ada Basho Di Warung Kopi</desc>
+  </programme>
+  <programme start="20260812090000 +0700" stop="20260812100000 +0700" channel="HanacarakaTV.id">
+    <title>Surprise Mak!!</title>
+    <desc>Surprise... Surprise... SURPRISEEE!! RCTI siap memberikan kejutan spesial untuk kamu di akhir Februari! Program variety show terbaru, SURPRISE MAK!!, akan menemani pagi kamu dengan hiburan seru, kejutan tak terduga, dan hadiah-hadiah menarik!</desc>
+  </programme>
+  <programme start="20260812100000 +0700" stop="20260812113000 +0700" channel="HanacarakaTV.id">
+    <title>Ketoprak Humor</title>
+    <desc>Ketoprak Humor</desc>
+  </programme>
+  <programme start="20260812113000 +0700" stop="20260812123000 +0700" channel="HanacarakaTV.id">
+    <title>4 Anak Rantau</title>
+    <desc>It tells the story of the struggles, the dynamics of friendship, and the love stories of young people studying far from home.</desc>
+  </programme>
+  <programme start="20260812123000 +0700" stop="20260812133000 +0700" channel="HanacarakaTV.id">
+    <title>Konco Ngaso</title>
+    <desc>Konco Ngaso</desc>
+  </programme>
+  <programme start="20260812133000 +0700" stop="20260812140000 +0700" channel="HanacarakaTV.id">
+    <title>Ge Bams</title>
+    <desc>Ge Bams</desc>
+  </programme>
+  <programme start="20260812140000 +0700" stop="20260812150000 +0700" channel="HanacarakaTV.id">
+    <title>Ada Basho Di Warung Kopi</title>
+    <desc>Ada Basho Di Warung Kopi</desc>
   </programme>
   <programme start="20260802040000 +0700" stop="20260802043000 +0700" channel="HanacarakaTV.id">
     <title lang="id">Ge Bams</title>
@@ -13416,93 +13852,6 @@
   </programme>
   <programme start="20260809060000 +0700" stop="20260809070000 +0700" channel="HanacarakaTV.id">
     <title lang="id">Ludruk Humor Kirun</title>
-  </programme>
-  <programme start="20260811160000 +0700" stop="20260811170000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">4 Anak Rantau</title>
-  </programme>
-  <programme start="20260811170000 +0700" stop="20260811173000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Kaca Benggala</title>
-  </programme>
-  <programme start="20260811173000 +0700" stop="20260811180000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ge Bams</title>
-  </programme>
-  <programme start="20260811180000 +0700" stop="20260811190000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Konco Ngaso</title>
-  </programme>
-  <programme start="20260811190000 +0700" stop="20260811193000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Asal Mulane</title>
-  </programme>
-  <programme start="20260811193000 +0700" stop="20260811200000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Dagelan Jowo New</title>
-  </programme>
-  <programme start="20260811200000 +0700" stop="20260811203000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Baskom (Banyumas Komedi)</title>
-  </programme>
-  <programme start="20260811203000 +0700" stop="20260811210000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Arwah Lelembut</title>
-  </programme>
-  <programme start="20260811210000 +0700" stop="20260811220000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ludruk Humor Kirun</title>
-  </programme>
-  <programme start="20260811220000 +0700" stop="20260811230000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ada Basho Di Warung Kopi</title>
-  </programme>
-  <programme start="20260811230000 +0700" stop="20260812003000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ketoprak Humor</title>
-  </programme>
-  <programme start="20260812003000 +0700" stop="20260812010000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Dagelan Jowo New</title>
-  </programme>
-  <programme start="20260812010000 +0700" stop="20260812013000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Arwah Lelembut</title>
-  </programme>
-  <programme start="20260812013000 +0700" stop="20260812020000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Baskom (Banyumas Komedi)</title>
-  </programme>
-  <programme start="20260812020000 +0700" stop="20260812030000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ludruk Humor Kirun</title>
-  </programme>
-  <programme start="20260812030000 +0700" stop="20260812040000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Konco Ngaso</title>
-  </programme>
-  <programme start="20260812040000 +0700" stop="20260812043000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ge Bams</title>
-  </programme>
-  <programme start="20260812043000 +0700" stop="20260812053000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">4 Anak Rantau</title>
-  </programme>
-  <programme start="20260812053000 +0700" stop="20260812060000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Kaca Benggala</title>
-  </programme>
-  <programme start="20260812060000 +0700" stop="20260812070000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ludruk Humor Kirun</title>
-  </programme>
-  <programme start="20260812070000 +0700" stop="20260812073000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Asal Mulane</title>
-  </programme>
-  <programme start="20260812073000 +0700" stop="20260812080000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Arwah Lelembut</title>
-  </programme>
-  <programme start="20260812080000 +0700" stop="20260812090000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ada Basho Di Warung Kopi</title>
-  </programme>
-  <programme start="20260812090000 +0700" stop="20260812100000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Surprise Mak!!</title>
-  </programme>
-  <programme start="20260812100000 +0700" stop="20260812113000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ketoprak Humor</title>
-  </programme>
-  <programme start="20260812113000 +0700" stop="20260812123000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">4 Anak Rantau</title>
-  </programme>
-  <programme start="20260812123000 +0700" stop="20260812133000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Konco Ngaso</title>
-  </programme>
-  <programme start="20260812133000 +0700" stop="20260812140000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ge Bams</title>
-  </programme>
-  <programme start="20260812140000 +0700" stop="20260812150000 +0700" channel="HanacarakaTV.id">
-    <title lang="id">Ada Basho Di Warung Kopi</title>
   </programme>
   <programme start="20260812150000 +0700" stop="20260812160000 +0700" channel="HanacarakaTV.id">
     <title lang="id">Surprise Mak!!</title>
@@ -14106,5 +14455,93 @@
   <programme start="20260811153000 +0700" stop="20260811160000 +0700" channel="Channel Jowo">
     <title>Jowo Pedia # Eps 49</title>
     <desc>Jowo Pedia # Eps 49</desc>
+  </programme>
+  <programme start="20260811160000 +0700" stop="20260811163000 +0700" channel="Channel Jowo">
+    <title>Ragam Desa # Eps 17</title>
+    <desc>Ragam Desa # Eps 17</desc>
+  </programme>
+  <programme start="20260811163000 +0700" stop="20260811170000 +0700" channel="Channel Jowo">
+    <title>Wiwitane # Eps 14</title>
+    <desc>Wiwitane # Eps 14</desc>
+  </programme>
+  <programme start="20260811170000 +0700" stop="20260811173000 +0700" channel="Channel Jowo">
+    <title>Mlaku - Mlaku # Eps 20</title>
+    <desc>Mlaku - Mlaku # Eps 20</desc>
+  </programme>
+  <programme start="20260811173000 +0700" stop="20260811183000 +0700" channel="Channel Jowo">
+    <title>Punakawan # Eps 25</title>
+    <desc>Punakawan # Eps 25</desc>
+  </programme>
+  <programme start="20260811183000 +0700" stop="20260811190000 +0700" channel="Channel Jowo">
+    <title>Jawadwipa # Eps 15</title>
+    <desc>Jawadwipa # Eps 15</desc>
+  </programme>
+  <programme start="20260811190000 +0700" stop="20260811193000 +0700" channel="Channel Jowo">
+    <title>Nusantara # Eps41</title>
+    <desc>Nusantara # Eps41</desc>
+  </programme>
+  <programme start="20260811193000 +0700" stop="20260811200000 +0700" channel="Channel Jowo">
+    <title>Babat Tanah Jowo # Eps 37</title>
+    <desc>Babat Tanah Jowo # Eps 37</desc>
+  </programme>
+  <programme start="20260811200000 +0700" stop="20260811220000 +0700" channel="Channel Jowo">
+    <title>Wayang Orang # Ronggeng Kandhiraras</title>
+    <desc>Wayang Orang # Ronggeng Kandhiraras</desc>
+  </programme>
+  <programme start="20260811220000 +0700" stop="20260811223000 +0700" channel="Channel Jowo">
+    <title>Pusaka Jawa # Eps17</title>
+    <desc>Pusaka Jawa # Eps17</desc>
+  </programme>
+  <programme start="20260811223000 +0700" stop="20260811230000 +0700" channel="Channel Jowo">
+    <title>Ragam Desa # Eps 22</title>
+    <desc>Ragam Desa # Eps 22</desc>
+  </programme>
+  <programme start="20260811230000 +0700" stop="20260812000000 +0700" channel="Channel Jowo">
+    <title>Tembang Jowo # 335</title>
+    <desc>Tembang Jowo # 335</desc>
+  </programme>
+  <programme start="20260812000000 +0700" stop="20260812003000 +0700" channel="Channel Jowo">
+    <title>Nusantara # Eps51</title>
+    <desc>Nusantara # Eps51</desc>
+  </programme>
+  <programme start="20260812003000 +0700" stop="20260812010000 +0700" channel="Channel Jowo">
+    <title>Jowo Pedia # Eps 21</title>
+    <desc>Jowo Pedia # Eps 21</desc>
+  </programme>
+  <programme start="20260812010000 +0700" stop="20260812013000 +0700" channel="Channel Jowo">
+    <title>GUmebyar Budoyo # Gelagat Gerak Keris</title>
+    <desc>GUmebyar Budoyo # Gelagat Gerak Keris</desc>
+  </programme>
+  <programme start="20260812013000 +0700" stop="20260812020000 +0700" channel="Channel Jowo">
+    <title>Jawadwipa # Eps 15</title>
+    <desc>Jawadwipa # Eps 15</desc>
+  </programme>
+  <programme start="20260812020000 +0700" stop="20260812030000 +0700" channel="Channel Jowo">
+    <title>Wayang Orang  # Pandhawa Wiratama3</title>
+    <desc>Wayang Orang # Pandhawa Wiratama3</desc>
+  </programme>
+  <programme start="20260812030000 +0700" stop="20260812033000 +0700" channel="Channel Jowo">
+    <title>Ragam Desa # EPS. 83 ( Desa Rengel, Desa Tritik, Desa Seboro, Desa Ngadiboyo)</title>
+    <desc>Ragam Desa # EPS. 83 ( Desa Rengel, Desa Tritik, Desa Seboro, Desa Ngadiboyo)</desc>
+  </programme>
+  <programme start="20260812033000 +0700" stop="20260812040000 +0700" channel="Channel Jowo">
+    <title>Babat Tanah Jowo # Eps 20</title>
+    <desc>Babat Tanah Jowo # Eps 20</desc>
+  </programme>
+  <programme start="20260812040000 +0700" stop="20260812050000 +0700" channel="Channel Jowo">
+    <title>Tembang Jowo # 301</title>
+    <desc>Tembang Jowo # 301</desc>
+  </programme>
+  <programme start="20260812050000 +0700" stop="20260812060000 +0700" channel="Channel Jowo">
+    <title>Punakawan # Eps 46</title>
+    <desc>Punakawan # Eps 46</desc>
+  </programme>
+  <programme start="20260812060000 +0700" stop="20260812065950 +0700" channel="Channel Jowo">
+    <title>Ki Geter # Sumilak Pedut Ngastino 1</title>
+    <desc>Ki Geter # Sumilak Pedut Ngastino 1</desc>
+  </programme>
+  <programme start="20260812065950 +0700" stop="20260812065900 +0700" channel="Channel Jowo">
+    <title>Ki Geter # Sumilak Pedut Ngastino 1</title>
+    <desc>Ki Geter # Sumilak Pedut Ngastino 1</desc>
   </programme>
   </tv>

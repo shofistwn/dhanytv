@@ -20,6 +20,11 @@
     <url>http://www.mncvision.id</url>
     <icon src="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" />
   </channel>
+  <channel id="Indosiar.id">
+    <display-name lang="id">Indosiar</display-name>
+    <url>http://www.mncvision.id</url>
+    <icon src="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" />
+  </channel>
   <channel id="TransTV.id">
     <display-name lang="id">TransTV</display-name>
     <url>http://www.indihometv.com</url>
@@ -73,6 +78,11 @@
   <channel id="Sportstars4.id">
     <display-name>Sportstars 4.id</display-name>
     <icon src="https://images.open-epg.com/x1335.png" />
+  </channel>
+  <channel id="auto.jawapos.tv">
+    <display-name lang="id">JAWAPOS TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/id/thumb/3/3b/Logo_Jawapos_TV.png" />
+    <url>https://github.com/dhasap/dhanytv</url>
   </channel>
   <channel id="JTV">
     <display-name lang="id">JTV</display-name>
@@ -3558,6 +3568,612 @@
   </programme>
   <programme start="20260817023000 +0700" stop="20260817040500 +0700" channel="SCTV.id">
     <title lang="id">Sinema Dini Hari</title>
+  </programme>
+  <programme start="20260813010000 +0700" stop="20260813030000 +0700" channel="Indosiar.id">
+    <title lang="id">True Legend</title>
+  </programme>
+  <programme start="20260813030000 +0700" stop="20260813043000 +0700" channel="Indosiar.id">
+    <title lang="id">Gambling Ghost</title>
+  </programme>
+  <programme start="20260813043000 +0700" stop="20260813060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260813060000 +0700" stop="20260813080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260813080000 +0700" stop="20260813100000 +0700" channel="Indosiar.id">
+    <title lang="id">Tamu Tak Di Undang</title>
+  </programme>
+  <programme start="20260813100000 +0700" stop="20260813110000 +0700" channel="Indosiar.id">
+    <title lang="id">Hot Kiss</title>
+  </programme>
+  <programme start="20260813110000 +0700" stop="20260813113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260813113000 +0700" stop="20260813120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260813120000 +0700" stop="20260813133000 +0700" channel="Indosiar.id">
+    <title lang="id">Sakit Hati Dari Masa Lalu</title>
+  </programme>
+  <programme start="20260813133000 +0700" stop="20260813150000 +0700" channel="Indosiar.id">
+    <title lang="id">Petaka Sakit Hati</title>
+  </programme>
+  <programme start="20260813150000 +0700" stop="20260813170000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Kado Ulang Tahun</title>
+  </programme>
+  <programme start="20260813170000 +0700" stop="20260813190000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260813190000 +0700" stop="20260813213000 +0700" channel="Indosiar.id">
+    <title lang="id">Dewata Challenge Series 2026</title>
+  </programme>
+  <programme start="20260813213000 +0700" stop="20260814010000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260814010000 +0700" stop="20260814023000 +0700" channel="Indosiar.id">
+    <title lang="id">Iceman</title>
+  </programme>
+  <programme start="20260814023000 +0700" stop="20260814040000 +0700" channel="Indosiar.id">
+    <title lang="id">Iron Monkey</title>
+  </programme>
+  <programme start="20260814040000 +0700" stop="20260814043000 +0700" channel="Indosiar.id">
+    <title lang="id">Pintu-Pintu Syurga</title>
+  </programme>
+  <programme start="20260814043000 +0700" stop="20260814060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260814060000 +0700" stop="20260814080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260814080000 +0700" stop="20260814100000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Yang Disembunyikan...</title>
+  </programme>
+  <programme start="20260814100000 +0700" stop="20260814110000 +0700" channel="Indosiar.id">
+    <title lang="id">Hot Kiss</title>
+  </programme>
+  <programme start="20260814110000 +0700" stop="20260814113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260814113000 +0700" stop="20260814120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260814120000 +0700" stop="20260814140000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Liontin Dibalik...</title>
+  </programme>
+  <programme start="20260814140000 +0700" stop="20260814160000 +0700" channel="Indosiar.id">
+    <title lang="id">Sisi Gelap Suamiku</title>
+  </programme>
+  <programme start="20260814160000 +0700" stop="20260814180000 +0700" channel="Indosiar.id">
+    <title lang="id">Teror Puskesmas Tua</title>
+  </programme>
+  <programme start="20260814180000 +0700" stop="20260814203000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260814203000 +0700" stop="20260815000000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260815000000 +0700" stop="20260815013000 +0700" channel="Indosiar.id">
+    <title lang="id">Fong Sai Yuk</title>
+  </programme>
+  <programme start="20260815013000 +0700" stop="20260815030000 +0700" channel="Indosiar.id">
+    <title lang="id">Dragon Squad</title>
+  </programme>
+  <programme start="20260815030000 +0700" stop="20260815043000 +0700" channel="Indosiar.id">
+    <title lang="id">Iron Monkey 2</title>
+  </programme>
+  <programme start="20260815043000 +0700" stop="20260815053000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260815053000 +0700" stop="20260815080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260815080000 +0700" stop="20260815093000 +0700" channel="Indosiar.id">
+    <title lang="id">Tetangga Baru Membayangi...</title>
+  </programme>
+  <programme start="20260815093000 +0700" stop="20260815103000 +0700" channel="Indosiar.id">
+    <title lang="id">Best Kiss</title>
+  </programme>
+  <programme start="20260815103000 +0700" stop="20260815110000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260815110000 +0700" stop="20260815113000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260815113000 +0700" stop="20260815130000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Melodi Mata Hatiku</title>
+  </programme>
+  <programme start="20260815130000 +0700" stop="20260815143000 +0700" channel="Indosiar.id">
+    <title lang="id">Misteri Bayangan Tengah Malam</title>
+  </programme>
+  <programme start="20260815143000 +0700" stop="20260815150000 +0700" channel="Indosiar.id">
+    <title lang="id">Dancow Indonesia Cerdas</title>
+  </programme>
+  <programme start="20260815150000 +0700" stop="20260815163000 +0700" channel="Indosiar.id">
+    <title lang="id">Tragedi Malam Kelam</title>
+  </programme>
+  <programme start="20260815163000 +0700" stop="20260815183000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260815183000 +0700" stop="20260815210000 +0700" channel="Indosiar.id">
+    <title lang="id">Dewata Challenge Series 2026</title>
+  </programme>
+  <programme start="20260815210000 +0700" stop="20260816010000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260816010000 +0700" stop="20260816030000 +0700" channel="Indosiar.id">
+    <title lang="id">Wheels On Meals</title>
+  </programme>
+  <programme start="20260816030000 +0700" stop="20260816043000 +0700" channel="Indosiar.id">
+    <title lang="id">Tiger Cage 2</title>
+  </programme>
+  <programme start="20260816043000 +0700" stop="20260816060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260816060000 +0700" stop="20260816080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260816080000 +0700" stop="20260816100000 +0700" channel="Indosiar.id">
+    <title lang="id">Kenapa Istriku Tak Betah...</title>
+  </programme>
+  <programme start="20260816100000 +0700" stop="20260816110000 +0700" channel="Indosiar.id">
+    <title lang="id">Best Kiss</title>
+  </programme>
+  <programme start="20260816110000 +0700" stop="20260816113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260816113000 +0700" stop="20260816120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260816120000 +0700" stop="20260816140000 +0700" channel="Indosiar.id">
+    <title lang="id">Siapakah Perempuan Yang...</title>
+  </programme>
+  <programme start="20260816140000 +0700" stop="20260816160000 +0700" channel="Indosiar.id">
+    <title lang="id">Kepercayaan Dibalas Dusta</title>
+  </programme>
+  <programme start="20260816160000 +0700" stop="20260816180000 +0700" channel="Indosiar.id">
+    <title lang="id">Dosa Lama Yang Kembali</title>
+  </programme>
+  <programme start="20260816180000 +0700" stop="20260816203000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260816203000 +0700" stop="20260817000000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260812234400 +0700" stop="20260813012800 +0700" channel="Indosiar.id">
+    <title>Mega Film Asia: The Accidental Spy</title>
+    <desc>Mega Film Asia Adalah Program Yang Memutarkan Film-Film Asia Yang Ditayangkan Di Indosiar. Acara Ini Ditayangkan Perdana Pada Tahun 1996 Silam.</desc>
+  </programme>
+  <programme start="20260813012800 +0700" stop="20260813031300 +0700" channel="Indosiar.id">
+    <title>Mega Film Asia: Shaolin</title>
+    <desc>Mega Film Asia Adalah Program Yang Memutarkan Film-Film Asia Yang Ditayangkan Di Indosiar. Acara Ini Ditayangkan Perdana Pada Tahun 1996 Silam.</desc>
+  </programme>
+  <programme start="20260813031300 +0700" stop="20260813043000 +0700" channel="Indosiar.id">
+    <title>Mega Film Asia: Gambling Ghost</title>
+    <desc>Mega Film Asia Adalah Program Yang Memutarkan Film-Film Asia Yang Ditayangkan Di Indosiar. Acara Ini Ditayangkan Perdana Pada Tahun 1996 Silam.</desc>
+  </programme>
+  <programme start="20260813054900 +0700" stop="20260813080000 +0700" channel="Indosiar.id">
+    <title>Merangkai Kisah Indah</title>
+    <desc>Mega Series Terbaru Raden Rakha Dan Basmalah Gralind Di Indosiar Merangkai Kisah Indah Tayang Setiap Hari, Mulai Senin, 14 Juli 2025 Pukul 17:00 Wib. Kisah Derita Mutiara Yang Mencari Orangtua Kandungnya Karena Sewaktu Bayi Ditukar Oleh Ibu Angkatnya. Nasib Membawa Dirinya Bertemu Dengan Keluarga Yang Tanpa Dia Ketahui Adalah Orangtua Kandungnya Dan Juga Bertemu Kenzo. Apakah Kenzo Dan Mutiara Akan Berjodoh? Dibintangi Raden Rakha, Basmalah Gralind, Panji Saputra, Tsania Marwa, Gita Sinaga, Vayala Maulidina, Washifa, Haura Lathifa, Dan Emiliano Cortizo. Saksikan Mega Series Terbaru Indosiar : Merangkai Kisah Indah, Tayang Setiap Hari, Mulai Senin, 14 Juli 2025 Pukul 17:00 WIB Hanya Di Indosiar.</desc>
+  </programme>
+  <programme start="20260813190400 +0700" stop="20260813214800 +0700" channel="Indosiar.id">
+    <title>Dewata Challenge Series 2026</title>
+    <desc>Dewata Challenge Series 2026</desc>
+  </programme>
+  <programme start="20260813214800 +0700" stop="20260814010000 +0700" channel="Indosiar.id">
+    <title>D'Academy 8: Best Of Top 31 Group 1</title>
+    <desc>D'Academy 8</desc>
+  </programme>
+  <programme start="20260802010000 +0700" stop="20260802030000 +0700" channel="Indosiar.id">
+    <title lang="id">Armour Of God II</title>
+  </programme>
+  <programme start="20260802030000 +0700" stop="20260802043000 +0700" channel="Indosiar.id">
+    <title lang="id">Fatal Move</title>
+  </programme>
+  <programme start="20260802043000 +0700" stop="20260802060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260802060000 +0700" stop="20260802073000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260802073000 +0700" stop="20260802093000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Di Balik Judol</title>
+  </programme>
+  <programme start="20260802093000 +0700" stop="20260802103000 +0700" channel="Indosiar.id">
+    <title lang="id">Best Kiss</title>
+  </programme>
+  <programme start="20260802103000 +0700" stop="20260802110000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260802110000 +0700" stop="20260802113000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260802113000 +0700" stop="20260802130000 +0700" channel="Indosiar.id">
+    <title lang="id">Terperangkap Dusta Pernikahan</title>
+  </programme>
+  <programme start="20260802130000 +0700" stop="20260802143000 +0700" channel="Indosiar.id">
+    <title lang="id">Di Balik Cerita Buruk...</title>
+  </programme>
+  <programme start="20260802143000 +0700" stop="20260802150000 +0700" channel="Indosiar.id">
+    <title lang="id">Dancow Indonesia Cerdas</title>
+  </programme>
+  <programme start="20260802150000 +0700" stop="20260802163000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Teror Menghantui...</title>
+  </programme>
+  <programme start="20260802163000 +0700" stop="20260802180000 +0700" channel="Indosiar.id">
+    <title lang="id">Kesalahan Di Balik Pernikahan</title>
+  </programme>
+  <programme start="20260802180000 +0700" stop="20260802203000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260802203000 +0700" stop="20260803000000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260803000000 +0700" stop="20260803020000 +0700" channel="Indosiar.id">
+    <title lang="id">New Police Story</title>
+  </programme>
+  <programme start="20260803020000 +0700" stop="20260803033000 +0700" channel="Indosiar.id">
+    <title lang="id">Fong Sai-Yuk, For The Winner</title>
+  </programme>
+  <programme start="20260803033000 +0700" stop="20260803043000 +0700" channel="Indosiar.id">
+    <title lang="id">Cruel War</title>
+  </programme>
+  <programme start="20260803043000 +0700" stop="20260803060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260803060000 +0700" stop="20260803083000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260803083000 +0700" stop="20260803100000 +0700" channel="Indosiar.id">
+    <title lang="id">Dilahirkan Lalu Disangkal</title>
+  </programme>
+  <programme start="20260803100000 +0700" stop="20260803110000 +0700" channel="Indosiar.id">
+    <title lang="id">Kiss Pagi</title>
+  </programme>
+  <programme start="20260803110000 +0700" stop="20260803113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260803113000 +0700" stop="20260803120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260803120000 +0700" stop="20260803133000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Kelam Cinta Masa Lalu</title>
+  </programme>
+  <programme start="20260803133000 +0700" stop="20260803150000 +0700" channel="Indosiar.id">
+    <title lang="id">Aku Dinikahi Hanya Untuk...</title>
+  </programme>
+  <programme start="20260803150000 +0700" stop="20260803170000 +0700" channel="Indosiar.id">
+    <title lang="id">Teror Cinta Yang Meninggalkanku</title>
+  </programme>
+  <programme start="20260803170000 +0700" stop="20260803190000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260803190000 +0700" stop="20260803230000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260803230000 +0700" stop="20260804010000 +0700" channel="Indosiar.id">
+    <title lang="id">The Comeback</title>
+  </programme>
+  <programme start="20260804010000 +0700" stop="20260804030000 +0700" channel="Indosiar.id">
+    <title lang="id">Tai Chi Master</title>
+  </programme>
+  <programme start="20260804030000 +0700" stop="20260804043000 +0700" channel="Indosiar.id">
+    <title lang="id">Perfect Exchange</title>
+  </programme>
+  <programme start="20260804043000 +0700" stop="20260804060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260804060000 +0700" stop="20260804080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260804080000 +0700" stop="20260804100000 +0700" channel="Indosiar.id">
+    <title lang="id">Misteri Hotel Menyembunyikan...</title>
+  </programme>
+  <programme start="20260804100000 +0700" stop="20260804110000 +0700" channel="Indosiar.id">
+    <title lang="id">Kiss Pagi</title>
+  </programme>
+  <programme start="20260804110000 +0700" stop="20260804113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260804113000 +0700" stop="20260804120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260804120000 +0700" stop="20260804133000 +0700" channel="Indosiar.id">
+    <title lang="id">Istriku Sedang Puber Kedua</title>
+  </programme>
+  <programme start="20260804133000 +0700" stop="20260804150000 +0700" channel="Indosiar.id">
+    <title lang="id">Bukan Menantu, Tapi Pembantu</title>
+  </programme>
+  <programme start="20260804150000 +0700" stop="20260804173000 +0700" channel="Indosiar.id">
+    <title lang="id">Piala Presiden 2026</title>
+  </programme>
+  <programme start="20260804173000 +0700" stop="20260804190000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260804190000 +0700" stop="20260804213000 +0700" channel="Indosiar.id">
+    <title lang="id">Piala Presiden 2026</title>
+  </programme>
+  <programme start="20260804213000 +0700" stop="20260805010000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260805010000 +0700" stop="20260805023000 +0700" channel="Indosiar.id">
+    <title lang="id">Fist Of Legend</title>
+  </programme>
+  <programme start="20260805023000 +0700" stop="20260805040000 +0700" channel="Indosiar.id">
+    <title lang="id">Casino Raiders</title>
+  </programme>
+  <programme start="20260805040000 +0700" stop="20260805043000 +0700" channel="Indosiar.id">
+    <title lang="id">Mujizat Masih Ada</title>
+  </programme>
+  <programme start="20260805043000 +0700" stop="20260805053000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260805053000 +0700" stop="20260805070000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260805070000 +0700" stop="20260805083000 +0700" channel="Indosiar.id">
+    <title lang="id">Aku Terpaksa Menikah Dengan...</title>
+  </programme>
+  <programme start="20260805083000 +0700" stop="20260805100000 +0700" channel="Indosiar.id">
+    <title lang="id">Perjodohan Membawa Teka-Teki</title>
+  </programme>
+  <programme start="20260805100000 +0700" stop="20260805110000 +0700" channel="Indosiar.id">
+    <title lang="id">Hot Kiss</title>
+  </programme>
+  <programme start="20260805110000 +0700" stop="20260805113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260805113000 +0700" stop="20260805120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260805120000 +0700" stop="20260805133000 +0700" channel="Indosiar.id">
+    <title lang="id">Petaka Di Balik Dusta</title>
+  </programme>
+  <programme start="20260805133000 +0700" stop="20260805150000 +0700" channel="Indosiar.id">
+    <title lang="id">Terlena Perlakuan Manis Ipar</title>
+  </programme>
+  <programme start="20260805150000 +0700" stop="20260805170000 +0700" channel="Indosiar.id">
+    <title lang="id">Berawal Dari Pay Later 100 Ribu</title>
+  </programme>
+  <programme start="20260805170000 +0700" stop="20260805190000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260805190000 +0700" stop="20260805230000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260805230000 +0700" stop="20260806010000 +0700" channel="Indosiar.id">
+    <title lang="id">Dragon Tiger Gate</title>
+  </programme>
+  <programme start="20260806010000 +0700" stop="20260806030000 +0700" channel="Indosiar.id">
+    <title lang="id">Grandmaster Of Kungfu</title>
+  </programme>
+  <programme start="20260806030000 +0700" stop="20260806043000 +0700" channel="Indosiar.id">
+    <title lang="id">Shanghai Affairs</title>
+  </programme>
+  <programme start="20260806043000 +0700" stop="20260806060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260806060000 +0700" stop="20260806080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260806080000 +0700" stop="20260806100000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Gelap Masa Lalu</title>
+  </programme>
+  <programme start="20260806100000 +0700" stop="20260806110000 +0700" channel="Indosiar.id">
+    <title lang="id">Hot Kiss</title>
+  </programme>
+  <programme start="20260806110000 +0700" stop="20260806113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260806113000 +0700" stop="20260806120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260806120000 +0700" stop="20260806133000 +0700" channel="Indosiar.id">
+    <title lang="id">Watak Keras Istriku Hancurkan...</title>
+  </programme>
+  <programme start="20260806133000 +0700" stop="20260806150000 +0700" channel="Indosiar.id">
+    <title lang="id">Awan Gelap Yang Menyelimuti...</title>
+  </programme>
+  <programme start="20260806150000 +0700" stop="20260806173000 +0700" channel="Indosiar.id">
+    <title lang="id">Piala Presiden 2026</title>
+  </programme>
+  <programme start="20260806173000 +0700" stop="20260806183000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260806183000 +0700" stop="20260806220000 +0700" channel="Indosiar.id">
+    <title lang="id">Piala Presiden 2026</title>
+  </programme>
+  <programme start="20260806220000 +0700" stop="20260807020000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260807020000 +0700" stop="20260807040000 +0700" channel="Indosiar.id">
+    <title lang="id">Martial Arts Of Shaolin</title>
+  </programme>
+  <programme start="20260807040000 +0700" stop="20260807043000 +0700" channel="Indosiar.id">
+    <title lang="id">Pintu-Pintu Syurga</title>
+  </programme>
+  <programme start="20260807043000 +0700" stop="20260807060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260807060000 +0700" stop="20260807070000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260807070000 +0700" stop="20260807083000 +0700" channel="Indosiar.id">
+    <title lang="id">Misteri Rumah Tetangga</title>
+  </programme>
+  <programme start="20260807083000 +0700" stop="20260807100000 +0700" channel="Indosiar.id">
+    <title lang="id">Kesetiaan Dibalas Kesengsaraan</title>
+  </programme>
+  <programme start="20260807100000 +0700" stop="20260807110000 +0700" channel="Indosiar.id">
+    <title lang="id">Hot Kiss</title>
+  </programme>
+  <programme start="20260807110000 +0700" stop="20260807113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260807113000 +0700" stop="20260807120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260807120000 +0700" stop="20260807133000 +0700" channel="Indosiar.id">
+    <title lang="id">Siasat Licik Di Balik Kegagalan</title>
+  </programme>
+  <programme start="20260807133000 +0700" stop="20260807150000 +0700" channel="Indosiar.id">
+    <title lang="id">Rumah Sepi Penuh Misterius</title>
+  </programme>
+  <programme start="20260807150000 +0700" stop="20260807170000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Di Balik Bakat Palsu</title>
+  </programme>
+  <programme start="20260807170000 +0700" stop="20260807190000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260807190000 +0700" stop="20260807230000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260807230000 +0700" stop="20260808010000 +0700" channel="Indosiar.id">
+    <title lang="id">Legend Of The Fist: Chen Zhen</title>
+  </programme>
+  <programme start="20260808010000 +0700" stop="20260808030000 +0700" channel="Indosiar.id">
+    <title lang="id">Angry Rescue</title>
+  </programme>
+  <programme start="20260808030000 +0700" stop="20260808043000 +0700" channel="Indosiar.id">
+    <title lang="id">China Dragon</title>
+  </programme>
+  <programme start="20260808043000 +0700" stop="20260808060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260808060000 +0700" stop="20260808080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260808080000 +0700" stop="20260808093000 +0700" channel="Indosiar.id">
+    <title lang="id">Misteri Terselubung Dibalik...</title>
+  </programme>
+  <programme start="20260808093000 +0700" stop="20260808103000 +0700" channel="Indosiar.id">
+    <title lang="id">Best Kiss</title>
+  </programme>
+  <programme start="20260808103000 +0700" stop="20260808110000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260808110000 +0700" stop="20260808113000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260808113000 +0700" stop="20260808130000 +0700" channel="Indosiar.id">
+    <title lang="id">Akibat Merampas Jodoh Orang</title>
+  </programme>
+  <programme start="20260808130000 +0700" stop="20260808143000 +0700" channel="Indosiar.id">
+    <title lang="id">Petaka 500 Juta</title>
+  </programme>
+  <programme start="20260808143000 +0700" stop="20260808150000 +0700" channel="Indosiar.id">
+    <title lang="id">Dancow Indonesia Cerdas</title>
+  </programme>
+  <programme start="20260808150000 +0700" stop="20260808163000 +0700" channel="Indosiar.id">
+    <title lang="id">Pernikahan Di Atas Kebohongan</title>
+  </programme>
+  <programme start="20260808163000 +0700" stop="20260808180000 +0700" channel="Indosiar.id">
+    <title lang="id">Pernikahan Berselimutkan Dendam</title>
+  </programme>
+  <programme start="20260808180000 +0700" stop="20260808203000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260808203000 +0700" stop="20260809000000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260809000000 +0700" stop="20260809023000 +0700" channel="Indosiar.id">
+    <title lang="id">Ip Man KungFu Master</title>
+  </programme>
+  <programme start="20260809023000 +0700" stop="20260809043000 +0700" channel="Indosiar.id">
+    <title lang="id">Trouble Maker</title>
+  </programme>
+  <programme start="20260809043000 +0700" stop="20260809053000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260809053000 +0700" stop="20260809080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260809080000 +0700" stop="20260809093000 +0700" channel="Indosiar.id">
+    <title lang="id">Iparku Adalah Cobaan Dalam...</title>
+  </programme>
+  <programme start="20260809093000 +0700" stop="20260809103000 +0700" channel="Indosiar.id">
+    <title lang="id">Best Kiss</title>
+  </programme>
+  <programme start="20260809103000 +0700" stop="20260809110000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260809110000 +0700" stop="20260809113000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260809113000 +0700" stop="20260809130000 +0700" channel="Indosiar.id">
+    <title lang="id">Teror Pernikahan Beda Usia</title>
+  </programme>
+  <programme start="20260809130000 +0700" stop="20260809143000 +0700" channel="Indosiar.id">
+    <title lang="id">Bayangan Dosa Masa Lalu</title>
+  </programme>
+  <programme start="20260809143000 +0700" stop="20260809150000 +0700" channel="Indosiar.id">
+    <title lang="id">Dancow Indonesia Cerdas</title>
+  </programme>
+  <programme start="20260809150000 +0700" stop="20260809163000 +0700" channel="Indosiar.id">
+    <title lang="id">Misteri Suara Aneh Di Rumah...</title>
+  </programme>
+  <programme start="20260809163000 +0700" stop="20260809180000 +0700" channel="Indosiar.id">
+    <title lang="id">Dia Menguras Air Mata &amp; Hartaku</title>
+  </programme>
+  <programme start="20260809180000 +0700" stop="20260809203000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260809203000 +0700" stop="20260810000000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260810000000 +0700" stop="20260810023000 +0700" channel="Indosiar.id">
+    <title lang="id">City Hunter</title>
+  </programme>
+  <programme start="20260810023000 +0700" stop="20260810043000 +0700" channel="Indosiar.id">
+    <title lang="id">Ninja Kids</title>
+  </programme>
+  <programme start="20260812020000 +0700" stop="20260812040000 +0700" channel="Indosiar.id">
+    <title lang="id">Shaolin</title>
+  </programme>
+  <programme start="20260812040000 +0700" stop="20260812043000 +0700" channel="Indosiar.id">
+    <title lang="id">Mujizat Masih Ada</title>
+  </programme>
+  <programme start="20260812043000 +0700" stop="20260812060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260812060000 +0700" stop="20260812080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260812080000 +0700" stop="20260812100000 +0700" channel="Indosiar.id">
+    <title lang="id">Perjuangan Seorang Kakak</title>
+  </programme>
+  <programme start="20260812100000 +0700" stop="20260812110000 +0700" channel="Indosiar.id">
+    <title lang="id">Hot Kiss</title>
+  </programme>
+  <programme start="20260812110000 +0700" stop="20260812113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260812113000 +0700" stop="20260812120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260812120000 +0700" stop="20260812133000 +0700" channel="Indosiar.id">
+    <title lang="id">Suami Kaya Disayang</title>
+  </programme>
+  <programme start="20260812133000 +0700" stop="20260812150000 +0700" channel="Indosiar.id">
+    <title lang="id">Petaka Mencintai Adik Ipar</title>
+  </programme>
+  <programme start="20260812150000 +0700" stop="20260812170000 +0700" channel="Indosiar.id">
+    <title lang="id">Siapa Orang Ketiga?</title>
+  </programme>
+  <programme start="20260812170000 +0700" stop="20260812190000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260812190000 +0700" stop="20260812230000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260812230000 +0700" stop="20260813010000 +0700" channel="Indosiar.id">
+    <title lang="id">The Accidental Spy</title>
+  </programme>
+  <programme start="20260817000000 +0700" stop="20260817023000 +0700" channel="Indosiar.id">
+    <title lang="id">Rob-B-hood</title>
+  </programme>
+  <programme start="20260817023000 +0700" stop="20260817043000 +0700" channel="Indosiar.id">
+    <title lang="id">Call Of Heroes</title>
   </programme>
   <programme start="20260812220000 +0700" stop="20260813000000 +0700" channel="TransTV.id">
     <title>Bioskop Trans TV</title>
@@ -16697,6 +17313,18 @@
   </programme>
   <programme start="20260820220000 +0700" stop="20260821000000 +0700" channel="Sportstars4.id">
     <title lang="id">Satu Hati Untuk Garuda</title>
+  </programme>
+  <programme start="20260813000000 +0700" stop="20260814000000 +0700" channel="auto.jawapos.tv">
+    <title lang="id">Jadwal belum tersedia</title>
+    <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
+  </programme>
+  <programme start="20260814000000 +0700" stop="20260815000000 +0700" channel="auto.jawapos.tv">
+    <title lang="id">Jadwal belum tersedia</title>
+    <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
+  </programme>
+  <programme start="20260815000000 +0700" stop="20260816000000 +0700" channel="auto.jawapos.tv">
+    <title lang="id">Jadwal belum tersedia</title>
+    <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
   </programme>
   <programme start="20260812230000 +0700" stop="20260813000000 +0700" channel="JTV">
     <title>Stasiun Dangdut</title>

@@ -117,6 +117,7 @@ class AppConfig:
     group: str = "FAVORITES"
     noise_tokens: Set[str] = field(default_factory=set)
     regional_keywords: Set[str] = field(default_factory=set)
+    blacklist_providers: Set[str] = field(default_factory=set)
     rules: List[ChannelRule] = field(default_factory=list)
 
 def load_config(config_path: Path) -> AppConfig:
@@ -132,6 +133,8 @@ def load_config(config_path: Path) -> AppConfig:
                 config.group = data["group"]
             if "noise_tokens" in data and isinstance(data["noise_tokens"], list):
                 config.noise_tokens = set(t.lower() for t in data["noise_tokens"])
+            if "blacklist_providers" in data and isinstance(data["blacklist_providers"], list):
+                config.blacklist_providers = set(p.strip().lower() for p in data["blacklist_providers"] if isinstance(p, str) and p.strip())
             if "regional_keywords" in data:
                 if isinstance(data["regional_keywords"], list):
                     config.regional_keywords = set(k.lower() for k in data["regional_keywords"])
@@ -528,6 +531,15 @@ def calculate_entry_priority(entry: M3UEntry, regional_keywords: Set[str]) -> in
         score += 10
     return score
 
+def is_entry_blacklisted(entry: M3UEntry, blacklist_providers: Set[str]) -> bool:
+    if not blacklist_providers:
+        return False
+    combined = " ".join(entry.props + entry.urls + [entry.extinf, entry.group]).lower()
+    for bp in blacklist_providers:
+        if bp in combined:
+            return True
+    return False
+
 def filter_entries(
     entries: List[M3UEntry],
     config: AppConfig
@@ -535,6 +547,8 @@ def filter_entries(
     matched_entries: List[tuple[int, M3UEntry]] = []
 
     for entry in entries:
+        if is_entry_blacklisted(entry, config.blacklist_providers):
+            continue
         matched_res = match_rules_entry(entry, config.rules, config.noise_tokens)
         if matched_res is not None:
             rule_idx, matched_rule = matched_res
@@ -614,6 +628,8 @@ def main():
     print(f"Total channels in master playlist: {len(entries)}")
 
     config = load_config(config_path)
+    if config.blacklist_providers:
+        print(f"Loaded {len(config.blacklist_providers)} blacklisted providers: {', '.join(sorted(config.blacklist_providers))}")
     if config.rules:
         print(f"Loaded {len(config.rules)} channel rules from '{config_path}'")
 

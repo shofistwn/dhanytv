@@ -1,5 +1,9 @@
 {
   "group": "FAVORITES",
+  "blacklist_providers": [
+    "indihome",
+    "indihometv"
+  ],
   "channels": [
     {
       "name": "Indosiar",

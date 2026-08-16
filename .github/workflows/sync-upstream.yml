@@ -1,0 +1,60 @@
+name: Sync Upstream
+
+on:
+  schedule:
+    - cron: '0 */2 * * *' # Berjalan otomatis tiap 2 jam
+  workflow_dispatch: # Tombol manual di tab Actions
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    name: Sync with Upstream
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Target Branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Upstream & Check Changes
+        id: check_changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git remote add upstream https://github.com/dhasap/dhanytv.git || true
+          git fetch upstream main
+
+          LOCAL_COMMIT=$(git rev-parse HEAD)
+          UPSTREAM_COMMIT=$(git rev-parse upstream/main)
+
+          if [ "$LOCAL_COMMIT" = "$UPSTREAM_COMMIT" ]; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "Repo sudah sinkron dengan upstream."
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Ada commit baru di upstream ($UPSTREAM_COMMIT)."
+          fi
+
+      - name: Merge and Push Upstream Changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git checkout main
+          COMMIT_DATE=$(date -u '+%Y-%m-%d %H:%M UTC')
+          UPSTREAM_SHORT=$(git rev-parse --short upstream/main)
+          git merge upstream/main -m "auto-update: Sync Upstream (dhasap/dhanytv@$UPSTREAM_SHORT) - $COMMIT_DATE"
+          git push origin main
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "============================================"
+          echo "  Sync Upstream (dhasap/dhanytv)"
+          echo "============================================"
+          echo "Tanggal   : $(date -u '+%Y-%m-%d %H:%M UTC')"
+          echo "Upstream  : https://github.com/dhasap/dhanytv"
+          echo "Perubahan : ${{ steps.check_changes.outputs.has_changes }}"
+          echo "============================================"

@@ -17409,15 +17409,15 @@
   <programme start="20260821220000 +0700" stop="20260822000000 +0700" channel="Sportstars4.id">
     <title lang="id">Satu Hati Untuk Garuda</title>
   </programme>
-  <programme start="20260814000000 +0700" stop="20260815000000 +0700" channel="auto.jawapos.tv">
-    <title lang="id">Jadwal belum tersedia</title>
-    <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
-  </programme>
   <programme start="20260815000000 +0700" stop="20260816000000 +0700" channel="auto.jawapos.tv">
     <title lang="id">Jadwal belum tersedia</title>
     <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
   </programme>
   <programme start="20260816000000 +0700" stop="20260817000000 +0700" channel="auto.jawapos.tv">
+    <title lang="id">Jadwal belum tersedia</title>
+    <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
+  </programme>
+  <programme start="20260817000000 +0700" stop="20260818000000 +0700" channel="auto.jawapos.tv">
     <title lang="id">Jadwal belum tersedia</title>
     <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
   </programme>
@@ -17751,15 +17751,15 @@
   <programme start="20260817160000 +0700" stop="20260817170000 +0700" channel="JTV">
     <title>Upacara Penurunan Bendera Kemerdekaan Hut Ri - Grahadi</title>
   </programme>
-  <programme start="20260814000000 +0700" stop="20260815000000 +0700" channel="auto.staratv.malang">
-    <title lang="id">Jadwal belum tersedia</title>
-    <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
-  </programme>
   <programme start="20260815000000 +0700" stop="20260816000000 +0700" channel="auto.staratv.malang">
     <title lang="id">Jadwal belum tersedia</title>
     <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
   </programme>
   <programme start="20260816000000 +0700" stop="20260817000000 +0700" channel="auto.staratv.malang">
+    <title lang="id">Jadwal belum tersedia</title>
+    <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
+  </programme>
+  <programme start="20260817000000 +0700" stop="20260818000000 +0700" channel="auto.staratv.malang">
     <title lang="id">Jadwal belum tersedia</title>
     <desc lang="id">EPG asli belum tersedia untuk channel ini. Channel dibuat agar tetap terbaca oleh IPTV player.</desc>
   </programme>

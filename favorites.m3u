@@ -1,16 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/shofistwn/dhanytv/refs/heads/main/favorites-epg.xml"
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/330px-INDOSIAR_Logo.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Indosiar",Indosiar
-https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=205
-
-#EXTINF:-1 tvg-id="MNCTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/MNCTV_logo.png/330px-MNCTV_logo.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="MNCTV",MNCTV
-https://masterplayer.pro:443/live/Kang_pagal12/12Kang_pagal/21.m3u8
-
-#EXTINF:-1 tvg-id="GTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GTV_logo_%282017%29.png/330px-GTV_logo_%282017%29.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="GTV",GTV
-https://masterplayer.pro:443/live/Kang_pagal12/12Kang_pagal/24.m3u8
-
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #EXTINF:-1 tvg-id="RCTI.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/330px-RCTI_logo_2015.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="RCTI",RCTI
@@ -23,12 +12,6 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 #EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0"}
 #EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/5/5a/Rajawali_Televisi.svg/330px-Rajawali_Televisi.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="RTV",RTV
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8
-
-#EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo_Trans_TV.png/330px-Logo_Trans_TV.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Trans TV",Trans TV
-http://119.82.250.109:8080/nl.m3u8?id=1145
-
-#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_Trans7.png/330px-Logo_Trans7.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Trans7",Trans7
-http://119.82.250.109:8080/nl.m3u8?id=1002
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
@@ -49,8 +32,13 @@ https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KompasTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/4/4c/Kompas-TV.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Kompas TV",Kompas TV
 https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 
-#EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/INews.png/330px-INews.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="iNews",iNews
-https://masterplayer.pro:443/live/Kang_pagal12/12Kang_pagal/29.m3u8
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:contentlookup=false
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://cdn.siar.us/
+#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/31/Logo_nusantaratv.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Nusantara TV",Nusantara TV
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="JTV" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/JTV_%28Indonesian_TV_channel%29_2022.svg/330px-JTV_%28Indonesian_TV_channel%29_2022.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="JTV",JTV
 http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8

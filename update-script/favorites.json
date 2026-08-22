@@ -2,8 +2,7 @@
   "group": "FAVORITES",
   "blacklist_providers": [
     "indihome",
-    "indihometv",
-    "cloudfront"
+    "indihometv"
   ],
   "channels": [
     {

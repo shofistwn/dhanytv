@@ -1,10 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/shofistwn/dhanytv/refs/heads/main/favorites-epg.xml"
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/330px-INDOSIAR_Logo.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Indosiar",Indosiar
-https://beetv.my.id/xstreamx/vd.m3u8?ch=indosiar
-
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 #EXTINF:-1 tvg-id="MNCTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/MNCTV_logo.png/330px-MNCTV_logo.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="MNCTV",MNCTV
@@ -20,11 +15,6 @@ https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=gtv
 #EXTINF:-1 tvg-id="RCTI.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/330px-RCTI_logo_2015.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="RCTI",RCTI
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/SCTV_Logo.svg/330px-SCTV_Logo.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="SCTV",SCTV
-https://beetv.my.id/xstreamx/vd.m3u8?ch=sctv
-
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
@@ -32,46 +22,6 @@ https://beetv.my.id/xstreamx/vd.m3u8?ch=sctv
 #EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0"}
 #EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/5/5a/Rajawali_Televisi.svg/330px-Rajawali_Televisi.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="RTV",RTV
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8
-
-#EXTVLCOPT:http-referer=https://20.detik.com
-#EXTVLCOPT:http-origin=https://20.detik.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo_Trans_TV.png/330px-Logo_Trans_TV.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Trans TV",Trans TV
-https://20.detik.com/watch/livestreaming-transtv
-
-#EXTVLCOPT:http-referer=https://20.detik.com
-#EXTVLCOPT:http-origin=https://20.detik.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_Trans7.png/330px-Logo_Trans7.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Trans7",Trans7
-https://20.detik.com/watch/livestreaming-trans7
-
-#EXTVLCOPT:http-referer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=112.play
-#EXTINF:-1 tvg-id="Sportstars" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/3f/Sportstars.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Sportstars",Sportstars
-https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
-
-#EXTVLCOPT:http-referer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=113.play
-#EXTINF:-1 tvg-id="Sportstars 2" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/d/d7/Sportstars_2.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Sportstars 2",Sportstars 2
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
-
-#EXTVLCOPT:http-referer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=114.play
-#EXTINF:-1 tvg-id="Sportstars3.id" tvg-name="Sportstars 3" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a3/Sportstars_3.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES",Sportstars 3
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
-
-#EXTVLCOPT:http-referer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=205.play
-#EXTINF:-1 tvg-id="Sportstars4.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/a/a4/Sportstars_4.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Sportstars 4",Sportstars 4
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv

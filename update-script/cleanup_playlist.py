@@ -923,6 +923,44 @@ def clean_items(
                     stats["keyless_dash_dupes_removed"] = stats.get("keyless_dash_dupes_removed", 0) + (before - len(it.urls))
         cleaned = [it for it in cleaned if not (isinstance(it, Entry) and not it.urls)]
 
+    # Name-based dedup: when the same channel name appears multiple times,
+    # remove entries whose URLs are on the blocklist (dead hosts). This fixes
+    # the case where merge_source injects dead URLs first, then merge_extra
+    # injects working URLs for the same channel — both survive the URL-based
+    # dedup because they have different URLs.
+    name_groups: dict[str, list[int]] = {}
+    for idx, item in enumerate(cleaned):
+        if isinstance(item, Entry):
+            norm_name = item.name.strip().lower()
+            # Normalize common suffixes for grouping
+            norm_name = re.sub(r"\s*\(.*?\)\s*$", "", norm_name)
+            norm_name = re.sub(r"\s+hd\s*$", "", norm_name)
+            norm_name = re.sub(r"\s+", " ", norm_name).strip()
+            if norm_name:
+                name_groups.setdefault(norm_name, []).append(idx)
+
+    indices_to_remove: set[int] = set()
+    for norm_name, indices in name_groups.items():
+        if len(indices) < 2:
+            continue
+        # Check if any entry has a blocked URL
+        has_blocked = any(
+            any(is_blocked(url, blocklist) for url in cleaned[idx].urls)
+            for idx in indices
+            if isinstance(cleaned[idx], Entry)
+        )
+        if not has_blocked:
+            continue
+        # Remove blocked entries; keep working ones
+        for idx in indices:
+            if isinstance(cleaned[idx], Entry):
+                if any(is_blocked(url, blocklist) for url in cleaned[idx].urls):
+                    indices_to_remove.add(idx)
+                    stats["blocklist_removed"] += len(cleaned[idx].urls)
+
+    if indices_to_remove:
+        cleaned = [item for idx, item in enumerate(cleaned) if idx not in indices_to_remove]
+
     if prioritize_sctv_preferred(cleaned):
         stats["sctv_preferred_prioritized"] = 1
 
@@ -951,13 +989,33 @@ def clean_items(
         remaining.append(item)
 
     # Rebuild: priority groups first (in PRIORITY_GROUPS order), then remaining
+    # Within "Indonesia Channels", sort by popularity (most-watched first).
+    POPULAR_CHANNELS = [
+        "SCTV", "RCTI", "MNCTV", "GTV", "Indosiar", "ANTV", "TransTV", "Trans7",
+        "iNews", "MDTV", "Metro TV", "TVOne", "Kompas TV", "DAAI TV", "MOJI",
+        "RTV", "TVRI", "CNN Indonesia", "CNBC Indonesia", "Magna Channel",
+        "Nusantara TV", "Garuda TV", "BN Channel", "BTV", "Antara TV",
+        "Indonesiana TV", "IDX",
+    ]
+    popular_set = {p.lower() for p in POPULAR_CHANNELS}
+    popular_rank = {p.lower(): i for i, p in enumerate(POPULAR_CHANNELS)}
+
     reordered: list[str | Entry] = []
     for target in PRIORITY_GROUPS:
-        for item in prioritized:
-            if isinstance(item, Entry):
-                gm = _RE_GROUP_TITLE.search(item.extinf)
-                if gm and gm.group(1) == target:
-                    reordered.append(item)
+        group_items = [item for item in prioritized
+                       if isinstance(item, Entry) and
+                       _RE_GROUP_TITLE.search(item.extinf) and
+                       _RE_GROUP_TITLE.search(item.extinf).group(1) == target]
+        # Sort Indonesia Channels by popularity
+        if target == "Indonesia Channels":
+            def _popularity_key(item: Entry) -> int:
+                name_lower = item.name.lower()
+                # Strip common suffixes for matching
+                clean = re.sub(r"\s*\(.*?\)\s*$", "", name_lower)
+                clean = re.sub(r"\s+hd\s*$", "", clean).strip()
+                return popular_rank.get(clean, 999)
+            group_items.sort(key=_popularity_key)
+        reordered.extend(group_items)
     reordered.extend(remaining)
 
     cleaned = reordered

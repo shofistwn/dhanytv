@@ -65,6 +65,7 @@ https://9laloma.tv/live.m3u8
 https://9xjio.wiseplayout.com/9X_Jhakaas/master.m3u8
 https://9xjio.wiseplayout.com/9X_Tashan/master.m3u8
 https://a196aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/o7aqpbb6vv/out/v1/f8f6ef738ef24c4f8176d561ffb8a157/cenc.mpd|license_type=org.w3.clearkey&license_key=6f0aeae5779f1dcaef23f0bfbc828220:7bcef3cf93de00e3daeb190d15b1ec05&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/out/v1/ca3534bfe4f148298b36719204d108e0/cenc.mpd|license_type=clearkey&license_key=be9caaa813c5305e761c66ac63645901:3d40f2990ec5362ca5be3a3c9bb8f8b4
 https://a79aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/ghf7y1plnj/out/v1/0c87bd17ab474015b77c0f3028190f78/cenc.mpd|license_type=org.w3.clearkey&license_key=de9b995d2aba32bae1c5dbe38a46f2d9:a2d94fdff16e9c332164a73f8b170bd3&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
 https://atemecdnbalancer-voe.sysln.id/live/eds/CNNIntHD/mediampd/CNNIntHD.mpd
 https://atemecdnbalancer-voe.sysln.id/live/eds/CitraDangdutHD/mediampd/CitraDangdutHD.mpd
@@ -215,12 +216,86 @@ https://unifi-live07.secureswiftcontent.com/UnifiHD/live11.mpd
 https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8
 
 # --- 2026-08-26: masterplayer.pro Kang_pagal paths 404 massal (kecuali /10 Kompas) ---
-re:masterplayer\.pro(?::443)?/live/Kang_pagal12/12Kang_pagal/(1|2|5|6|9|19|20|21|24|25|29|30|35|478)\.m3u8
+re:masterplayer\.pro(?::443)?/live/Kang_pagal12/12Kang_pagal/(1|2|5|6|9|11|19|20|21|24|25|29|30|35|478)\.m3u8
 re:beetv\.my\.id
 
-# --- 2026-08-26 QA: halaman web (HTML), bukan stream ---
-re:20\.detik\.com
-re:panaka1\.cfd
-re:jarvisx1\.cfd
-re:ultronx1\.cfd
+# --- 2026-08-27: DensTV swiftservehd-1 DNS dead (NXDOMAIN from all probes) ---
+re:op-group1-swiftservehd-1\.dens\.tv
+
+# --- 2026-08-27: Visionplus Cloudfront CDN 403 (DRM keys revoked) ---
+# Only block specific dead hosts — other cloudfront hosts are alive.
+re:d2tjypxxy769fn\.cloudfront\.net
+re:d2xz2v5wuvgur6\.cloudfront\.net
+re:d3b0v7fggu5zwm\.cloudfront\.net
+re:d3bay3f4zdxn24\.cloudfront\.net
+re:d6m3sfa7e58z5\.cloudfront\.net
+re:d84q7nw4qf3j3\.cloudfront\.net
+re:dv6fza91pwlw3\.cloudfront\.net
+re:d1ebgtxjo246w3\.cloudfront\.net
+
+# --- 2026-08-27: 013tv.com dead (all channels return nothing) ---
+re:013tv\.com:8080
+
+# --- 2026-08-27: comprehensive dead hosts from 812-channel probe ---
+re:hgmtv\.com
+re:dhoomtv\.xyz
+re:cdns\.jp\-primehome\.com
+re:wurl\.com
+re:streamlock\.net
+re:mediatailor\..*\.amazonaws\.com
+re:abc\-iview\-mediapackagestreams\-1\.akamaized\.net
+re:abc\-iview\-mediapackagestreams\-2\.akamaized\.net
+re:cdnjkt913\.transvision\.co\.id
 re:tv\.cloudcdn\.me
+re:live\.serverstreaming\.net
+re:live\.thebosstv\.com
+re:livestream\.biznetvideo\.net
+re:load\.perfecttv\.net
+re:103\.165\.93\.31
+re:103\.175\.73\.12
+re:103\.18\.181\.69
+re:103\.213\.31\.109
+re:103\.255\.15\.222
+re:103\.72\.101\.252
+re:103\.99\.249\.139
+re:116\.90\.120\.151
+re:122\.248\.43\.242
+re:138\.121\.15\.230
+re:149\.71\.34\.166
+re:170\.83\.49\.66
+re:177\.234\.249\.178
+re:181\.119\.66\.28
+re:190\.11\.225\.124
+re:202\.150\.161\.212
+re:202\.169\.224\.202
+re:31\.148\.48\.15
+re:45\.153\.96\.44
+re:45\.228\.235\.116
+re:45\.64\.97\.211
+re:46\.151\.196\.223
+re:5\.188\.159\.128
+re:atemeshield1\-voe\.sysln\.id
+re:ayo\.maling\.pl
+re:galandriel1\.thobias\.cfd
+re:ultra2\.falconx1\.cfd
+re:pulse1\.zalmora\.cfd
+re:vipketseyket\.top
+re:norkadymm\.top
+re:line\.trx\-ott\.com
+re:nl\.utako\.moe
+re:mam\.jogjaprov\.go\.id
+re:live\.cnbcindonesia\.com
+re:mn\-nl\.mncdn\.com
+re:mic\.siar\.us
+re:v10\.siar\.us
+
+# --- 2026-08-27: missed dead hosts (verification pass) ---
+re:op\-group1\-swiftservesd\-1\.dens\.tv
+re:op\-group2\-swiftservesd\-1\.dens\.tv
+re:d1ib1gsg71oarf\.cloudfront\.net
+re:d1j2u714xk898n\.cloudfront\.net
+re:d2w9q46ikgrcwx\.cloudfront\.net
+re:d3b73b34o7cvkq\.cloudfront\.net
+re:d3pnbvng3bx2nj\.cloudfront\.net
+re:013tv\.com
+re:boti\.my\.id

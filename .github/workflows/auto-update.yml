@@ -109,7 +109,7 @@ jobs:
 
       - name: Fix ClearKey license keys
         env:
-          FIX_CLEARKEY_URLS: "${{ secrets.PLAYLIST_SOURCE }}|${{ secrets.PLAYLIST_SOURCE_2 }}"
+          FIX_CLEARKEY_URLS: "${{ secrets.PLAYLIST_SOURCE_2 }}"
         run: |
           echo "=== Fixing ClearKey keys ==="
           python3 update-script/fix_clearkeys.py dhanytv.m3u
@@ -125,8 +125,8 @@ jobs:
           fi
           python3 update-script/cleanup_playlist.py dhanytv.m3u --write --ott-output dhanytv-ott.m3u --check "${SANITIZE_ARG[@]}"
           # Re-fix ClearKeys after final cleanup
-          FIX_CLEARKEY_URLS="${{ secrets.PLAYLIST_SOURCE }}|${{ secrets.PLAYLIST_SOURCE_2 }}" python3 update-script/fix_clearkeys.py dhanytv.m3u
-                    echo "Playlist channels : $(grep -c '#EXTINF' dhanytv.m3u || echo '0')"
+          FIX_CLEARKEY_URLS="${{ secrets.PLAYLIST_SOURCE_2 }}" python3 update-script/fix_clearkeys.py dhanytv.m3u
+          echo "Playlist channels : $(grep -c '#EXTINF' dhanytv.m3u || echo '0')"
           echo "OTT channels      : $(grep -c '#EXTINF' dhanytv-ott.m3u || echo '0')"
           # Validate OTT: must not contain active .mpd (DASH) URLs
           DASH_IN_OTT=$(grep -v '^#' dhanytv-ott.m3u | grep -c '\.mpd' || true)
@@ -136,6 +136,20 @@ jobs:
             exit 1
           fi
           echo "OTT validation: OK (0 DASH channels)"
+
+      - name: Re-fix ClearKeys after cleanup
+        run: |
+          echo "=== Re-fixing ClearKeys after cleanup ==="
+          BEFORE=$(grep -c 'license_key=' dhanytv.m3u || echo 0)
+          python3 update-script/fix_clearkeys.py dhanytv.m3u
+          AFTER=$(grep -c 'license_key=' dhanytv.m3u || echo 0)
+          echo "ClearKey entries: $BEFORE -> $AFTER"
+
+      - name: Verify critical ClearKey keys
+        run: |
+          echo "=== Verifying critical ClearKey keys ==="
+          python3 update-script/verify_keys.py dhanytv.m3u
+          echo "Key verification complete"
 
       - name: Validate ClearKey entries (drop revoked keys)
         continue-on-error: true

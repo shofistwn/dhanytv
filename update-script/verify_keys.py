@@ -1,20 +1,15 @@
 #!/usr/bin/env python3
-"""Fix shifted ClearKey license keys in dhanytv.m3u.
+"""Verify and fix ClearKey keys in dhanytv.m3u.
 
-Embedded correct keys from verified user source files.
-No external downloads needed.
+Searches BOTH backwards and forwards from each EXTINF for the
+associated license_key line, then replaces with correct value.
 
-Usage: python3 fix_clearkeys.py dhanytv.m3u [--dry-run]
+Usage: python3 verify_keys.py dhanytv.m3u
 """
-from __future__ import annotations
-
-import argparse
 import re
 import sys
-from pathlib import Path
 
-# Correct ClearKey values (verified from user source files 2026-08-27)
-CORRECT_CLEARKEYS: dict[str, str] = {
+CORRECT = {
     "&PICTURES HD": "de8045e9f0fb4d03845dcc4a8bd7712a:6807bd09bda34ada83152908192af6d6",
     "&TV HD": "67d18634ccb04875875c60fb8d9caaba:99a66471c09e4b8a8dc39a0de6803f75",
     "13 Bomb Di Jakarta": "0de1f882d278465abdba73a8b4cb2bda:7061f5e1115d6ef504726c3faa8bf146",
@@ -774,56 +769,57 @@ CORRECT_CLEARKEYS: dict[str, str] = {
 }
 
 
-def fix_keys(playlist_path: Path, dry_run: bool = False) -> int:
-    """Fix wrong ClearKey keys by matching channel names.
 
-    Strategy: for each EXTINF entry, search BACKWARDS to find the preceding
-    license_key line and verify it matches the correct key for that channel.
-    This handles entries that have been reordered by the cleanup pipeline.
-    """
-    content = playlist_path.read_text(encoding="utf-8")
-    lines = content.split("\n")
+def main() -> int:
+    filepath = sys.argv[1] if len(sys.argv) > 1 else "dhanytv.m3u"
+    with open(filepath) as f:
+        lines = f.read().split("\n")
+
     fixed = 0
-
     for i, line in enumerate(lines):
         if not line.strip().startswith("#EXTINF"):
             continue
-
-        # Get channel name
         m = re.search(r",(.+)$", line)
         if not m:
             continue
         name = m.group(1).strip()
-        if name not in CORRECT_CLEARKEYS:
+        if name not in CORRECT:
             continue
 
-        # Search BACKWARDS for the license_key line belonging to this entry
-        for j in range(i - 1, max(i - 15, -1), -1):
+        correct = CORRECT[name]
+
+        # Search BACKWARDS
+        for j in range(i - 1, max(i - 20, -1), -1):
             prev = lines[j].strip()
             if prev.startswith("#EXTINF") or (not prev.startswith("#") and prev):
-                break  # Hit another entry or non-comment
+                break
             if "license_key=" in prev and "http" not in prev.split("license_key=", 1)[1][:10]:
                 current_key = prev.split("license_key=", 1)[1].strip()
-                if current_key != CORRECT_CLEARKEYS[name]:
-                    lines[j] = lines[j].replace(current_key, CORRECT_CLEARKEYS[name])
+                if current_key != correct:
+                    lines[j] = lines[j].replace(current_key, correct)
                     fixed += 1
+                    print(f"FIXED: {name}")
                 break
+        else:
+            # Search FORWARDS
+            for j in range(i + 1, min(i + 15, len(lines))):
+                nxt = lines[j].strip()
+                if nxt.startswith("#EXTINF") or nxt.startswith("http"):
+                    break
+                if "license_key=" in nxt and "http" not in nxt.split("license_key=", 1)[1][:10]:
+                    current_key = nxt.split("license_key=", 1)[1].strip()
+                    if current_key != correct:
+                        lines[j] = lines[j].replace(current_key, correct)
+                        fixed += 1
+                        print(f"FIXED: {name}")
+                    break
 
-    if fixed > 0 and not dry_run:
-        playlist_path.write_text("\n".join(lines), encoding="utf-8")
-
-    return fixed
-
-
-def main() -> int:
-    parser = argparse.ArgumentParser(description="Fix shifted ClearKey keys")
-    parser.add_argument("playlist", help="Path to M3U playlist")
-    parser.add_argument("--dry-run", action="store_true", help="Don't write changes")
-    args = parser.parse_args()
-
-    playlist_path = Path(args.playlist)
-    fixed = fix_keys(playlist_path, args.dry_run)
-    print(f"Fixed {fixed} ClearKey entries (known_keys={len(CORRECT_CLEARKEYS)})")
+    if fixed > 0:
+        with open(filepath, "w") as f:
+            f.write("\n".join(lines))
+        print(f"\n{fixed} keys fixed in {filepath}")
+    else:
+        print("\nAll keys correct ✓")
     return 0
 
 

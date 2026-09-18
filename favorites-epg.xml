@@ -20,6 +20,16 @@
     <url>http://www.mncvision.id</url>
     <icon src="https://thumbor.prod.vidiocdn.com/wSfbef0k6V3fn7rnZa4azgVrLcM=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/728/eb7747.png" />
   </channel>
+  <channel id="TransTV.id">
+    <display-name lang="id">TransTV</display-name>
+    <url>http://www.indihometv.com</url>
+    <icon src="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" />
+  </channel>
+  <channel id="Trans7.id">
+    <display-name lang="id">Trans7</display-name>
+    <url>http://www.indihometv.com</url>
+    <icon src="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" />
+  </channel>
   <channel id="MetroTV.id">
     <display-name>Metro TV.id</display-name>
     <icon src="https://images.open-epg.com/x1303.png" />
@@ -37,6 +47,10 @@
     <display-name lang="id">tvOne</display-name>
     <url>http://www.mncvision.id</url>
     <icon src="https://thumbor.prod.vidiocdn.com/APQ6a9vXvN6lU1zjeyL15IV_AJQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/07750c.png" />
+  </channel>
+  <channel id="NusantaraTV.id">
+    <display-name>Nusantara TV.id</display-name>
+    <icon src="https://images.open-epg.com/x1204.png" />
   </channel>
   <channel id="auto.jawapos.tv">
     <display-name lang="id">JAWAPOS TV</display-name>
@@ -1397,6 +1411,738 @@
   <programme start="20260923233000 +0700" stop="20260924000000 +0700" channel="iNews.id">
     <title lang="id">iNews Sport (L)</title>
   </programme>
+  <programme start="20260915220000 +0700" stop="20260916000000 +0700" channel="TransTV.id">
+    <title>Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260916000000 +0700" stop="20260916050000 +0700" channel="TransTV.id">
+    <title>CNN Indonesia Connected</title>
+  </programme>
+  <programme start="20260916050000 +0700" stop="20260916063000 +0700" channel="TransTV.id">
+    <title>Islam Itu Indah</title>
+  </programme>
+  <programme start="20260916063000 +0700" stop="20260916073000 +0700" channel="TransTV.id">
+    <title>Insert Pagi</title>
+  </programme>
+  <programme start="20260916073000 +0700" stop="20260916083000 +0700" channel="TransTV.id">
+    <title>CNN Indonesia Good Morning</title>
+  </programme>
+  <programme start="20260916083000 +0700" stop="20260916103000 +0700" channel="TransTV.id">
+    <title>Pagi-Pagi Ambyar</title>
+  </programme>
+  <programme start="20260916103000 +0700" stop="20260916123000 +0700" channel="TransTV.id">
+    <title>Insert Siang</title>
+  </programme>
+  <programme start="20260916123000 +0700" stop="20260916140000 +0700" channel="TransTV.id">
+    <title>Brownis (Obrowlan Manis)</title>
+  </programme>
+  <programme start="20260916140000 +0700" stop="20260916150000 +0700" channel="TransTV.id">
+    <title>Rumpi: No Secret</title>
+  </programme>
+  <programme start="20260916150000 +0700" stop="20260916160000 +0700" channel="TransTV.id">
+    <title>Insert Today</title>
+  </programme>
+  <programme start="20260916160000 +0700" stop="20260916163000 +0700" channel="TransTV.id">
+    <title>CNN Indonesia News Update</title>
+  </programme>
+  <programme start="20260916163000 +0700" stop="20260916173000 +0700" channel="TransTV.id">
+    <title>Dream Box Indonesia</title>
+  </programme>
+  <programme start="20260916173000 +0700" stop="20260916184500 +0700" channel="TransTV.id">
+    <title>Bikin Laper</title>
+  </programme>
+  <programme start="20260916184500 +0700" stop="20260916200000 +0700" channel="TransTV.id">
+    <title>Insert Story</title>
+  </programme>
+  <programme start="20260916200000 +0700" stop="20260916220000 +0700" channel="TransTV.id">
+    <title>Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260916220000 +0700" stop="20260917000000 +0700" channel="TransTV.id">
+    <title>Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260917000000 +0700" stop="20260917050000 +0700" channel="TransTV.id">
+    <title>CNN Indonesia Connected</title>
+  </programme>
+  <programme start="20260917050000 +0700" stop="20260917063000 +0700" channel="TransTV.id">
+    <title>Islam Itu Indah</title>
+  </programme>
+  <programme start="20260917063000 +0700" stop="20260917073000 +0700" channel="TransTV.id">
+    <title>Insert Pagi</title>
+  </programme>
+  <programme start="20260917073000 +0700" stop="20260917083000 +0700" channel="TransTV.id">
+    <title>CNN Indonesia Good Morning</title>
+  </programme>
+  <programme start="20260917083000 +0700" stop="20260917103000 +0700" channel="TransTV.id">
+    <title>Pagi-Pagi Ambyar</title>
+  </programme>
+  <programme start="20260917103000 +0700" stop="20260917123000 +0700" channel="TransTV.id">
+    <title>Insert Siang</title>
+  </programme>
+  <programme start="20260917123000 +0700" stop="20260917140000 +0700" channel="TransTV.id">
+    <title>Brownis (Obrowlan Manis)</title>
+  </programme>
+  <programme start="20260917140000 +0700" stop="20260917150000 +0700" channel="TransTV.id">
+    <title>Rumpi: No Secret</title>
+  </programme>
+  <programme start="20260917150000 +0700" stop="20260917160000 +0700" channel="TransTV.id">
+    <title>Insert Today</title>
+  </programme>
+  <programme start="20260917160000 +0700" stop="20260917163000 +0700" channel="TransTV.id">
+    <title>CNN Indonesia News Update</title>
+  </programme>
+  <programme start="20260917163000 +0700" stop="20260917173000 +0700" channel="TransTV.id">
+    <title>Dream Box Indonesia</title>
+  </programme>
+  <programme start="20260917173000 +0700" stop="20260917184500 +0700" channel="TransTV.id">
+    <title>Bikin Laper</title>
+  </programme>
+  <programme start="20260917184500 +0700" stop="20260917200000 +0700" channel="TransTV.id">
+    <title>Insert Story</title>
+  </programme>
+  <programme start="20260917200000 +0700" stop="20260917220000 +0700" channel="TransTV.id">
+    <title>Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260917220000 +0700" stop="20260918000000 +0700" channel="TransTV.id">
+    <title>Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260918000000 +0700" stop="20260918050000 +0700" channel="TransTV.id">
+    <title>CNN Indonesia Connected</title>
+  </programme>
+  <programme start="20260918050000 +0700" stop="20260918063000 +0700" channel="TransTV.id">
+    <title>Islam Itu Indah</title>
+  </programme>
+  <programme start="20260918063000 +0700" stop="20260918073000 +0700" channel="TransTV.id">
+    <title>Insert Pagi</title>
+  </programme>
+  <programme start="20260918073000 +0700" stop="20260918083000 +0700" channel="TransTV.id">
+    <title>CNN Indonesia Good Morning</title>
+  </programme>
+  <programme start="20260918083000 +0700" stop="20260918103000 +0700" channel="TransTV.id">
+    <title>Pagi-Pagi Ambyar</title>
+  </programme>
+  <programme start="20260918103000 +0700" stop="20260918123000 +0700" channel="TransTV.id">
+    <title>Insert Siang</title>
+  </programme>
+  <programme start="20260918123000 +0700" stop="20260918140000 +0700" channel="TransTV.id">
+    <title>Brownis (Obrowlan Manis)</title>
+  </programme>
+  <programme start="20260918140000 +0700" stop="20260918150000 +0700" channel="TransTV.id">
+    <title>Rumpi: No Secret</title>
+  </programme>
+  <programme start="20260918150000 +0700" stop="20260918160000 +0700" channel="TransTV.id">
+    <title>Insert Today</title>
+  </programme>
+  <programme start="20260918160000 +0700" stop="20260918163000 +0700" channel="TransTV.id">
+    <title>CNN Indonesia News Update</title>
+  </programme>
+  <programme start="20260918163000 +0700" stop="20260918173000 +0700" channel="TransTV.id">
+    <title lang="id">Dream Box Indonesia</title>
+  </programme>
+  <programme start="20260918173000 +0700" stop="20260918184500 +0700" channel="TransTV.id">
+    <title lang="id">Bikin Laper</title>
+  </programme>
+  <programme start="20260918184500 +0700" stop="20260918200000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Story</title>
+  </programme>
+  <programme start="20260918200000 +0700" stop="20260918220000 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260918220000 +0700" stop="20260919000000 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260919000000 +0700" stop="20260919050000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Indonesia Connected</title>
+  </programme>
+  <programme start="20260919050000 +0700" stop="20260919063000 +0700" channel="TransTV.id">
+    <title lang="id">Islam Itu Indah</title>
+  </programme>
+  <programme start="20260919063000 +0700" stop="20260919073000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Pagi (L)</title>
+  </programme>
+  <programme start="20260919073000 +0700" stop="20260919090000 +0700" channel="TransTV.id">
+    <title lang="id">Kajian Hati</title>
+  </programme>
+  <programme start="20260919090000 +0700" stop="20260919100000 +0700" channel="TransTV.id">
+    <title lang="id">Arjuna Mencari Cinta</title>
+  </programme>
+  <programme start="20260919100000 +0700" stop="20260919113000 +0700" channel="TransTV.id">
+    <title lang="id">Ambyar In Weekend</title>
+  </programme>
+  <programme start="20260919113000 +0700" stop="20260919123000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Siang</title>
+  </programme>
+  <programme start="20260919123000 +0700" stop="20260919133000 +0700" channel="TransTV.id">
+    <title lang="id">The Little Talkchow</title>
+  </programme>
+  <programme start="20260919133000 +0700" stop="20260919140000 +0700" channel="TransTV.id">
+    <title lang="id">Masak Anti Ribet</title>
+  </programme>
+  <programme start="20260919140000 +0700" stop="20260919150000 +0700" channel="TransTV.id">
+    <title lang="id">No Secret: Weekend Stories</title>
+  </programme>
+  <programme start="20260919150000 +0700" stop="20260919160000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Investigasi</title>
+  </programme>
+  <programme start="20260919160000 +0700" stop="20260919170000 +0700" channel="TransTV.id">
+    <title lang="id">Spill DD Tea</title>
+  </programme>
+  <programme start="20260919170000 +0700" stop="20260919180000 +0700" channel="TransTV.id">
+    <title lang="id">Bikin Laper</title>
+  </programme>
+  <programme start="20260919180000 +0700" stop="20260919191500 +0700" channel="TransTV.id">
+    <title lang="id">Insert Story</title>
+  </programme>
+  <programme start="20260919191500 +0700" stop="20260919201500 +0700" channel="TransTV.id">
+    <title lang="id">Monitor Ketua</title>
+  </programme>
+  <programme start="20260919201500 +0700" stop="20260919221500 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260919221500 +0700" stop="20260920001500 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260920001500 +0700" stop="20260920050000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Tech News</title>
+  </programme>
+  <programme start="20260920050000 +0700" stop="20260920063000 +0700" channel="TransTV.id">
+    <title lang="id">Islam Itu Indah</title>
+  </programme>
+  <programme start="20260920063000 +0700" stop="20260920073000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Pagi (L)</title>
+  </programme>
+  <programme start="20260920073000 +0700" stop="20260920090000 +0700" channel="TransTV.id">
+    <title lang="id">Kajian Hati</title>
+  </programme>
+  <programme start="20260920090000 +0700" stop="20260920100000 +0700" channel="TransTV.id">
+    <title lang="id">Arjuna Mencari Cinta</title>
+  </programme>
+  <programme start="20260920100000 +0700" stop="20260920113000 +0700" channel="TransTV.id">
+    <title lang="id">Ambyar In Weekend</title>
+  </programme>
+  <programme start="20260920113000 +0700" stop="20260920123000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Siang</title>
+  </programme>
+  <programme start="20260920123000 +0700" stop="20260920133000 +0700" channel="TransTV.id">
+    <title lang="id">The Little Talkchow</title>
+  </programme>
+  <programme start="20260920133000 +0700" stop="20260920140000 +0700" channel="TransTV.id">
+    <title lang="id">Masak Anti Ribet</title>
+  </programme>
+  <programme start="20260920140000 +0700" stop="20260920150000 +0700" channel="TransTV.id">
+    <title lang="id">No Secret: Weekend Stories</title>
+  </programme>
+  <programme start="20260920150000 +0700" stop="20260920160000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Investigasi</title>
+  </programme>
+  <programme start="20260920160000 +0700" stop="20260920170000 +0700" channel="TransTV.id">
+    <title lang="id">Sehari Jadi Ratu</title>
+  </programme>
+  <programme start="20260920170000 +0700" stop="20260920180000 +0700" channel="TransTV.id">
+    <title lang="id">Bikin Laper</title>
+  </programme>
+  <programme start="20260920180000 +0700" stop="20260920191500 +0700" channel="TransTV.id">
+    <title lang="id">Insert Story</title>
+  </programme>
+  <programme start="20260920191500 +0700" stop="20260920201500 +0700" channel="TransTV.id">
+    <title lang="id">Monitor Ketua</title>
+  </programme>
+  <programme start="20260920201500 +0700" stop="20260920221500 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260920221500 +0700" stop="20260921001500 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260921001500 +0700" stop="20260921050000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Tech News</title>
+  </programme>
+  <programme start="20260921050000 +0700" stop="20260921063000 +0700" channel="TransTV.id">
+    <title lang="id">Islam Itu Indah</title>
+  </programme>
+  <programme start="20260921063000 +0700" stop="20260921073000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Pagi (L)</title>
+  </programme>
+  <programme start="20260921073000 +0700" stop="20260921083000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Indonesia Good Morning</title>
+  </programme>
+  <programme start="20260921083000 +0700" stop="20260921103000 +0700" channel="TransTV.id">
+    <title lang="id">Pagi-Pagi Ambyar</title>
+  </programme>
+  <programme start="20260921103000 +0700" stop="20260921123000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Siang</title>
+  </programme>
+  <programme start="20260921123000 +0700" stop="20260921140000 +0700" channel="TransTV.id">
+    <title lang="id">Brownis (Obrowlan Manis)</title>
+  </programme>
+  <programme start="20260921140000 +0700" stop="20260921150000 +0700" channel="TransTV.id">
+    <title lang="id">Rumpi: No Secret</title>
+  </programme>
+  <programme start="20260921150000 +0700" stop="20260921160000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Today</title>
+  </programme>
+  <programme start="20260921160000 +0700" stop="20260921163000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Indonesia News Update</title>
+  </programme>
+  <programme start="20260921163000 +0700" stop="20260921173000 +0700" channel="TransTV.id">
+    <title lang="id">Dream Box Indonesia</title>
+  </programme>
+  <programme start="20260921173000 +0700" stop="20260921184500 +0700" channel="TransTV.id">
+    <title lang="id">Bikin Laper</title>
+  </programme>
+  <programme start="20260921184500 +0700" stop="20260921200000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Story</title>
+  </programme>
+  <programme start="20260921200000 +0700" stop="20260921220000 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260921220000 +0700" stop="20260922000000 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260922000000 +0700" stop="20260922050000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Indonesia Connected</title>
+  </programme>
+  <programme start="20260922050000 +0700" stop="20260922063000 +0700" channel="TransTV.id">
+    <title lang="id">Islam Itu Indah</title>
+  </programme>
+  <programme start="20260922063000 +0700" stop="20260922073000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Pagi (L)</title>
+  </programme>
+  <programme start="20260922073000 +0700" stop="20260922083000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Indonesia Good Morning</title>
+  </programme>
+  <programme start="20260922083000 +0700" stop="20260922103000 +0700" channel="TransTV.id">
+    <title lang="id">Pagi-Pagi Ambyar</title>
+  </programme>
+  <programme start="20260922103000 +0700" stop="20260922123000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Siang</title>
+  </programme>
+  <programme start="20260922123000 +0700" stop="20260922140000 +0700" channel="TransTV.id">
+    <title lang="id">Brownis (Obrowlan Manis)</title>
+  </programme>
+  <programme start="20260922140000 +0700" stop="20260922150000 +0700" channel="TransTV.id">
+    <title lang="id">Rumpi: No Secret</title>
+  </programme>
+  <programme start="20260922150000 +0700" stop="20260922160000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Today</title>
+  </programme>
+  <programme start="20260922160000 +0700" stop="20260922163000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Indonesia News Update</title>
+  </programme>
+  <programme start="20260922163000 +0700" stop="20260922173000 +0700" channel="TransTV.id">
+    <title lang="id">Dream Box Indonesia</title>
+  </programme>
+  <programme start="20260922173000 +0700" stop="20260922184500 +0700" channel="TransTV.id">
+    <title lang="id">Bikin Laper</title>
+  </programme>
+  <programme start="20260922184500 +0700" stop="20260922200000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Story</title>
+  </programme>
+  <programme start="20260922200000 +0700" stop="20260922220000 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260922220000 +0700" stop="20260923000000 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260923000000 +0700" stop="20260923050000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Indonesia Connected</title>
+  </programme>
+  <programme start="20260923050000 +0700" stop="20260923063000 +0700" channel="TransTV.id">
+    <title lang="id">Islam Itu Indah</title>
+  </programme>
+  <programme start="20260923063000 +0700" stop="20260923073000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Pagi (L)</title>
+  </programme>
+  <programme start="20260923073000 +0700" stop="20260923083000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Indonesia Good Morning</title>
+  </programme>
+  <programme start="20260923083000 +0700" stop="20260923103000 +0700" channel="TransTV.id">
+    <title lang="id">Pagi-Pagi Ambyar</title>
+  </programme>
+  <programme start="20260923103000 +0700" stop="20260923123000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Siang</title>
+  </programme>
+  <programme start="20260923123000 +0700" stop="20260923140000 +0700" channel="TransTV.id">
+    <title lang="id">Brownis (Obrowlan Manis)</title>
+  </programme>
+  <programme start="20260923140000 +0700" stop="20260923150000 +0700" channel="TransTV.id">
+    <title lang="id">Rumpi: No Secret</title>
+  </programme>
+  <programme start="20260923150000 +0700" stop="20260923160000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Today</title>
+  </programme>
+  <programme start="20260923160000 +0700" stop="20260923163000 +0700" channel="TransTV.id">
+    <title lang="id">CNN Indonesia News Update</title>
+  </programme>
+  <programme start="20260923163000 +0700" stop="20260923173000 +0700" channel="TransTV.id">
+    <title lang="id">Dream Box Indonesia</title>
+  </programme>
+  <programme start="20260923173000 +0700" stop="20260923184500 +0700" channel="TransTV.id">
+    <title lang="id">Bikin Laper</title>
+  </programme>
+  <programme start="20260923184500 +0700" stop="20260923200000 +0700" channel="TransTV.id">
+    <title lang="id">Insert Story</title>
+  </programme>
+  <programme start="20260923200000 +0700" stop="20260923220000 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260923220000 +0700" stop="20260924000000 +0700" channel="TransTV.id">
+    <title lang="id">Bioskop Trans TV</title>
+  </programme>
+  <programme start="20260915233000 +0700" stop="20260916001500 +0700" channel="Trans7.id">
+    <title>Misteri Dunia</title>
+  </programme>
+  <programme start="20260916001500 +0700" stop="20260916004500 +0700" channel="Trans7.id">
+    <title>Redaksi Malam</title>
+  </programme>
+  <programme start="20260916004500 +0700" stop="20260916013000 +0700" channel="Trans7.id">
+    <title>Sport 7</title>
+  </programme>
+  <programme start="20260916013000 +0700" stop="20260916023000 +0700" channel="Trans7.id">
+    <title>Best Fishing</title>
+  </programme>
+  <programme start="20260916023000 +0700" stop="20260916031500 +0700" channel="Trans7.id">
+    <title>Dracin</title>
+  </programme>
+  <programme start="20260916031500 +0700" stop="20260916040000 +0700" channel="Trans7.id">
+    <title>Lol Comediha!</title>
+  </programme>
+  <programme start="20260916040000 +0700" stop="20260916044500 +0700" channel="Trans7.id">
+    <title>Big Bang!</title>
+  </programme>
+  <programme start="20260916044500 +0700" stop="20260916053000 +0700" channel="Trans7.id">
+    <title>Assalamualaikum Mamah Dedeh</title>
+  </programme>
+  <programme start="20260916053000 +0700" stop="20260916063000 +0700" channel="Trans7.id">
+    <title>Redaksi Pagi</title>
+  </programme>
+  <programme start="20260916063000 +0700" stop="20260916073000 +0700" channel="Trans7.id">
+    <title>Spotlite</title>
+  </programme>
+  <programme start="20260916073000 +0700" stop="20260916083000 +0700" channel="Trans7.id">
+    <title>Selebrita Pagi</title>
+  </programme>
+  <programme start="20260916083000 +0700" stop="20260916093000 +0700" channel="Trans7.id">
+    <title>FYP (For Your Pagi)</title>
+  </programme>
+  <programme start="20260916093000 +0700" stop="20260916101500 +0700" channel="Trans7.id">
+    <title>Selebrita Heits</title>
+  </programme>
+  <programme start="20260916101500 +0700" stop="20260916111500 +0700" channel="Trans7.id">
+    <title>Big Bang!</title>
+  </programme>
+  <programme start="20260916111500 +0700" stop="20260916120000 +0700" channel="Trans7.id">
+    <title>Enah Bikin Enak</title>
+  </programme>
+  <programme start="20260916120000 +0700" stop="20260916124500 +0700" channel="Trans7.id">
+    <title>Jejak Si Gundul</title>
+  </programme>
+  <programme start="20260916124500 +0700" stop="20260916133000 +0700" channel="Trans7.id">
+    <title>Bocah Petualang</title>
+  </programme>
+  <programme start="20260916133000 +0700" stop="20260916141500 +0700" channel="Trans7.id">
+    <title>Kepo</title>
+  </programme>
+  <programme start="20260916141500 +0700" stop="20260916144500 +0700" channel="Trans7.id">
+    <title>Redaksi</title>
+  </programme>
+  <programme start="20260916144500 +0700" stop="20260916151500 +0700" channel="Trans7.id">
+    <title>Spotlite Anti Kudet</title>
+  </programme>
+  <programme start="20260916151500 +0700" stop="20260916160000 +0700" channel="Trans7.id">
+    <title>Cuan Bos</title>
+  </programme>
+  <programme start="20260916160000 +0700" stop="20260916170000 +0700" channel="Trans7.id">
+    <title>Makan Receh</title>
+  </programme>
+  <programme start="20260916170000 +0700" stop="20260916180000 +0700" channel="Trans7.id">
+    <title>Selebrita Update</title>
+  </programme>
+  <programme start="20260916180000 +0700" stop="20260916184500 +0700" channel="Trans7.id">
+    <title>On The Spot</title>
+  </programme>
+  <programme start="20260916184500 +0700" stop="20260916191500 +0700" channel="Trans7.id">
+    <title>Secret Story</title>
+  </programme>
+  <programme start="20260916191500 +0700" stop="20260916200000 +0700" channel="Trans7.id">
+    <title>POV (Pasti Obrolan Viral)</title>
+  </programme>
+  <programme start="20260916200000 +0700" stop="20260916213000 +0700" channel="Trans7.id">
+    <title>Arisan</title>
+  </programme>
+  <programme start="20260916213000 +0700" stop="20260916224500 +0700" channel="Trans7.id">
+    <title>Lapor Pak!</title>
+  </programme>
+  <programme start="20260916224500 +0700" stop="20260916233000 +0700" channel="Trans7.id">
+    <title>The Police</title>
+  </programme>
+  <programme start="20260916233000 +0700" stop="20260917001500 +0700" channel="Trans7.id">
+    <title>Misteri Dunia</title>
+  </programme>
+  <programme start="20260917001500 +0700" stop="20260917004500 +0700" channel="Trans7.id">
+    <title>Redaksi Malam</title>
+  </programme>
+  <programme start="20260917004500 +0700" stop="20260917013000 +0700" channel="Trans7.id">
+    <title>Sport 7</title>
+  </programme>
+  <programme start="20260917013000 +0700" stop="20260917023000 +0700" channel="Trans7.id">
+    <title>Best Fishing</title>
+  </programme>
+  <programme start="20260917023000 +0700" stop="20260917031500 +0700" channel="Trans7.id">
+    <title>Dracin</title>
+  </programme>
+  <programme start="20260917031500 +0700" stop="20260917040000 +0700" channel="Trans7.id">
+    <title>Lol Comediha!</title>
+  </programme>
+  <programme start="20260917040000 +0700" stop="20260917044500 +0700" channel="Trans7.id">
+    <title>Big Bang!</title>
+  </programme>
+  <programme start="20260917044500 +0700" stop="20260917053000 +0700" channel="Trans7.id">
+    <title>Assalamualaikum Mamah Dedeh</title>
+  </programme>
+  <programme start="20260917053000 +0700" stop="20260917063000 +0700" channel="Trans7.id">
+    <title>Redaksi Pagi</title>
+  </programme>
+  <programme start="20260917063000 +0700" stop="20260917073000 +0700" channel="Trans7.id">
+    <title>Spotlite</title>
+  </programme>
+  <programme start="20260917073000 +0700" stop="20260917083000 +0700" channel="Trans7.id">
+    <title>Selebrita Pagi</title>
+  </programme>
+  <programme start="20260917083000 +0700" stop="20260917093000 +0700" channel="Trans7.id">
+    <title>FYP (For Your Pagi)</title>
+  </programme>
+  <programme start="20260917093000 +0700" stop="20260917101500 +0700" channel="Trans7.id">
+    <title>Selebrita Heits</title>
+  </programme>
+  <programme start="20260917101500 +0700" stop="20260917111500 +0700" channel="Trans7.id">
+    <title>Big Bang!</title>
+  </programme>
+  <programme start="20260917111500 +0700" stop="20260917120000 +0700" channel="Trans7.id">
+    <title>Enah Bikin Enak</title>
+  </programme>
+  <programme start="20260917120000 +0700" stop="20260917124500 +0700" channel="Trans7.id">
+    <title>Jejak Si Gundul</title>
+  </programme>
+  <programme start="20260917124500 +0700" stop="20260917133000 +0700" channel="Trans7.id">
+    <title>Bocah Petualang</title>
+  </programme>
+  <programme start="20260917133000 +0700" stop="20260917141500 +0700" channel="Trans7.id">
+    <title>Kepo</title>
+  </programme>
+  <programme start="20260917141500 +0700" stop="20260917144500 +0700" channel="Trans7.id">
+    <title>Redaksi</title>
+  </programme>
+  <programme start="20260917144500 +0700" stop="20260917151500 +0700" channel="Trans7.id">
+    <title>Spotlite Anti Kudet</title>
+  </programme>
+  <programme start="20260917151500 +0700" stop="20260917160000 +0700" channel="Trans7.id">
+    <title>Cuan Bos</title>
+  </programme>
+  <programme start="20260917160000 +0700" stop="20260917170000 +0700" channel="Trans7.id">
+    <title>Makan Receh</title>
+  </programme>
+  <programme start="20260917170000 +0700" stop="20260917180000 +0700" channel="Trans7.id">
+    <title>Selebrita Update</title>
+  </programme>
+  <programme start="20260917180000 +0700" stop="20260917184500 +0700" channel="Trans7.id">
+    <title>On The Spot</title>
+  </programme>
+  <programme start="20260917184500 +0700" stop="20260917191500 +0700" channel="Trans7.id">
+    <title>Secret Story</title>
+  </programme>
+  <programme start="20260917191500 +0700" stop="20260917200000 +0700" channel="Trans7.id">
+    <title>POV (Pasti Obrolan Viral)</title>
+  </programme>
+  <programme start="20260917200000 +0700" stop="20260917213000 +0700" channel="Trans7.id">
+    <title>Arisan</title>
+  </programme>
+  <programme start="20260917213000 +0700" stop="20260917224500 +0700" channel="Trans7.id">
+    <title>Lapor Pak!</title>
+  </programme>
+  <programme start="20260917224500 +0700" stop="20260917233000 +0700" channel="Trans7.id">
+    <title>The Police</title>
+  </programme>
+  <programme start="20260917233000 +0700" stop="20260918001500 +0700" channel="Trans7.id">
+    <title>Misteri Dunia</title>
+  </programme>
+  <programme start="20260918001500 +0700" stop="20260918004500 +0700" channel="Trans7.id">
+    <title>Redaksi Malam</title>
+  </programme>
+  <programme start="20260918004500 +0700" stop="20260918013000 +0700" channel="Trans7.id">
+    <title>Sport 7</title>
+  </programme>
+  <programme start="20260918013000 +0700" stop="20260918023000 +0700" channel="Trans7.id">
+    <title>Best Fishing</title>
+  </programme>
+  <programme start="20260918023000 +0700" stop="20260918031500 +0700" channel="Trans7.id">
+    <title>Dracin</title>
+  </programme>
+  <programme start="20260918031500 +0700" stop="20260918040000 +0700" channel="Trans7.id">
+    <title>Lol Comediha!</title>
+  </programme>
+  <programme start="20260918040000 +0700" stop="20260918044500 +0700" channel="Trans7.id">
+    <title>Big Bang!</title>
+  </programme>
+  <programme start="20260918044500 +0700" stop="20260918053000 +0700" channel="Trans7.id">
+    <title>Pesantrend</title>
+  </programme>
+  <programme start="20260918053000 +0700" stop="20260918063000 +0700" channel="Trans7.id">
+    <title>Redaksi Pagi</title>
+  </programme>
+  <programme start="20260918063000 +0700" stop="20260918073000 +0700" channel="Trans7.id">
+    <title>Spotlite</title>
+  </programme>
+  <programme start="20260918073000 +0700" stop="20260918083000 +0700" channel="Trans7.id">
+    <title>Selebrita Pagi</title>
+  </programme>
+  <programme start="20260918083000 +0700" stop="20260918093000 +0700" channel="Trans7.id">
+    <title>FYP (For Your Pagi)</title>
+  </programme>
+  <programme start="20260918093000 +0700" stop="20260918101500 +0700" channel="Trans7.id">
+    <title>Selebrita Heits</title>
+  </programme>
+  <programme start="20260918101500 +0700" stop="20260918111500 +0700" channel="Trans7.id">
+    <title>Big Bang!</title>
+  </programme>
+  <programme start="20260918111500 +0700" stop="20260918120000 +0700" channel="Trans7.id">
+    <title>Enah Bikin Enak</title>
+  </programme>
+  <programme start="20260918120000 +0700" stop="20260918124500 +0700" channel="Trans7.id">
+    <title>Jejak Si Gundul</title>
+  </programme>
+  <programme start="20260918124500 +0700" stop="20260918133000 +0700" channel="Trans7.id">
+    <title>Bocah Petualang</title>
+  </programme>
+  <programme start="20260918133000 +0700" stop="20260918141500 +0700" channel="Trans7.id">
+    <title>Kepo</title>
+  </programme>
+  <programme start="20260918141500 +0700" stop="20260918144500 +0700" channel="Trans7.id">
+    <title>Redaksi</title>
+  </programme>
+  <programme start="20260918144500 +0700" stop="20260918151500 +0700" channel="Trans7.id">
+    <title>Spotlite Anti Kudet</title>
+  </programme>
+  <programme start="20260918151500 +0700" stop="20260918160000 +0700" channel="Trans7.id">
+    <title>Cuan Bos</title>
+  </programme>
+  <programme start="20260918160000 +0700" stop="20260918170000 +0700" channel="Trans7.id">
+    <title>Makan Receh</title>
+  </programme>
+  <programme start="20260918170000 +0700" stop="20260918180000 +0700" channel="Trans7.id">
+    <title lang="id">Selebrita Update</title>
+  </programme>
+  <programme start="20260918180000 +0700" stop="20260918184500 +0700" channel="Trans7.id">
+    <title lang="id">On The Spot</title>
+  </programme>
+  <programme start="20260918184500 +0700" stop="20260918191500 +0700" channel="Trans7.id">
+    <title lang="id">Secret Story</title>
+  </programme>
+  <programme start="20260918191500 +0700" stop="20260918200000 +0700" channel="Trans7.id">
+    <title lang="id">POV (Pasti Obrolan Viral)</title>
+  </programme>
+  <programme start="20260918200000 +0700" stop="20260918213000 +0700" channel="Trans7.id">
+    <title lang="id">Arisan</title>
+  </programme>
+  <programme start="20260918213000 +0700" stop="20260918224500 +0700" channel="Trans7.id">
+    <title lang="id">Lapor Pak!</title>
+  </programme>
+  <programme start="20260918224500 +0700" stop="20260918233000 +0700" channel="Trans7.id">
+    <title lang="id">The Police</title>
+  </programme>
+  <programme start="20260918233000 +0700" stop="20260919001500 +0700" channel="Trans7.id">
+    <title lang="id">Misteri Dunia</title>
+  </programme>
+  <programme start="20260919001500 +0700" stop="20260919004500 +0700" channel="Trans7.id">
+    <title lang="id">Redaksi Malam</title>
+  </programme>
+  <programme start="20260919004500 +0700" stop="20260919013000 +0700" channel="Trans7.id">
+    <title lang="id">Sport7</title>
+  </programme>
+  <programme start="20260919013000 +0700" stop="20260919020000 +0700" channel="Trans7.id">
+    <title lang="id">Best Fishing</title>
+  </programme>
+  <programme start="20260919020000 +0700" stop="20260919023000 +0700" channel="Trans7.id">
+    <title lang="id">Dracin</title>
+  </programme>
+  <programme start="20260919023000 +0700" stop="20260919031500 +0700" channel="Trans7.id">
+    <title lang="id">On The Spot</title>
+  </programme>
+  <programme start="20260919031500 +0700" stop="20260919040000 +0700" channel="Trans7.id">
+    <title lang="id">LOL ComediHa!</title>
+  </programme>
+  <programme start="20260919040000 +0700" stop="20260919044500 +0700" channel="Trans7.id">
+    <title lang="id">Masjidku</title>
+  </programme>
+  <programme start="20260919044500 +0700" stop="20260919053000 +0700" channel="Trans7.id">
+    <title lang="id">Pesantrend</title>
+  </programme>
+  <programme start="20260919053000 +0700" stop="20260919063000 +0700" channel="Trans7.id">
+    <title lang="id">Redaksi Pagi Akhir Pekan</title>
+  </programme>
+  <programme start="20260919063000 +0700" stop="20260919073000 +0700" channel="Trans7.id">
+    <title lang="id">Spotlite</title>
+  </programme>
+  <programme start="20260919073000 +0700" stop="20260919083000 +0700" channel="Trans7.id">
+    <title lang="id">Selebrita Pagi On The Weekend</title>
+  </programme>
+  <programme start="20260919083000 +0700" stop="20260919091500 +0700" channel="Trans7.id">
+    <title lang="id">Bikin Seneng</title>
+  </programme>
+  <programme start="20260919091500 +0700" stop="20260919101500 +0700" channel="Trans7.id">
+    <title lang="id">Heits Abis</title>
+  </programme>
+  <programme start="20260919101500 +0700" stop="20260919111500 +0700" channel="Trans7.id">
+    <title lang="id">Obrolan Tiap Waktu</title>
+  </programme>
+  <programme start="20260919111500 +0700" stop="20260919120000 +0700" channel="Trans7.id">
+    <title lang="id">Enaknya Mantul</title>
+  </programme>
+  <programme start="20260919120000 +0700" stop="20260919124500 +0700" channel="Trans7.id">
+    <title lang="id">Jejak Petualang</title>
+  </programme>
+  <programme start="20260919124500 +0700" stop="20260919133000 +0700" channel="Trans7.id">
+    <title lang="id">The Explorer</title>
+  </programme>
+  <programme start="20260919133000 +0700" stop="20260919141500 +0700" channel="Trans7.id">
+    <title lang="id">Mancing Mania Strike Back</title>
+  </programme>
+  <programme start="20260919141500 +0700" stop="20260919151500 +0700" channel="Trans7.id">
+    <title lang="id">Redaksi Akhir Pekan</title>
+  </programme>
+  <programme start="20260919151500 +0700" stop="20260919160000 +0700" channel="Trans7.id">
+    <title lang="id">Cuan Bos</title>
+  </programme>
+  <programme start="20260919160000 +0700" stop="20260919170000 +0700" channel="Trans7.id">
+    <title lang="id">Makan Receh</title>
+  </programme>
+  <programme start="20260919170000 +0700" stop="20260919180000 +0700" channel="Trans7.id">
+    <title lang="id">Selebrita On The Weekend</title>
+  </programme>
+  <programme start="20260919180000 +0700" stop="20260919183000 +0700" channel="Trans7.id">
+    <title lang="id">Legenda Bertuah</title>
+  </programme>
+  <programme start="20260919183000 +0700" stop="20260919191500 +0700" channel="Trans7.id">
+    <title lang="id">Secret Story</title>
+  </programme>
+  <programme start="20260919191500 +0700" stop="20260919200000 +0700" channel="Trans7.id">
+    <title lang="id">POV (Pasti Obrolan Viral)</title>
+  </programme>
+  <programme start="20260919200000 +0700" stop="20260919213000 +0700" channel="Trans7.id">
+    <title lang="id">Arisan</title>
+  </programme>
+  <programme start="20260919213000 +0700" stop="20260919224500 +0700" channel="Trans7.id">
+    <title lang="id">BTS</title>
+  </programme>
+  <programme start="20260919224500 +0700" stop="20260919233000 +0700" channel="Trans7.id">
+    <title lang="id">The Police</title>
+  </programme>
+  <programme start="20260919233000 +0700" stop="20260920004500 +0700" channel="Trans7.id">
+    <title lang="id">Surat Petaka</title>
+  </programme>
+  <programme start="20260920004500 +0700" stop="20260920013000 +0700" channel="Trans7.id">
+    <title lang="id">MotoGP Sprint Race Austria</title>
+  </programme>
+  <programme start="20260920013000 +0700" stop="20260920020000 +0700" channel="Trans7.id">
+    <title lang="id">Best Fishing</title>
+  </programme>
   <programme start="20260915093000 +0700" stop="20260915100000 +0700" channel="MetroTV.id">
     <title>Zona Bisnis</title>
     <desc>Program berita yang menampilkan berbagai perkembangan dunia ekonomi dan pasar saham internasional.</desc>
@@ -2600,6 +3346,274 @@
   </programme>
   <programme start="20260915233000 +0700" stop="20260916000000 +0700" channel="tvOne.id">
     <title>Berita Utama Kriminal</title>
+  </programme>
+  <programme start="20260915233000 +0700" stop="20260916000000 +0700" channel="NusantaraTV.id">
+    <title>NTV Headlines</title>
+    <desc>Program news buletin yang menyajikan berita-berita utama yang terjadi sepanjang hari, dirangkum secara akurat berdasarkan dampak, urgensi dan relevansinya bagi publik. Program ini hadir dengan pilihan baru, memberikan perspektif yang ringkas, jelas dan mudah untuk disimak pemirsa di ujung hari</desc>
+  </programme>
+  <programme start="20260916000000 +0700" stop="20260916010000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260916010000 +0700" stop="20260916020000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260916020000 +0700" stop="20260916030000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260916030000 +0700" stop="20260916040000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260916040000 +0700" stop="20260916060000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260916060000 +0700" stop="20260916073000 +0700" channel="NusantaraTV.id">
+    <title>NTV Morning</title>
+    <desc>Sumber informasi yang bisa diakses masyarakat setiap pagi sebelum memulai aktivitas. Menyajikan rangkuman berita utama dari kemarin hingga dini hari</desc>
+  </programme>
+  <programme start="20260916073000 +0700" stop="20260916080000 +0700" channel="NusantaraTV.id">
+    <title>Morning Spotlights</title>
+    <desc>Program pagi yang menyoroti current issue setiap harinya, dan dibawakan oleh dua host. Program ini menggabungkan: Hard news yang dikemas secara ringan, Live Report dengan penyajian lebih pop, Info event harian (konser, seminar, workshop, dll), Trending topic &amp; viral content, Lifestyle, Interaksi dengan audiens dan komentar netizen</desc>
+  </programme>
+  <programme start="20260916080000 +0700" stop="20260916090000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260916090000 +0700" stop="20260916093000 +0700" channel="NusantaraTV.id">
+    <title>Kok Bisa Viral</title>
+    <desc>Kok Bisa Viral menyajikan ragam informasi/fakta unik dari dalam ataupun luar negeri secara urutan peringkat</desc>
+  </programme>
+  <programme start="20260916093000 +0700" stop="20260916103000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Economic Updates</title>
+    <desc>Program buletin harian yang khusus mengulas ragam isu ekonomi dan bisnis dengan mengedepankan updates, analisa mendalam, serta dampaknya pada sektor ekonomi nasional</desc>
+  </programme>
+  <programme start="20260916103000 +0700" stop="20260916110000 +0700" channel="NusantaraTV.id">
+    <title>NTV Crime</title>
+    <desc>Menyajikan informasi kriminal terkini dari seluruh penjuru tanah air dan fakta yang aktual dibalik peristiwa kriminal</desc>
+  </programme>
+  <programme start="20260916110000 +0700" stop="20260916120000 +0700" channel="NusantaraTV.id">
+    <title>NTV Today</title>
+    <desc>Program buletin berita harian yang menyajikan beragam informasi terkini dari dalam dan luar negeri, mencakup peristiwa, hukum, politik, agenda kegiatan, wisata, kuliner, dan hiburan</desc>
+  </programme>
+  <programme start="20260916120000 +0700" stop="20260916123000 +0700" channel="NusantaraTV.id">
+    <title>Asta Cita</title>
+    <desc>Sumber tayangan yang menginformasikan capaian pemerintah. Program ini menyoroti delapan arah kebijakan utama pemerintahan Presiden Prabowo Subianto, yang menjadi pondasi dalam mewujudkan Indonesia Maju, Adil, dan Berdaulat.</desc>
+  </programme>
+  <programme start="20260916123000 +0700" stop="20260916133000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260916133000 +0700" stop="20260916140000 +0700" channel="NusantaraTV.id">
+    <title>Petualang Nusantara</title>
+    <desc>Program dokumenter petualangan bersama Sang Petualang Panji yang mengeksplorasi kekayaan budaya, alam, dan kehidupan masyarakat lokal di pelosok Nusantara, serta mengangkat kearifan lokal dan semangat cinta tanah air melalui perjalanan penuh inspirasi</desc>
+  </programme>
+  <programme start="20260916140000 +0700" stop="20260916153000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260916153000 +0700" stop="20260916160000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Business Hour</title>
+    <desc>Program ekonomi sore yang menyajikan update tercepat, analisis tajam, dan dialog strategis untuk memahami arah ekonomi nasional dan global serta dampaknya bagi pasar, industri, dan daerah</desc>
+  </programme>
+  <programme start="20260916160000 +0700" stop="20260916163000 +0700" channel="NusantaraTV.id">
+    <title>NTV Headlines</title>
+    <desc>Program news buletin yang menyajikan berita-berita utama yang terjadi sepanjang hari, dirangkum secara akurat berdasarkan dampak, urgensi dan relevansinya bagi publik. Program ini hadir dengan pilihan baru, memberikan perspektif yang ringkas, jelas dan mudah untuk disimak pemirsa di ujung hari</desc>
+  </programme>
+  <programme start="20260916163000 +0700" stop="20260916180000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260916180000 +0700" stop="20260916190000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260916190000 +0700" stop="20260916213000 +0700" channel="NusantaraTV.id">
+    <title>Suara Nusantara</title>
+    <desc>Program ini tidak hanya menghadirkan diskusi para pakar dan pembuat kebijakan, tetapi juga membuka ruang bagi suara masyarakat untuk diuji, dikonfrontasikan, dan didialogkan secara konstruktif. Dengan format diskusi berlapis dan penekanan pada solusi, Suara Nusantara menjadi medium dialog yang kredibel, relevan, dan tepercaya.</desc>
+  </programme>
+  <programme start="20260916213000 +0700" stop="20260916223000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260916223000 +0700" stop="20260916233000 +0700" channel="NusantaraTV.id">
+    <title>NTV Tonight</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260916233000 +0700" stop="20260917000000 +0700" channel="NusantaraTV.id">
+    <title>NTV Headlines</title>
+    <desc>Program news buletin yang menyajikan berita-berita utama yang terjadi sepanjang hari, dirangkum secara akurat berdasarkan dampak, urgensi dan relevansinya bagi publik. Program ini hadir dengan pilihan baru, memberikan perspektif yang ringkas, jelas dan mudah untuk disimak pemirsa di ujung hari</desc>
+  </programme>
+  <programme start="20260917000000 +0700" stop="20260917010000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260917010000 +0700" stop="20260917020000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260917020000 +0700" stop="20260917030000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260917030000 +0700" stop="20260917040000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260917040000 +0700" stop="20260917060000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260917060000 +0700" stop="20260917073000 +0700" channel="NusantaraTV.id">
+    <title>NTV Morning</title>
+    <desc>Sumber informasi yang bisa diakses masyarakat setiap pagi sebelum memulai aktivitas. Menyajikan rangkuman berita utama dari kemarin hingga dini hari</desc>
+  </programme>
+  <programme start="20260917073000 +0700" stop="20260917080000 +0700" channel="NusantaraTV.id">
+    <title>Morning Spotlights</title>
+    <desc>Program pagi yang menyoroti current issue setiap harinya, dan dibawakan oleh dua host. Program ini menggabungkan: Hard news yang dikemas secara ringan, Live Report dengan penyajian lebih pop, Info event harian (konser, seminar, workshop, dll), Trending topic &amp; viral content, Lifestyle, Interaksi dengan audiens dan komentar netizen</desc>
+  </programme>
+  <programme start="20260917080000 +0700" stop="20260917090000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260917090000 +0700" stop="20260917093000 +0700" channel="NusantaraTV.id">
+    <title>Kok Bisa Viral</title>
+    <desc>Kok Bisa Viral menyajikan ragam informasi/fakta unik dari dalam ataupun luar negeri secara urutan peringkat</desc>
+  </programme>
+  <programme start="20260917093000 +0700" stop="20260917103000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Economic Updates</title>
+    <desc>Program buletin harian yang khusus mengulas ragam isu ekonomi dan bisnis dengan mengedepankan updates, analisa mendalam, serta dampaknya pada sektor ekonomi nasional</desc>
+  </programme>
+  <programme start="20260917103000 +0700" stop="20260917110000 +0700" channel="NusantaraTV.id">
+    <title>NTV Crime</title>
+    <desc>Menyajikan informasi kriminal terkini dari seluruh penjuru tanah air dan fakta yang aktual dibalik peristiwa kriminal</desc>
+  </programme>
+  <programme start="20260917110000 +0700" stop="20260917120000 +0700" channel="NusantaraTV.id">
+    <title>NTV Today</title>
+    <desc>Program buletin berita harian yang menyajikan beragam informasi terkini dari dalam dan luar negeri, mencakup peristiwa, hukum, politik, agenda kegiatan, wisata, kuliner, dan hiburan</desc>
+  </programme>
+  <programme start="20260917120000 +0700" stop="20260917123000 +0700" channel="NusantaraTV.id">
+    <title>Asta Cita</title>
+    <desc>Sumber tayangan yang menginformasikan capaian pemerintah. Program ini menyoroti delapan arah kebijakan utama pemerintahan Presiden Prabowo Subianto, yang menjadi pondasi dalam mewujudkan Indonesia Maju, Adil, dan Berdaulat</desc>
+  </programme>
+  <programme start="20260917123000 +0700" stop="20260917133000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260917133000 +0700" stop="20260917140000 +0700" channel="NusantaraTV.id">
+    <title>Petualang Nusantara</title>
+    <desc>Program dokumenter petualangan bersama Sang Petualang Panji yang mengeksplorasi kekayaan budaya, alam, dan kehidupan masyarakat lokal di pelosok Nusantara, serta mengangkat kearifan lokal dan semangat cinta tanah air melalui perjalanan penuh inspirasi</desc>
+  </programme>
+  <programme start="20260917140000 +0700" stop="20260917153000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260917153000 +0700" stop="20260917163000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Business Hour</title>
+    <desc>Program ekonomi sore yang menyajikan update tercepat, analisis tajam, dan dialog strategis untuk memahami arah ekonomi nasional dan global serta dampaknya bagi pasar, industri, dan daerah</desc>
+  </programme>
+  <programme start="20260917163000 +0700" stop="20260917170000 +0700" channel="NusantaraTV.id">
+    <title>NTV Crime</title>
+    <desc>Menyajikan informasi kriminal terkini dari seluruh penjuru tanah air dan fakta yang aktual dibalik peristiwa kriminal</desc>
+  </programme>
+  <programme start="20260917170000 +0700" stop="20260917193000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260917193000 +0700" stop="20260917203000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260917203000 +0700" stop="20260917213000 +0700" channel="NusantaraTV.id">
+    <title>Gestur</title>
+    <desc>Program yang mengupas makna di balik bahasa verbal, mengurai gestur, ekspresi, intonasi, hingga simbol komunikasi yang sering luput dari perhatian publik</desc>
+  </programme>
+  <programme start="20260917213000 +0700" stop="20260917223000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260917223000 +0700" stop="20260917233000 +0700" channel="NusantaraTV.id">
+    <title>NTV Tonight</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260917233000 +0700" stop="20260918000000 +0700" channel="NusantaraTV.id">
+    <title>NTV Headlines</title>
+    <desc>Program news buletin yang menyajikan berita-berita utama yang terjadi sepanjang hari, dirangkum secara akurat berdasarkan dampak, urgensi dan relevansinya bagi publik. Program ini hadir dengan pilihan baru, memberikan perspektif yang ringkas, jelas dan mudah untuk disimak pemirsa di ujung hari</desc>
+  </programme>
+  <programme start="20260918000000 +0700" stop="20260918010000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260918010000 +0700" stop="20260918020000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260918020000 +0700" stop="20260918030000 +0700" channel="NusantaraTV.id">
+    <title>NTV Toplines</title>
+    <desc>Program berita harian yang mengkurasi berita terbaik, terpopuler, dan paling berdampak setiap hari, kemudian menyajikannya dengan gaya ringan, reflektif, dan humanis</desc>
+  </programme>
+  <programme start="20260918030000 +0700" stop="20260918040000 +0700" channel="NusantaraTV.id">
+    <title>NTV Sport</title>
+    <desc>Program olahraga andalan Nusantara TV yang menghadirkan berbagai informasi dan aksi seru dari dunia sport, baik nasional maupun internasional</desc>
+  </programme>
+  <programme start="20260918040000 +0700" stop="20260918060000 +0700" channel="NusantaraTV.id">
+    <title>NTV Prime</title>
+    <desc>Menghadirkan informasi bernilai tinggi dan relevan, hasil kurasi tim redaksi yang menekankan kedalaman konteks dan signifikansi publik. NTV Prime menjadi wadah informasi terpercaya yang mengulas isu penting di bidang ekonomi, politik, dan kehidupan masyarakat</desc>
+  </programme>
+  <programme start="20260918060000 +0700" stop="20260918073000 +0700" channel="NusantaraTV.id">
+    <title>NTV Morning</title>
+    <desc>Sumber informasi yang bisa diakses masyarakat setiap pagi sebelum memulai aktivitas. Menyajikan rangkuman berita utama dari kemarin hingga dini hari</desc>
+  </programme>
+  <programme start="20260918073000 +0700" stop="20260918080000 +0700" channel="NusantaraTV.id">
+    <title>Morning Spotlights</title>
+    <desc>Program pagi yang menyoroti current issue setiap harinya, dan dibawakan oleh dua host. Program ini menggabungkan: Hard news yang dikemas secara ringan, Live Report dengan penyajian lebih pop, Info event harian (konser, seminar, workshop, dll), Trending topic &amp; viral content, Lifestyle, Interaksi dengan audiens dan komentar netizen</desc>
+  </programme>
+  <programme start="20260918080000 +0700" stop="20260918090000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang menyajikan informasi tentang problematika sampai kegiatan serta berita viral selebriti Indonesia maupun selebriti luar negeri</desc>
+  </programme>
+  <programme start="20260918090000 +0700" stop="20260918093000 +0700" channel="NusantaraTV.id">
+    <title>Kok Bisa Viral</title>
+    <desc>Kok Bisa Viral menyajikan ragam informasi/fakta unik dari dalam ataupun luar negeri secara urutan peringkat</desc>
+  </programme>
+  <programme start="20260918093000 +0700" stop="20260918103000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Economic Updates</title>
+    <desc>Program buletin harian yang khusus mengulas ragam isu ekonomi dan bisnis dengan mengedepankan updates, analisa mendalam, serta dampaknya pada sektor ekonomi nasional</desc>
+  </programme>
+  <programme start="20260918103000 +0700" stop="20260918110000 +0700" channel="NusantaraTV.id">
+    <title>NTV Crime</title>
+    <desc>Menyajikan informasi kriminal terkini dari seluruh penjuru tanah air dan fakta yang aktual dibalik peristiwa kriminal</desc>
+  </programme>
+  <programme start="20260918110000 +0700" stop="20260918120000 +0700" channel="NusantaraTV.id">
+    <title>NTV Today</title>
+    <desc>Program buletin berita harian yang menyajikan beragam informasi terkini dari dalam dan luar negeri, mencakup peristiwa, hukum, politik, agenda kegiatan, wisata, kuliner, dan hiburan</desc>
+  </programme>
+  <programme start="20260918120000 +0700" stop="20260918123000 +0700" channel="NusantaraTV.id">
+    <title>Asta Cita</title>
+    <desc>Sumber tayangan yang menginformasikan capaian pemerintah. Program ini menyoroti delapan arah kebijakan utama pemerintahan Presiden Prabowo Subianto, yang menjadi pondasi dalam mewujudkan Indonesia Maju, Adil, dan Berdaulat</desc>
+  </programme>
+  <programme start="20260918123000 +0700" stop="20260918133000 +0700" channel="NusantaraTV.id">
+    <title>Celebrity Fresh</title>
+    <desc>Program infotainment berdurasi 60 menit yang dipandu oleh dua host, menampilkan beragam informasi seputar selebriti tanah air, serta trend terkini yang terjadi di kalangan selebriti</desc>
+  </programme>
+  <programme start="20260918133000 +0700" stop="20260918140000 +0700" channel="NusantaraTV.id">
+    <title>Petualang Nusantara</title>
+    <desc>Program dokumenter petualangan bersama Sang Petualang Panji yang mengeksplorasi kekayaan budaya, alam, dan kehidupan masyarakat lokal di pelosok Nusantara, serta mengangkat kearifan lokal dan semangat cinta tanah air melalui perjalanan penuh inspirasi</desc>
+  </programme>
+  <programme start="20260918140000 +0700" stop="20260918153000 +0700" channel="NusantaraTV.id">
+    <title>Soundcore Dangdut</title>
+    <desc>Program Kompilasi Musik dari bergenre dangdut</desc>
+  </programme>
+  <programme start="20260918153000 +0700" stop="20260918160000 +0700" channel="NusantaraTV.id">
+    <title>Nusantara Business Hour</title>
+    <desc>Program ekonomi sore yang menyajikan update tercepat, analisis tajam, dan dialog strategis untuk memahami arah ekonomi nasional dan global serta dampaknya bagi pasar, industri, dan daerah</desc>
+  </programme>
+  <programme start="20260918160000 +0700" stop="20260918163000 +0700" channel="NusantaraTV.id">
+    <title>NTV Headlines</title>
+    <desc>Program news buletin yang menyajikan berita-berita utama yang terjadi sepanjang hari, dirangkum secara akurat berdasarkan dampak, urgensi dan relevansinya bagi publik. Program ini hadir dengan pilihan baru, memberikan perspektif yang ringkas, jelas dan mudah untuk disimak pemirsa di ujung hari</desc>
   </programme>
   <programme start="20260916000000 +0700" stop="20260917000000 +0700" channel="auto.jawapos.tv">
     <title lang="id">Jadwal belum tersedia</title>

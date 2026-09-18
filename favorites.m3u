@@ -23,6 +23,18 @@ https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
 #EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/5/5a/Rajawali_Televisi.svg/330px-Rajawali_Televisi.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="RTV",RTV
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8
 
+#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo_Trans_TV.png/330px-Logo_Trans_TV.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Trans TV",Trans TV
+https://green-night-d2b4.iontv.workers.dev/transtv.m3u8
+
+#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_Trans7.png/330px-Logo_Trans7.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Trans7",Trans7
+https://green-night-d2b4.iontv.workers.dev/trans7.m3u8
+
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -31,8 +43,13 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8
 #EXTINF:-1 tvg-id="tvOne.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/330px-TvOne_2023.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="tvOne",tvOne
 https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8
 
-#EXTINF:-1 tvg-id="MetroTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/c/c1/LogoMetroTVsince2010.svg/330px-LogoMetroTVsince2010.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Metro TV",Metro TV
-https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"}
+#EXTINF:-1 tvg-id="MetroTV.id" group-title="FAVORITES" tvg-name="Metro TV" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/id/thumb/c/c1/LogoMetroTVsince2010.svg/330px-LogoMetroTVsince2010.svg.png&w=320&h=180&fit=contain&bg=ffffff",Metro TV
+http://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
@@ -46,6 +63,14 @@ https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 #EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/INews.png/330px-INews.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="iNews",iNews
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=inews
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:contentlookup=false
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://cdn.siar.us/
+#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/31/Logo_nusantaratv.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="Nusantara TV",Nusantara TV
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="JTV" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/JTV_%28Indonesian_TV_channel%29_2022.svg/330px-JTV_%28Indonesian_TV_channel%29_2022.svg.png&w=320&h=180&fit=contain&bg=ffffff" group-title="FAVORITES" tvg-name="JTV",JTV
 http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8

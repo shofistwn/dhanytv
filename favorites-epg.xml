@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="dhanytv-custom-epg" generator-info-url="https://github.com/dhasap/dhanytv">
+  <channel id="SCTV.id">
+    <display-name lang="id">SCTV</display-name>
+    <url>http://www.mncvision.id</url>
+    <icon src="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" />
+  </channel>
   <channel id="RCTI.id">
     <display-name lang="id">RCTI</display-name>
     <url>http://www.mncvision.id</url>
@@ -19,6 +24,11 @@
     <display-name lang="id">iNews</display-name>
     <url>http://www.mncvision.id</url>
     <icon src="https://thumbor.prod.vidiocdn.com/wSfbef0k6V3fn7rnZa4azgVrLcM=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/728/eb7747.png" />
+  </channel>
+  <channel id="Indosiar.id">
+    <display-name lang="id">Indosiar</display-name>
+    <url>http://www.mncvision.id</url>
+    <icon src="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" />
   </channel>
   <channel id="TransTV.id">
     <display-name lang="id">TransTV</display-name>
@@ -66,6 +76,336 @@
     <display-name>Channel Jowo.id</display-name>
     <icon src="https://images.open-epg.com/x1236.png" />
   </channel>
+  <programme start="20260922004500 +0700" stop="20260922021600 +0700" channel="SCTV.id">
+    <title lang="id">Arafta: Terbelenggu Takdir</title>
+  </programme>
+  <programme start="20260922021600 +0700" stop="20260922024600 +0700" channel="SCTV.id">
+    <title lang="id">Solusi</title>
+  </programme>
+  <programme start="20260922024600 +0700" stop="20260922040400 +0700" channel="SCTV.id">
+    <title lang="id">Antara Cinta Dan Gadis Bakpia</title>
+  </programme>
+  <programme start="20260922040400 +0700" stop="20260922043000 +0700" channel="SCTV.id">
+    <title lang="id">Barakallah</title>
+  </programme>
+  <programme start="20260922043000 +0700" stop="20260922050000 +0700" channel="SCTV.id">
+    <title lang="id">Buser</title>
+  </programme>
+  <programme start="20260922050000 +0700" stop="20260922060000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Pagi (L)</title>
+  </programme>
+  <programme start="20260922060000 +0700" stop="20260922070000 +0700" channel="SCTV.id">
+    <title lang="id">Hot Shot</title>
+  </programme>
+  <programme start="20260922070000 +0700" stop="20260922080000 +0700" channel="SCTV.id">
+    <title lang="id">Tiba-Tiba Kuis</title>
+  </programme>
+  <programme start="20260922080000 +0700" stop="20260922100000 +0700" channel="SCTV.id">
+    <title lang="id">Jatuh Cilor Berjuta Rasanya</title>
+  </programme>
+  <programme start="20260922100000 +0700" stop="20260922120000 +0700" channel="SCTV.id">
+    <title lang="id">Mood Banget Sih Abang Cupang</title>
+  </programme>
+  <programme start="20260922120000 +0700" stop="20260922123000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Siang (L)</title>
+  </programme>
+  <programme start="20260922123000 +0700" stop="20260922161500 +0700" channel="SCTV.id">
+    <title lang="id">Samudra Cinta</title>
+  </programme>
+  <programme start="20260922161500 +0700" stop="20260922170000 +0700" channel="SCTV.id">
+    <title lang="id">Istri Satu-Satunya</title>
+  </programme>
+  <programme start="20260922170000 +0700" stop="20260922181500 +0700" channel="SCTV.id">
+    <title lang="id">Putri Pewaris</title>
+  </programme>
+  <programme start="20260922181500 +0700" stop="20260922194500 +0700" channel="SCTV.id">
+    <title lang="id">Cinta Seluas Samudra</title>
+  </programme>
+  <programme start="20260922194500 +0700" stop="20260922210000 +0700" channel="SCTV.id">
+    <title lang="id">Wajah Cinta Yang Lain</title>
+  </programme>
+  <programme start="20260922210000 +0700" stop="20260923000000 +0700" channel="SCTV.id">
+    <title lang="id">Infotainment Awards 2026 (L)</title>
+  </programme>
+  <programme start="20260923000000 +0700" stop="20260923020000 +0700" channel="SCTV.id">
+    <title lang="id">Cantik-Cantik Supir Tembak</title>
+  </programme>
+  <programme start="20260923020000 +0700" stop="20260923030000 +0700" channel="SCTV.id">
+    <title lang="id">Indahnya Cinta Masa Muda</title>
+  </programme>
+  <programme start="20260923030000 +0700" stop="20260923040000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Dini Hari</title>
+  </programme>
+  <programme start="20260923040000 +0700" stop="20260923043000 +0700" channel="SCTV.id">
+    <title lang="id">Barakallah</title>
+  </programme>
+  <programme start="20260923043000 +0700" stop="20260923050000 +0700" channel="SCTV.id">
+    <title lang="id">Buser</title>
+  </programme>
+  <programme start="20260923050000 +0700" stop="20260923060000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Pagi (L)</title>
+  </programme>
+  <programme start="20260923060000 +0700" stop="20260923070000 +0700" channel="SCTV.id">
+    <title lang="id">Hot Shot</title>
+  </programme>
+  <programme start="20260923070000 +0700" stop="20260923080000 +0700" channel="SCTV.id">
+    <title lang="id">Tiba-Tiba Kuis</title>
+  </programme>
+  <programme start="20260923080000 +0700" stop="20260923100000 +0700" channel="SCTV.id">
+    <title lang="id">Si Cantik Milik Cowok Cadangan</title>
+  </programme>
+  <programme start="20260923100000 +0700" stop="20260923120000 +0700" channel="SCTV.id">
+    <title lang="id">Asap Neng Sate Bau-Bau Cinta</title>
+  </programme>
+  <programme start="20260923120000 +0700" stop="20260923123000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Siang (L)</title>
+  </programme>
+  <programme start="20260923123000 +0700" stop="20260923161500 +0700" channel="SCTV.id">
+    <title lang="id">Samudra Cinta</title>
+  </programme>
+  <programme start="20260923161500 +0700" stop="20260923170000 +0700" channel="SCTV.id">
+    <title lang="id">Istri Satu-Satunya</title>
+  </programme>
+  <programme start="20260923170000 +0700" stop="20260923181500 +0700" channel="SCTV.id">
+    <title lang="id">Putri Pewaris</title>
+  </programme>
+  <programme start="20260923181500 +0700" stop="20260923194500 +0700" channel="SCTV.id">
+    <title lang="id">Cinta Seluas Samudra</title>
+  </programme>
+  <programme start="20260923194500 +0700" stop="20260923211500 +0700" channel="SCTV.id">
+    <title lang="id">Wajah Cinta Yang Lain</title>
+  </programme>
+  <programme start="20260923211500 +0700" stop="20260923230000 +0700" channel="SCTV.id">
+    <title lang="id">Biarkan Hati Bicara</title>
+  </programme>
+  <programme start="20260923230000 +0700" stop="20260924004500 +0700" channel="SCTV.id">
+    <title lang="id">Cantika Manis Manjahhh</title>
+  </programme>
+  <programme start="20260924004500 +0700" stop="20260924020000 +0700" channel="SCTV.id">
+    <title lang="id">Arafta: Terbelenggu Takdir</title>
+  </programme>
+  <programme start="20260924020000 +0700" stop="20260924030000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Malam</title>
+  </programme>
+  <programme start="20260924030000 +0700" stop="20260924040000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Dini Hari</title>
+  </programme>
+  <programme start="20260924040000 +0700" stop="20260924043000 +0700" channel="SCTV.id">
+    <title lang="id">Barakallah</title>
+  </programme>
+  <programme start="20260924043000 +0700" stop="20260924050000 +0700" channel="SCTV.id">
+    <title lang="id">Buser</title>
+  </programme>
+  <programme start="20260924050000 +0700" stop="20260924060000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Pagi (L)</title>
+  </programme>
+  <programme start="20260924060000 +0700" stop="20260924070000 +0700" channel="SCTV.id">
+    <title lang="id">Halo Selebriti</title>
+  </programme>
+  <programme start="20260924070000 +0700" stop="20260924080000 +0700" channel="SCTV.id">
+    <title lang="id">Tiba-Tiba Kuis</title>
+  </programme>
+  <programme start="20260924080000 +0700" stop="20260924100000 +0700" channel="SCTV.id">
+    <title lang="id">Ada Kalanya Cinta Melipir...</title>
+  </programme>
+  <programme start="20260924100000 +0700" stop="20260924120000 +0700" channel="SCTV.id">
+    <title lang="id">Kecantol Cinta Juragan Jengkol</title>
+  </programme>
+  <programme start="20260924120000 +0700" stop="20260924123000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Siang (L)</title>
+  </programme>
+  <programme start="20260924123000 +0700" stop="20260924161500 +0700" channel="SCTV.id">
+    <title lang="id">Samudra Cinta</title>
+  </programme>
+  <programme start="20260924161500 +0700" stop="20260924170000 +0700" channel="SCTV.id">
+    <title lang="id">Istri Satu-Satunya</title>
+  </programme>
+  <programme start="20260924170000 +0700" stop="20260924181500 +0700" channel="SCTV.id">
+    <title lang="id">Putri Pewaris</title>
+  </programme>
+  <programme start="20260924181500 +0700" stop="20260924194500 +0700" channel="SCTV.id">
+    <title lang="id">Cinta Seluas Samudra</title>
+  </programme>
+  <programme start="20260924194500 +0700" stop="20260924211500 +0700" channel="SCTV.id">
+    <title lang="id">Wajah Cinta Yang Lain</title>
+  </programme>
+  <programme start="20260924211500 +0700" stop="20260924230000 +0700" channel="SCTV.id">
+    <title lang="id">Biarkan Hati Bicara</title>
+  </programme>
+  <programme start="20260924230000 +0700" stop="20260925004500 +0700" channel="SCTV.id">
+    <title lang="id">Konon Katanya Cinta Itu Buta</title>
+  </programme>
+  <programme start="20260925004500 +0700" stop="20260925020000 +0700" channel="SCTV.id">
+    <title lang="id">Arafta: Terbelenggu Takdir</title>
+  </programme>
+  <programme start="20260925020000 +0700" stop="20260925030000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Malam</title>
+  </programme>
+  <programme start="20260925030000 +0700" stop="20260925040000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Dini Hari</title>
+  </programme>
+  <programme start="20260925040000 +0700" stop="20260925043000 +0700" channel="SCTV.id">
+    <title lang="id">Barakallah</title>
+  </programme>
+  <programme start="20260925043000 +0700" stop="20260925050000 +0700" channel="SCTV.id">
+    <title lang="id">Buser</title>
+  </programme>
+  <programme start="20260925050000 +0700" stop="20260925060000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Pagi (L)</title>
+  </programme>
+  <programme start="20260925060000 +0700" stop="20260925070000 +0700" channel="SCTV.id">
+    <title lang="id">Halo Selebriti</title>
+  </programme>
+  <programme start="20260925070000 +0700" stop="20260925080000 +0700" channel="SCTV.id">
+    <title lang="id">Tiba-Tiba Kuis</title>
+  </programme>
+  <programme start="20260925080000 +0700" stop="20260925100000 +0700" channel="SCTV.id">
+    <title lang="id">Rebutan Hati Miss Unicorn</title>
+  </programme>
+  <programme start="20260925100000 +0700" stop="20260925120000 +0700" channel="SCTV.id">
+    <title lang="id">FTV Pagi</title>
+  </programme>
+  <programme start="20260925120000 +0700" stop="20260925123000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Siang (L)</title>
+  </programme>
+  <programme start="20260925123000 +0700" stop="20260925161500 +0700" channel="SCTV.id">
+    <title lang="id">Samudra Cinta</title>
+  </programme>
+  <programme start="20260925161500 +0700" stop="20260925181500 +0700" channel="SCTV.id">
+    <title lang="id">Istri Satu-Satunya</title>
+  </programme>
+  <programme start="20260925181500 +0700" stop="20260925194500 +0700" channel="SCTV.id">
+    <title lang="id">Pesta Bola ASEAN</title>
+  </programme>
+  <programme start="20260925194500 +0700" stop="20260925221500 +0700" channel="SCTV.id">
+    <title lang="id">FIFA ASEAN Cup 2026 (L)</title>
+  </programme>
+  <programme start="20260925221500 +0700" stop="20260925230000 +0700" channel="SCTV.id">
+    <title lang="id">Biarkan Hati Bicara</title>
+  </programme>
+  <programme start="20260925230000 +0700" stop="20260926004500 +0700" channel="SCTV.id">
+    <title lang="id">My Wife Anak Geng Motor</title>
+  </programme>
+  <programme start="20260926004500 +0700" stop="20260926020000 +0700" channel="SCTV.id">
+    <title lang="id">Arafta: Terbelenggu Takdir</title>
+  </programme>
+  <programme start="20260926020000 +0700" stop="20260926030000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Malam</title>
+  </programme>
+  <programme start="20260926030000 +0700" stop="20260926040000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Dini Hari</title>
+  </programme>
+  <programme start="20260926040000 +0700" stop="20260926043000 +0700" channel="SCTV.id">
+    <title lang="id">Barakallah</title>
+  </programme>
+  <programme start="20260926043000 +0700" stop="20260926050000 +0700" channel="SCTV.id">
+    <title lang="id">Buser</title>
+  </programme>
+  <programme start="20260926050000 +0700" stop="20260926060000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Pagi (L)</title>
+  </programme>
+  <programme start="20260926060000 +0700" stop="20260926070000 +0700" channel="SCTV.id">
+    <title lang="id">Halo Selebriti</title>
+  </programme>
+  <programme start="20260926070000 +0700" stop="20260926080000 +0700" channel="SCTV.id">
+    <title lang="id">Tiba-Tiba Kuis</title>
+  </programme>
+  <programme start="20260926080000 +0700" stop="20260926100000 +0700" channel="SCTV.id">
+    <title lang="id">Langit Bisakah Kau Turunkan...</title>
+  </programme>
+  <programme start="20260926100000 +0700" stop="20260926120000 +0700" channel="SCTV.id">
+    <title lang="id">FTV Pagi</title>
+  </programme>
+  <programme start="20260926120000 +0700" stop="20260926123000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Siang (L)</title>
+  </programme>
+  <programme start="20260926123000 +0700" stop="20260926161500 +0700" channel="SCTV.id">
+    <title lang="id">Samudra Cinta</title>
+  </programme>
+  <programme start="20260926161500 +0700" stop="20260926170000 +0700" channel="SCTV.id">
+    <title lang="id">Istri Satu-Satunya</title>
+  </programme>
+  <programme start="20260926170000 +0700" stop="20260926181500 +0700" channel="SCTV.id">
+    <title lang="id">Putri Pewaris</title>
+  </programme>
+  <programme start="20260926181500 +0700" stop="20260926194500 +0700" channel="SCTV.id">
+    <title lang="id">Cinta Seluas Samudra</title>
+  </programme>
+  <programme start="20260926194500 +0700" stop="20260926211500 +0700" channel="SCTV.id">
+    <title lang="id">Wajah Cinta Yang Lain</title>
+  </programme>
+  <programme start="20260926211500 +0700" stop="20260926230000 +0700" channel="SCTV.id">
+    <title lang="id">Biarkan Hati Bicara</title>
+  </programme>
+  <programme start="20260926230000 +0700" stop="20260927004500 +0700" channel="SCTV.id">
+    <title lang="id">Hati Mengsad Jodohku Ketahan</title>
+  </programme>
+  <programme start="20260927004500 +0700" stop="20260927020000 +0700" channel="SCTV.id">
+    <title lang="id">Arafta: Terbelenggu Takdir</title>
+  </programme>
+  <programme start="20260927020000 +0700" stop="20260927030000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Malam</title>
+  </programme>
+  <programme start="20260927030000 +0700" stop="20260927040000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Dini Hari</title>
+  </programme>
+  <programme start="20260927040000 +0700" stop="20260927043000 +0700" channel="SCTV.id">
+    <title lang="id">Barakallah</title>
+  </programme>
+  <programme start="20260927043000 +0700" stop="20260927050000 +0700" channel="SCTV.id">
+    <title lang="id">Buser</title>
+  </programme>
+  <programme start="20260927050000 +0700" stop="20260927060000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Pagi (L)</title>
+  </programme>
+  <programme start="20260927060000 +0700" stop="20260927063000 +0700" channel="SCTV.id">
+    <title lang="id">Point Of View</title>
+  </programme>
+  <programme start="20260927063000 +0700" stop="20260927070000 +0700" channel="SCTV.id">
+    <title lang="id">Halo Selebriti</title>
+  </programme>
+  <programme start="20260927070000 +0700" stop="20260927080000 +0700" channel="SCTV.id">
+    <title lang="id">Tiba-Tiba Kuis</title>
+  </programme>
+  <programme start="20260927080000 +0700" stop="20260927100000 +0700" channel="SCTV.id">
+    <title lang="id">Kita Jalanin Aja Dulu</title>
+  </programme>
+  <programme start="20260927100000 +0700" stop="20260927120000 +0700" channel="SCTV.id">
+    <title lang="id">FTV Pagi</title>
+  </programme>
+  <programme start="20260927120000 +0700" stop="20260927123000 +0700" channel="SCTV.id">
+    <title lang="id">Liputan 6 Siang (L)</title>
+  </programme>
+  <programme start="20260927123000 +0700" stop="20260927140000 +0700" channel="SCTV.id">
+    <title lang="id">Samudra Cinta</title>
+  </programme>
+  <programme start="20260927140000 +0700" stop="20260927170000 +0700" channel="SCTV.id">
+    <title lang="id">All-Stars Sport Fest (L)</title>
+  </programme>
+  <programme start="20260927170000 +0700" stop="20260927181500 +0700" channel="SCTV.id">
+    <title lang="id">Putri Pewaris</title>
+  </programme>
+  <programme start="20260927181500 +0700" stop="20260927194500 +0700" channel="SCTV.id">
+    <title lang="id">Cinta Seluas Samudra</title>
+  </programme>
+  <programme start="20260927194500 +0700" stop="20260927211500 +0700" channel="SCTV.id">
+    <title lang="id">Wajah Cinta Yang Lain</title>
+  </programme>
+  <programme start="20260927211500 +0700" stop="20260927230000 +0700" channel="SCTV.id">
+    <title lang="id">Biarkan Hati Bicara</title>
+  </programme>
+  <programme start="20260927230000 +0700" stop="20260928004500 +0700" channel="SCTV.id">
+    <title lang="id">Jodohku Ketahan Kakek</title>
+  </programme>
+  <programme start="20260928004500 +0700" stop="20260928020000 +0700" channel="SCTV.id">
+    <title lang="id">Arafta: Terbelenggu Takdir</title>
+  </programme>
+  <programme start="20260928020000 +0700" stop="20260928030000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Malam</title>
+  </programme>
+  <programme start="20260928030000 +0700" stop="20260928040000 +0700" channel="SCTV.id">
+    <title lang="id">Sinema Dini Hari</title>
+  </programme>
   <programme start="20260922001500 +0700" stop="20260922013000 +0700" channel="RCTI.id">
     <title lang="id">Busway Jurusan Cinta</title>
   </programme>
@@ -1512,6 +1852,261 @@
   </programme>
   <programme start="20260929233000 +0700" stop="20260930000000 +0700" channel="iNews.id">
     <title lang="id">iNews Sport (L)</title>
+  </programme>
+  <programme start="20260922010000 +0700" stop="20260922030000 +0700" channel="Indosiar.id">
+    <title lang="id">Shaolin</title>
+  </programme>
+  <programme start="20260922030000 +0700" stop="20260922043000 +0700" channel="Indosiar.id">
+    <title lang="id">God Of Gambler Return</title>
+  </programme>
+  <programme start="20260922043000 +0700" stop="20260922060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260922060000 +0700" stop="20260922080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260922080000 +0700" stop="20260922100000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Demi Rahasia</title>
+  </programme>
+  <programme start="20260922100000 +0700" stop="20260922110000 +0700" channel="Indosiar.id">
+    <title lang="id">Kiss Pagi</title>
+  </programme>
+  <programme start="20260922110000 +0700" stop="20260922113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260922113000 +0700" stop="20260922120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260922120000 +0700" stop="20260922133000 +0700" channel="Indosiar.id">
+    <title lang="id">Pernikahan Mengungkap Dosa...</title>
+  </programme>
+  <programme start="20260922133000 +0700" stop="20260922150000 +0700" channel="Indosiar.id">
+    <title lang="id">Ronce Melati Pengantin Kuning</title>
+  </programme>
+  <programme start="20260922150000 +0700" stop="20260922170000 +0700" channel="Indosiar.id">
+    <title lang="id">Aku Dinikahi Untuk Disakiti</title>
+  </programme>
+  <programme start="20260922170000 +0700" stop="20260922190000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260922190000 +0700" stop="20260922230000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260922230000 +0700" stop="20260923010000 +0700" channel="Indosiar.id">
+    <title lang="id">Desperado</title>
+  </programme>
+  <programme start="20260923010000 +0700" stop="20260923023000 +0700" channel="Indosiar.id">
+    <title lang="id">Iron Mask</title>
+  </programme>
+  <programme start="20260923023000 +0700" stop="20260923040000 +0700" channel="Indosiar.id">
+    <title lang="id">Eye For An Eye 2</title>
+  </programme>
+  <programme start="20260923040000 +0700" stop="20260923043000 +0700" channel="Indosiar.id">
+    <title lang="id">Mujizat Masih Ada</title>
+  </programme>
+  <programme start="20260923043000 +0700" stop="20260923060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260923060000 +0700" stop="20260923080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260923080000 +0700" stop="20260923100000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Teror Di Rumah Angker</title>
+  </programme>
+  <programme start="20260923100000 +0700" stop="20260923110000 +0700" channel="Indosiar.id">
+    <title lang="id">Hot Kiss</title>
+  </programme>
+  <programme start="20260923110000 +0700" stop="20260923113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260923113000 +0700" stop="20260923120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260923120000 +0700" stop="20260923133000 +0700" channel="Indosiar.id">
+    <title lang="id">Di Balik Senyuman Itu Ada Teror</title>
+  </programme>
+  <programme start="20260923133000 +0700" stop="20260923150000 +0700" channel="Indosiar.id">
+    <title lang="id">Rahasia Di Balik Teror Hadiah</title>
+  </programme>
+  <programme start="20260923150000 +0700" stop="20260923170000 +0700" channel="Indosiar.id">
+    <title lang="id">Aku Mengejar Viral</title>
+  </programme>
+  <programme start="20260923170000 +0700" stop="20260923190000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260923190000 +0700" stop="20260923230000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260923230000 +0700" stop="20260924010000 +0700" channel="Indosiar.id">
+    <title lang="id">Hero</title>
+  </programme>
+  <programme start="20260924010000 +0700" stop="20260924030000 +0700" channel="Indosiar.id">
+    <title lang="id">City Hunter</title>
+  </programme>
+  <programme start="20260924030000 +0700" stop="20260924043000 +0700" channel="Indosiar.id">
+    <title lang="id">The White Storm 3: Heaven...</title>
+  </programme>
+  <programme start="20260924043000 +0700" stop="20260924060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260924060000 +0700" stop="20260924080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260924080000 +0700" stop="20260924100000 +0700" channel="Indosiar.id">
+    <title lang="id">Ujian Pernikahan Di Awal...</title>
+  </programme>
+  <programme start="20260924100000 +0700" stop="20260924110000 +0700" channel="Indosiar.id">
+    <title lang="id">Hot Kiss</title>
+  </programme>
+  <programme start="20260924110000 +0700" stop="20260924113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260924113000 +0700" stop="20260924120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260924120000 +0700" stop="20260924133000 +0700" channel="Indosiar.id">
+    <title lang="id">Prahara Pernikahan Pura-Pura</title>
+  </programme>
+  <programme start="20260924133000 +0700" stop="20260924150000 +0700" channel="Indosiar.id">
+    <title lang="id">Pernikahanku Hancur Karena...</title>
+  </programme>
+  <programme start="20260924150000 +0700" stop="20260924170000 +0700" channel="Indosiar.id">
+    <title lang="id">Mantra Palsu Penjual Khodam</title>
+  </programme>
+  <programme start="20260924170000 +0700" stop="20260924190000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260924190000 +0700" stop="20260924230000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260924230000 +0700" stop="20260925010000 +0700" channel="Indosiar.id">
+    <title lang="id">Battle Of The Wolf</title>
+  </programme>
+  <programme start="20260925010000 +0700" stop="20260925023000 +0700" channel="Indosiar.id">
+    <title lang="id">Project A</title>
+  </programme>
+  <programme start="20260925023000 +0700" stop="20260925040000 +0700" channel="Indosiar.id">
+    <title lang="id">The Bodyguard</title>
+  </programme>
+  <programme start="20260925040000 +0700" stop="20260925043000 +0700" channel="Indosiar.id">
+    <title lang="id">Pintu-Pintu Syurga</title>
+  </programme>
+  <programme start="20260925043000 +0700" stop="20260925060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260925060000 +0700" stop="20260925080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260925080000 +0700" stop="20260925100000 +0700" channel="Indosiar.id">
+    <title lang="id">Misteri Di Balik Tulisan...</title>
+  </programme>
+  <programme start="20260925100000 +0700" stop="20260925110000 +0700" channel="Indosiar.id">
+    <title lang="id">Hot Kiss</title>
+  </programme>
+  <programme start="20260925110000 +0700" stop="20260925113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260925113000 +0700" stop="20260925120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260925120000 +0700" stop="20260925140000 +0700" channel="Indosiar.id">
+    <title lang="id">Dosa Tersembunyi Di Balik...</title>
+  </programme>
+  <programme start="20260925140000 +0700" stop="20260925161500 +0700" channel="Indosiar.id">
+    <title lang="id">To Be Confirm</title>
+  </programme>
+  <programme start="20260925161500 +0700" stop="20260925181500 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260925181500 +0700" stop="20260925193000 +0700" channel="Indosiar.id">
+    <title lang="id">Pesta Bola ASEAN</title>
+  </programme>
+  <programme start="20260925193000 +0700" stop="20260925220000 +0700" channel="Indosiar.id">
+    <title lang="id">FIFA ASEAN Cup: IDN Vs SIN</title>
+  </programme>
+  <programme start="20260925220000 +0700" stop="20260926020000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260926020000 +0700" stop="20260926043000 +0700" channel="Indosiar.id">
+    <title lang="id">Once Upon A Time In China</title>
+  </programme>
+  <programme start="20260926043000 +0700" stop="20260926060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260926060000 +0700" stop="20260926080000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260926080000 +0700" stop="20260926100000 +0700" channel="Indosiar.id">
+    <title lang="id">Pernikahanku Bertabur Dusta</title>
+  </programme>
+  <programme start="20260926100000 +0700" stop="20260926110000 +0700" channel="Indosiar.id">
+    <title lang="id">Best Kiss</title>
+  </programme>
+  <programme start="20260926110000 +0700" stop="20260926113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260926113000 +0700" stop="20260926120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260926120000 +0700" stop="20260926140000 +0700" channel="Indosiar.id">
+    <title lang="id">Panggilan Dari Nomor Hilang</title>
+  </programme>
+  <programme start="20260926140000 +0700" stop="20260926160000 +0700" channel="Indosiar.id">
+    <title lang="id">Sandiwara Yang Tak Sempurna</title>
+  </programme>
+  <programme start="20260926160000 +0700" stop="20260926180000 +0700" channel="Indosiar.id">
+    <title lang="id">Warisan Yang Merusakkan...</title>
+  </programme>
+  <programme start="20260926180000 +0700" stop="20260926203000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260926203000 +0700" stop="20260927003000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260927003000 +0700" stop="20260927023000 +0700" channel="Indosiar.id">
+    <title lang="id">Striking Rescue</title>
+  </programme>
+  <programme start="20260927023000 +0700" stop="20260927043000 +0700" channel="Indosiar.id">
+    <title lang="id">Flirting Scholar</title>
+  </programme>
+  <programme start="20260927043000 +0700" stop="20260927060000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Pagi</title>
+  </programme>
+  <programme start="20260927060000 +0700" stop="20260927083000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260927083000 +0700" stop="20260927100000 +0700" channel="Indosiar.id">
+    <title lang="id">Antara Aku, Suamiku Dan...</title>
+  </programme>
+  <programme start="20260927100000 +0700" stop="20260927110000 +0700" channel="Indosiar.id">
+    <title lang="id">Best Kiss</title>
+  </programme>
+  <programme start="20260927110000 +0700" stop="20260927113000 +0700" channel="Indosiar.id">
+    <title lang="id">Patroli Siang</title>
+  </programme>
+  <programme start="20260927113000 +0700" stop="20260927120000 +0700" channel="Indosiar.id">
+    <title lang="id">Fokus Siang</title>
+  </programme>
+  <programme start="20260927120000 +0700" stop="20260927140000 +0700" channel="Indosiar.id">
+    <title lang="id">Di Balik Senyum Manis Istriku</title>
+  </programme>
+  <programme start="20260927140000 +0700" stop="20260927160000 +0700" channel="Indosiar.id">
+    <title lang="id">Petaka Di Balik Kesuksesanku</title>
+  </programme>
+  <programme start="20260927160000 +0700" stop="20260927180000 +0700" channel="Indosiar.id">
+    <title lang="id">Warisan Panas Yang Merusak...</title>
+  </programme>
+  <programme start="20260927180000 +0700" stop="20260927203000 +0700" channel="Indosiar.id">
+    <title lang="id">Merangkai Kisah Indah</title>
+  </programme>
+  <programme start="20260927203000 +0700" stop="20260928003000 +0700" channel="Indosiar.id">
+    <title lang="id">D'Academy S8</title>
+  </programme>
+  <programme start="20260928003000 +0700" stop="20260928023000 +0700" channel="Indosiar.id">
+    <title lang="id">Tai Chi Master</title>
+  </programme>
+  <programme start="20260928023000 +0700" stop="20260928043000 +0700" channel="Indosiar.id">
+    <title lang="id">Wheels On Meals</title>
   </programme>
   <programme start="20260922073000 +0700" stop="20260922083000 +0700" channel="TransTV.id">
     <title>CNN Indonesia Good Morning</title>

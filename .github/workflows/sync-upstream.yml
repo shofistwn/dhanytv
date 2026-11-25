@@ -18,43 +18,55 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.PAT || github.token }}
 
       - name: Setup Upstream & Check Changes
         id: check_changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git remote add upstream https://github.com/dhasap/dhanytv.git || true
           git fetch upstream main
 
-          LOCAL_COMMIT=$(git rev-parse HEAD)
-          UPSTREAM_COMMIT=$(git rev-parse upstream/main)
-
-          if [ "$LOCAL_COMMIT" = "$UPSTREAM_COMMIT" ]; then
+          if git merge-base --is-ancestor upstream/main HEAD; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "Repo sudah sinkron dengan upstream."
           else
+            UPSTREAM_COMMIT=$(git rev-parse upstream/main)
             echo "has_changes=true" >> $GITHUB_OUTPUT
             echo "Ada commit baru di upstream ($UPSTREAM_COMMIT)."
           fi
 
       - name: Merge and Push Upstream Changes
         if: steps.check_changes.outputs.has_changes == 'true'
+        env:
+          HAS_PAT: ${{ secrets.PAT != '' }}
         run: |
           git checkout main
           COMMIT_DATE=$(date -u '+%Y-%m-%d %H:%M UTC')
           UPSTREAM_SHORT=$(git rev-parse --short upstream/main)
-          git merge upstream/main -m "auto-update: Sync Upstream (dhasap/dhanytv@$UPSTREAM_SHORT) - $COMMIT_DATE"
-          git push origin main
+
+          git merge --no-commit --no-ff upstream/main || true
+
+          if [ "$HAS_PAT" != "true" ]; then
+            git checkout HEAD -- .github/workflows || true
+          fi
+
+          if git status --porcelain | grep -q '^[A-Z]'; then
+            git commit -m "auto-update: Sync Upstream (dhasap/dhanytv@$UPSTREAM_SHORT) - $COMMIT_DATE"
+            git push origin main
+          else
+            echo "Tidak ada perubahan baru untuk di-commit setelah filter."
+          fi
 
       - name: Summary
         if: always()
         run: |
-          echo "============================================"
+          echo "=============================================="
           echo "  Sync Upstream (dhasap/dhanytv)"
-          echo "============================================"
+          echo "=============================================="
           echo "Tanggal   : $(date -u '+%Y-%m-%d %H:%M UTC')"
           echo "Upstream  : https://github.com/dhasap/dhanytv"
           echo "Perubahan : ${{ steps.check_changes.outputs.has_changes }}"
-          echo "============================================"
+          echo "=============================================="

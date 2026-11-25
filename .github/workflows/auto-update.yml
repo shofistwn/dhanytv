@@ -114,6 +114,50 @@ jobs:
           ADDED=$((AFTER - BEFORE))
           echo "International channels: $ADDED added (total: $AFTER)"
 
+      - name: Merge astatv Channels (extra source)
+        run: |
+          echo "=== Merging channels from astatv API (astatv-api.pages.dev) ==="
+          BEFORE=$(grep -c '#EXTINF' dhanytv.m3u || echo "0")
+          python3 update-script/merge_astatv.py dhanytv.m3u \
+            --base "https://astatv-api.pages.dev" \
+            --prefer-astatv \
+            --replace-hosts "mncmedia.malingtv.workers.dev,proxy-v.rctiplus.id" \
+            --report astatv_report.json || {
+              echo "WARNING: merge astatv gagal, lanjut tanpa sumber ini"
+            }
+          AFTER=$(grep -c '#EXTINF' dhanytv.m3u || echo "0")
+          echo "astatv: total channel sekarang $AFTER (sebelum $BEFORE)"
+
+      - name: Prune dead astatv rows
+        run: |
+          echo "=== Buang baris astatv yang manifest-nya kosong/mati ==="
+          python3 update-script/check_playlist.py dhanytv.m3u --only astatv-api.pages.dev \
+            --workers 32 --out /tmp/astatv_check.json || true
+          if [ -f /tmp/astatv_check.json ]; then
+            python3 update-script/repair_playlist.py dhanytv.m3u /tmp/astatv_check.json --write \
+              --report /tmp/astatv_repair.json || echo "WARN: repair astatv dilewati"
+          fi
+
+      - name: Prune dead channels (full liveness pass)
+        run: |
+          echo "=== Uji semua entri, buang yang benar-benar mati ==="
+          python3 update-script/check_playlist.py dhanytv.m3u --workers 40 \
+            --out /tmp/full_check.json || true
+          if [ -f /tmp/full_check.json ]; then
+            python3 update-script/repair_playlist.py dhanytv.m3u /tmp/full_check.json \
+              --write --safe-only --report /tmp/repair_report.json || echo "WARN: repair dilewati"
+          fi
+
+      - name: Normalize channel groups
+        run: |
+          echo "=== Rapikan nama grup (gabung duplikat, buang grup sampah) ==="
+          python3 update-script/normalize_groups.py dhanytv.m3u --write
+
+      - name: Tag DASH entries served as .m3u8
+        run: |
+          echo "=== Tandai entri DASH (astatv menyajikan MPD di path .m3u8) ==="
+          python3 update-script/tag_dash.py dhanytv.m3u --write || echo "WARN: tag dash dilewati"
+
       - name: Fix ClearKey license keys
         env:
           FIX_CLEARKEY_URLS: "${{ secrets.PLAYLIST_SOURCE_2 }}"
@@ -230,6 +274,13 @@ jobs:
             echo "ERROR: Custom EPG gagal di-generate!"
             exit 1
           fi
+
+      - name: Ensure EPG covers every channel
+        run: |
+          echo "=== Melengkapi EPG untuk channel yang belum tercakup ==="
+          python3 update-script/append_epg.py dhanytv.m3u epg.xml --assign-ids --prune --write
+          echo "EPG channels: $(grep -c '<channel ' epg.xml)"
+          echo "EPG programmes: $(grep -c '<programme ' epg.xml)"
 
       - name: Safety Gate (cegah penghapusan channel/EPG tidak sengaja)
         run: |

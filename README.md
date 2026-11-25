@@ -174,6 +174,27 @@ Source M3U (×2) → merge_source → merge_extra → merge_international → cl
 
 Trigger manual: tab **Actions** → **Auto Update IPTV Playlist** → **Run workflow**.
 
+### 🧪 Uji & perbaikan channel (`update-script/`)
+
+| Script | Fungsi |
+|---|---|
+| `check_playlist.py` | Uji **setiap** entri: manifest → varian → segmen (HLS) atau MPD → init → segmen (DASH). Kelas hasil: `ok`, `geo/auth 403`, `404`, `dns`, `empty`, `dash-seg`, dll. |
+| `repair_playlist.py` | Pakai hasil uji: entri mati diganti kembaran astatv kalau ada, kalau tidak dibuang. Geo-block **tidak** dibuang (jalan di jaringan Indonesia). |
+| `normalize_groups.py` | Rapikan grup: gabung duplikat (`Sports Channels`→`Sports`, `News Channel`→`News`, dst), buang grup sampah & URL shortener. |
+
+Contoh pakai lokal:
+
+```bash
+python3 update-script/check_playlist.py dhanytv.m3u --workers 48 --out /tmp/test.json
+python3 update-script/repair_playlist.py dhanytv.m3u /tmp/test.json --write --report /tmp/repair.json
+python3 update-script/normalize_groups.py dhanytv.m3u --write
+```
+
+Hasil uji terakhir (dari VPS luar Indonesia): **951 channel · 731 `ok` (77%) · 186 `geo 403` · 34 DASH/DRM**.
+186 itu geo-block ke luar Indonesia — di jaringan Indonesia main normal.
+
+**Format:** `dhanytv.m3u` dan `dhanytv-ott.m3u` sama-sama playlist teks standar (`#EXTM3U`) — bisa dipakai di TiviMate, OTT Navigator, IPTV Smarters, VLC, Kodi, Televizo, XCIPTV, dan APK IPTV lain. Kalau aplikasi memaksa ekstensi `.m3u8`, cukup simpan/rename file-nya — isinya identik dan valid.
+
 ---
 
 ## 📁 Struktur Repo
@@ -232,6 +253,14 @@ bash update-script/update_playlist.sh -s "<source_url>" -t "<github_token>"
 Mau menambah channel atau lapor channel mati? Lihat **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 Channel manual (yang tidak ada di source) ditambahkan di **`update-script/extra_channels.m3u`** — itu satu-satunya tempat yang dijamin tidak terhapus saat auto-update harian.
+
+### 🌟 Kontributor
+
+Terima kasih untuk yang sudah bantu bikin playlist ini tetap hidup:
+
+- **[Tesjiwa](https://github.com/Tesjiwa)** — menemukan relay ANTV (Vidio 782) yang bisa dipakai publik, plus laporan channel mati yang detail di [#44](https://github.com/dhasap/dhanytv/issues/44). ANTV HD sekarang aktif di playlist berkat ini.
+
+Mau namamu di sini? Kirim PR atau laporan channel mati yang jelas — kontribusi yang kepakai akan dicatat.
 
 ---
 

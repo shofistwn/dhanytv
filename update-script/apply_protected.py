@@ -64,7 +64,12 @@ def main() -> int:
         url = lines[j] if j < len(lines) else ''
         if p and url.startswith('http'):
             for k, v in (p.get('headers') or {}).items():
-                block.append(f'#EXTVLCOPT:http-{k}={v}')
+                key = k.lower().replace('_', '-')
+                if key in ('referer', 'referrer', 'http-referrer'):
+                    key = 'referrer'
+                elif key in ('user-agent', 'http-user-agent'):
+                    key = 'user-agent'
+                block.append(f'#EXTVLCOPT:http-{key}={v}')
             out.extend(block)
             out.append(p['url'])
             used.add(p['tvg_id'])
@@ -86,6 +91,19 @@ def main() -> int:
         for k, v in (p.get('headers') or {}).items():
             out.append(f'#EXTVLCOPT:http-{k}={v}')
         out.append(p['url'])
+
+    # dedupe tvg-id: entri kedua dst kehilangan id agar EPG tidak tertukar
+    seen, deduped = set(), []
+    for line in out:
+        if line.startswith('#EXTINF'):
+            m = re.search(r'tvg-id="([^"]*)"', line)
+            if m and m.group(1):
+                if m.group(1) in seen:
+                    line = re.sub(r'\s*tvg-id="[^"]*"', '', line, count=1)
+                else:
+                    seen.add(m.group(1))
+        deduped.append(line)
+    out = deduped
 
     open(args.playlist, 'w', encoding='utf-8').write('\n'.join(out) + '\n')
     if args.report:

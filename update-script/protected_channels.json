@@ -286,5 +286,500 @@
   "group": "Indonesia Channels",
   "url": "http://103.165.207.108:8000/play/a004/index.m3u8",
   "headers": {}
+ },
+ {
+  "name": "beIN Sports Xtra",
+  "tvg_id": "beINSportsXtra.us",
+  "group": "Sports",
+  "url": "https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+ },
+ {
+  "name": "beIN Sports Xtra Español",
+  "tvg_id": "beINSportsXtraEspanol.us",
+  "group": "Sports",
+  "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+ },
+ {
+  "name": "beIN Sports ENG 1",
+  "tvg_id": "beINSportsENG1.us",
+  "group": "Sports",
+  "url": "https://bein-xtra-bein.amagi.tv/playlistR720P.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+ },
+ {
+  "name": "Cinemachi Action",
+  "tvg_id": "auto.cinemachi.action",
+  "group": "Movies",
+  "url": "http://103.165.207.108:8000/play/a00i/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Cinemachi Kids",
+  "tvg_id": "auto.cinemachi.kids",
+  "group": "Kids",
+  "url": "http://103.165.207.108:8000/play/a00w/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Cinemachi Xtra",
+  "tvg_id": "auto.cinemachi.xtra",
+  "group": "Movies",
+  "url": "http://103.165.207.108:8000/play/a00j/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Channel V",
+  "tvg_id": "auto.channel.v",
+  "group": "Entertainment",
+  "url": "http://103.165.207.108:8000/play/a014/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "CCV4",
+  "tvg_id": "auto.ccv4",
+  "group": "Entertainment",
+  "url": "http://103.165.207.108:8000/play/a01k/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Fashion TV",
+  "tvg_id": "auto.fashion.tv",
+  "group": "Lifestyle",
+  "url": "http://103.165.207.108:8000/play/a016/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Rai Italia",
+  "tvg_id": "auto.rai.italia",
+  "group": "International",
+  "url": "http://103.165.207.108:8000/play/a01m/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Euro News",
+  "tvg_id": "auto.euro.news",
+  "group": "News",
+  "url": "http://103.165.207.108:8000/play/a01f/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Dubai TV",
+  "tvg_id": "auto.dubai.tv",
+  "group": "International",
+  "url": "http://103.165.207.108:8000/play/a01r/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Phoenix Chinese",
+  "tvg_id": "auto.phoenix.chinese",
+  "group": "International",
+  "url": "http://103.165.207.108:8000/play/a01j/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Phoenix Info",
+  "tvg_id": "auto.phoenix.info",
+  "group": "News",
+  "url": "http://103.165.207.108:8000/play/a01i/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Russia Today",
+  "tvg_id": "auto.russia.today",
+  "group": "News",
+  "url": "http://103.165.207.108:8000/play/a01c/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Zee News",
+  "tvg_id": "auto.zee.news",
+  "group": "News",
+  "url": "http://103.165.207.108:8000/play/a01h/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Xingkong",
+  "tvg_id": "auto.xingkong",
+  "group": "Entertainment",
+  "url": "http://103.165.207.108:8000/play/a015/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "Cuba Vision",
+  "tvg_id": "auto.cuba.vision",
+  "group": "International",
+  "url": "http://103.165.207.108:8000/play/a01q/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "GTV",
+  "tvg_id": "GTV.id",
+  "group": "Indonesia Channels",
+  "url": "http://103.165.207.108:8000/play/a00f/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "MNCTV",
+  "tvg_id": "MNCTV.id",
+  "group": "Indonesia Channels",
+  "url": "http://103.165.207.108:8000/play/a00g/index.m3u8",
+  "headers": {
+   "user-agent": "VLC/3.0.20"
+  }
+ },
+ {
+  "name": "beIN Sports XTRA CH1",
+  "tvg_id": "beINSportsXtraCH92",
+  "group": "Sports",
+  "url": "https://astatv.karaa.web.id/api/s/92.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "beIN Sports XTRA CH2",
+  "tvg_id": "beINSportsXtraCH5399",
+  "group": "Sports",
+  "url": "https://astatv.karaa.web.id/api/s/5399.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "beIN Sports XTRA CH3",
+  "tvg_id": "beINSportsXtraCH5428",
+  "group": "Sports",
+  "url": "https://astatv.karaa.web.id/api/s/5428.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI",
+  "tvg_id": "TVRI.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Nasional",
+  "tvg_id": "TVRI.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Aceh",
+  "tvg_id": "TVRI.Aceh.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Bali",
+  "tvg_id": "TVRI.Bali.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Lampung",
+  "tvg_id": "TVRI.Lampung.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Papua",
+  "tvg_id": "TVRI.Papua.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Bengkulu",
+  "tvg_id": "TVRI.Bengkulu.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Bengkulu/hls/Bengkulu.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Gorontalo",
+  "tvg_id": "TVRI.Gorontalo.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Jambi",
+  "tvg_id": "TVRI.Jambi.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Riau",
+  "tvg_id": "TVRI.Riau.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Riau/hls/Riau.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI World",
+  "tvg_id": "TVRI.TVRIWorld.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Ambon",
+  "tvg_id": "TVRI.Ambon.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Babel",
+  "tvg_id": "TVRI.Babel.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI DKI",
+  "tvg_id": "TVRI.DKI.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Jabar",
+  "tvg_id": "TVRI.Jabar.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Jateng",
+  "tvg_id": "TVRI.Jateng.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Jatim",
+  "tvg_id": "TVRI.Jatim.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Kalbar",
+  "tvg_id": "TVRI.Kalbar.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Kalsel",
+  "tvg_id": "TVRI.Kalsel.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Kalteng",
+  "tvg_id": "TVRI.Kalteng.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Kaltim",
+  "tvg_id": "TVRI.Kaltim.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI NTB",
+  "tvg_id": "TVRI.NTB.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/NTB/hls/NTB.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI NTT",
+  "tvg_id": "TVRI.NTT.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Papua barat",
+  "tvg_id": "TVRI.Pabar.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Sulbar",
+  "tvg_id": "TVRI.Sulbar.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Sulbar/hls/Sulbar.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Sulsel",
+  "tvg_id": "TVRI.Sulsel.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Sulteng",
+  "tvg_id": "TVRI.Sulteng.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Sulteng/hls/Sulteng.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Sultra",
+  "tvg_id": "TVRI.Sultra.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Sulut",
+  "tvg_id": "TVRI.Sulut.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Sulut/hls/Sulut.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Sumbar",
+  "tvg_id": "TVRI.Sumbar.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Sumsel",
+  "tvg_id": "TVRI.Sumsel.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
+ },
+ {
+  "name": "TVRI Sumut",
+  "tvg_id": "TVRI.Sumut.id",
+  "group": "TVRI",
+  "url": "https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8",
+  "headers": {
+   "user-agent": "Mozilla/5.0"
+  }
  }
 ]
